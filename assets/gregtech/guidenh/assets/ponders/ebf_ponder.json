@@ -3,7 +3,7 @@
   "keyframes": [
     {
       "time": 0,
-      "label": "Overview",
+      "labelKey": "gregtech.ebf.ponder.label.overview",
       "camera": {
         "zoom": 2,
         "rotX": 25.0,
@@ -16,7 +16,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "The Electric Blast Furnace is your first electric multiblock, used to blast new materials that require higher heat levels.",
+          "textKey": "gregtech.ebf.ponder.text.overview",
           "independent": true,
           "maxWidth": 200,
           "color": "0xFFE0E0E0"
@@ -25,7 +25,7 @@
     },
     {
       "time": 60,
-      "label": "The Controller",
+      "labelKey": "gregtech.ebf.ponder.label.the_controller",
       "camera": {
         "rotY": 225.0,
         "offX": -0.5
@@ -44,7 +44,7 @@
           "x": 0.0,
           "y": 0.5,
           "z": 1.5,
-          "text": "The EBF Controller is placed in the center of the bottom layer's front face.",
+          "textKey": "gregtech.ebf.ponder.text.controller_placement",
           "maxWidth": 200,
           "color": "0xFF00FF00",
           "connectorSide": "right",
@@ -55,7 +55,7 @@
     },
     {
       "time": 130,
-      "label": "Hatches and Casings",
+      "labelKey": "gregtech.ebf.ponder.label.hatches_and_casings",
       "camera": {
         "rotY": 135.0,
         "offX": 0.0
@@ -78,7 +78,7 @@
           "x": 1.5,
           "y": 1.0,
           "z": 1.5,
-          "text": "The rest of the 3x3 base contains Heat Proof Machine Casings with I/O Buses, I/O Hatches, Energy Hatches, and a Maintenance Hatch.",
+          "textKey": "gregtech.ebf.ponder.text.hatches_and_casings",
           "maxWidth": 200,
           "color": "0xFFFFAA00",
           "connectorSide": "bottom"
@@ -87,7 +87,7 @@
     },
     {
       "time": 210,
-      "label": "Heating Coils",
+      "labelKey": "gregtech.ebf.ponder.label.heating_coils",
       "camera": {
         "rotY": 225.0
       },
@@ -108,7 +108,7 @@
           "x": 1.5,
           "y": 3.0,
           "z": 1.5,
-          "text": "Above the base are two layers of Heating Coils, each forming a 3x3 hollow ring.",
+          "textKey": "gregtech.ebf.ponder.text.heating_coils",
           "maxWidth": 200,
           "color": "0xFFFF4444",
           "connectorSide": "bottom"
@@ -117,7 +117,7 @@
     },
     {
       "time": 270,
-      "label": "Hollow Center",
+      "labelKey": "gregtech.ebf.ponder.label.hollow_center",
       "camera": {
         "rotX": 15.0,
         "rotY": 210.0
@@ -148,7 +148,7 @@
           "x": 1.5,
           "y": 2.0,
           "z": 1.5,
-          "text": "The center 1x2x1 space inside the coils must be left hollow for it to be valid.",
+          "textKey": "gregtech.ebf.ponder.text.hollow_center",
           "maxWidth": 200,
           "color": "0xFFFFAA44",
           "connectorSide": "right",
@@ -159,7 +159,7 @@
     },
     {
       "time": 350,
-      "label": "Top Layer and Muffler",
+      "labelKey": "gregtech.ebf.ponder.label.top_layer_and_muffler",
       "camera": {
         "rotX": 25.0,
         "rotY": 315.0
@@ -185,7 +185,7 @@
           "x": 1.5,
           "y": 4.0,
           "z": 1.5,
-          "text": "The top layer is a 3x3 of casings with a Muffler Hatch in the very center to vent pollution.",
+          "textKey": "gregtech.ebf.ponder.text.top_layer_and_muffler",
           "maxWidth": 200,
           "color": "0xFF44AAFF",
           "connectorSide": "bottom"
@@ -194,14 +194,14 @@
     },
     {
       "time": 430,
-      "label": "Gas Recovery",
+      "labelKey": "gregtech.ebf.ponder.label.gas_recovery",
       "camera": {
         "rotY": 315.0
       },
       "annotations": [
         {
           "type": "text",
-          "text": "Optionally, you can also add an output hatch on the top layer to capture gas from your muffler hatch.",
+          "textKey": "gregtech.ebf.ponder.text.gas_recovery",
           "independent": true,
           "maxWidth": 200,
           "color": "0xFFE0E0E0"
@@ -210,7 +210,7 @@
     },
     {
       "time": 510,
-      "label": "Rain Protection",
+      "labelKey": "gregtech.ebf.ponder.label.rain_protection",
       "camera": {
         "rotY": 225.0,
         "zoom": 1.4,
@@ -262,7 +262,7 @@
           "x": 1.5,
           "y": 6.5,
           "z": 1.5,
-          "text": "Protect your EBF with a roof! Otherwise, your energy hatches will explode upon contact with rain.",
+          "textKey": "gregtech.ebf.ponder.text.rain_protection",
           "maxWidth": 200,
           "color": "0xFF66CCFF",
           "connectorSide": "right",
@@ -273,7 +273,7 @@
     },
     {
       "time": 600,
-      "label": "Operation",
+      "labelKey": "gregtech.ebf.ponder.label.operation",
       "camera": {
         "rotX": 25.0,
         "rotY": 225.0,
@@ -300,7 +300,7 @@
         },
         {
           "type": "text",
-          "text": "Supply power and items, ensure maintenance is fixed, and the EBF will begin blasting!",
+          "textKey": "gregtech.ebf.ponder.text.operation",
           "independent": true,
           "yOffset": 60,
           "maxWidth": 200,
