@@ -46,7 +46,7 @@ The <Color id="GREEN">IWF </Color> has one tiered component. The item pipe casin
 | Tier | Item Pipe Casing | Speed |
 | --------------- | --------------- | --------------- |
 | 1 | Tin | 50% |
-| 2 | Brass | 200% |
+| 2 | Brass | 100% |
 | 4 | Electrum | 150% |
 | 5 | Platinum | 200% |
 | 6 | Osmium | 250% |
