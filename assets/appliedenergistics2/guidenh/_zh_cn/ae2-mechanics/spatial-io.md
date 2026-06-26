@@ -1,6 +1,6 @@
----
+﻿---
 navigation:
-  parent: ../ae2-mechanics-index.md
+  parent: /ae2-mechanics-index.md
   title: 空间IO
   icon: appliedenergistics2:tile.BlockSpatialPylon
 ---
@@ -103,7 +103,7 @@ navigation:
 
 <GameScene zoom="2" width="400" height="275" rotateY={30}>
     <ImportStructure src="../assets/structures/spatial_io-working.snbt" />
-    <ImportPonder src="/assets/ponder/spatial_io-working.json" />
+    <ImportPonder src="../assets/ponder/spatial_io-working.json" />
 </GameScene>
 
 # 空间存储元件维度
@@ -116,5 +116,5 @@ navigation:
     <BoxAnnotation min="-3 2 -2" max="-6 5 1" color="#EE3333" thickness="1">
     空间存储元件维度
     </BoxAnnotation>
-    <ImportPonder src="/assets/ponder/spatial_io-dimension.json" />
+    <ImportPonder src="../assets/ponder/spatial_io-dimension.json" />
 </GameScene>

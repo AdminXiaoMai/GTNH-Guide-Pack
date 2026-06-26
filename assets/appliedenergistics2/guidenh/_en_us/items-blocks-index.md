@@ -1,8 +1,8 @@
 ---
 navigation:
-  parent: ae2-mechanics-index.md
-  title: 设备
+  title: Items & Blocks
   icon: appliedenergistics2:tile.BlockInterface
+  position: 2
 ---
 
-
+<SubPages />
