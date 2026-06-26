@@ -1,10 +1,8 @@
 ---
-item_ids:
-  - gregtech:gt.blockmachines:15545
 navigation:
-  title: Algae Farm
+  title: Breaking Changes
   parent: index.md
-  icon: gregtech:gt.blockmachines:15545
+  icon: Botania:cosmetic:31
 author: Skorched
 date: 2026-06-17
 ---
