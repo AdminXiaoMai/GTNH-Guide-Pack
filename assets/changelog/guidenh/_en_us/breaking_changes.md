@@ -47,9 +47,9 @@ The decay within a <Color id="GREEN">Crucible</Color> when over the 200 essentia
 
 # Existing Multiblock Changes
 Fixing some previous mistakes, a handful of structures have been changed in a minor way to make them symmetrical. This list includes:
-- Mega Apiary
 - Forge of the Gods
-- Quantum Force Transformer (QFT)
+- Antimatter Forge
+- Antimatter Generator
 
 # Tiered Glass
 All <Color id="GREEN">Glass-Tiered</Color> multis now need the correct glass for the hatch right up to UXV, instead of the previous mechanic of having "caps" at which you unlocked all hatches. This excludes a few structures, such as the <ItemLink id="gregtech:gt.blockmachines:13106" icon="right"/> and the <ItemLink id="gregtech:gt.blockmachines:31150" icon="right"/>. Alongside this change, <ItemLink id="bartworks:BW_GlasBlocks:15" icon="right"/> and <ItemLink id="bartworks:BW_GlasBlocks2" icon="right"/> have been downtiered to UEV and UIV respectively. UMV glass now also requires the <ItemLink id="gregtech:gt.blockmachines:15411" icon="right"/>.
