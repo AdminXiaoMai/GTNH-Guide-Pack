@@ -1,0 +1,98 @@
+name: Dump guide pages to lang
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ master, main, release/** ]
+    paths:
+      - "assets/**/guidenh/_*/**/*.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dump-guide-pages:
+    runs-on: ubuntu-24.04
+    env:
+      RELEASE_TAG: guide-page-lang-dev-build
+      RELEASE_NAME: Guide Page Lang Dev Build
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect changed markdown files
+        if: ${{ github.event_name == 'pull_request' }}
+        id: changed_md
+        run: |
+          git fetch origin "$GITHUB_BASE_REF:$GITHUB_BASE_REF"
+          git diff --name-only --diff-filter=AM --no-renames "origin/$GITHUB_BASE_REF" -- 'assets/**/guidenh/_*/**/*.md' > changed-md.txt
+          md_count=$(python tools/guide_lang_converter.py count-changed-md --repo-root . --path-file changed-md.txt)
+          printf 'md_count=%s\n' "$md_count" >> "$GITHUB_OUTPUT"
+
+      - name: Stop when pull request has no guide markdown changes
+        if: ${{ github.event_name == 'pull_request' && steps.changed_md.outputs.md_count == '0' }}
+        run: |
+          echo "No GuideNH markdown pages changed in this PR."
+
+      - name: Run converter tests
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        run: python -m unittest tests.test_guide_lang_converter -v
+
+      - name: Dump guide pages to lang artifact
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        run: python tools/guide_lang_converter.py dump-pages-to-lang --repo-root . --out-dir build/dump-guide-pages-to-lang
+
+      - name: Create release archive
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        run: |
+          short_sha="$(git rev-parse --short=7 HEAD)"
+          archive_name="guide-page-lang-pack-${short_sha}.zip"
+          python tools/guide_lang_converter.py create-archive --source-dir build/dump-guide-pages-to-lang --archive-path "build/${archive_name}"
+          printf 'archive_name=%s\n' "$archive_name" >> "$GITHUB_OUTPUT"
+        id: archive
+
+      - name: Delete old pre-release assets
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ env.RELEASE_TAG }}
+        run: |
+          release_id="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}" --jq '.id' 2>/dev/null || true)"
+          if [ -z "$release_id" ]; then
+            exit 0
+          fi
+          gh api "repos/${GITHUB_REPOSITORY}/releases/${release_id}/assets" --jq '.[].id' 2>/dev/null | while read -r asset_id; do
+            [ -n "$asset_id" ] || continue
+            gh api --method DELETE "repos/${GITHUB_REPOSITORY}/releases/assets/${asset_id}"
+          done
+
+      - name: Upload dumped resource pack artifact
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: dumped-guide-pages-to-lang-${{ github.event.pull_request.number || github.run_number }}
+          path: build/${{ steps.archive.outputs.archive_name }}
+          if-no-files-found: error
+
+      - name: Publish dev action pre-release
+        if: ${{ github.event_name != 'pull_request' || steps.changed_md.outputs.md_count != '0' }}
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ env.RELEASE_NAME }}
+          body: Dynamic action dump of GuideNH pages into a lang-based resource pack for Paratranz and review flows.
+          tag_name: ${{ env.RELEASE_TAG }}
+          prerelease: true
+          overwrite_files: true
+          files: build/${{ steps.archive.outputs.archive_name }}
