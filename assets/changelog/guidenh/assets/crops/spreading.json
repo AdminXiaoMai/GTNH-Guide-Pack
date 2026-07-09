@@ -3,7 +3,7 @@
   "keyframes": [
     {
       "time": 0,
-      "label": "Start",
+      "labelKey": "changelog.crops.spreading.ponder.label.start",
       "camera": {
         "zoom": 4.0,
         "rotX": 20.0,
@@ -23,7 +23,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "To spread crops, place 2 crop sticks on the same valid farmland adjacent to the crop you want to spread",
+          "textKey": "changelog.crops.spreading.ponder.text.start",
           "independent": true,
           "yOffset": -80,
           "maxWidth": 180,
@@ -33,7 +33,7 @@
     },
     {
       "time": 120,
-      "label": "First Spread",
+      "labelKey": "changelog.crops.spreading.ponder.label.first_spread",
       "camera": {
         "rotY": 70.0
       },
@@ -47,7 +47,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "If the plant is able to grow on the adjacent crop sticks, they will attempt to spread to that crop stick",
+          "textKey": "changelog.crops.spreading.ponder.text.first_spread",
           "independent": true,
           "yOffset": -80,
           "maxWidth": 180,
@@ -57,7 +57,7 @@
     },
     {
       "time": 240,
-      "label": "Spread Stats",
+      "labelKey": "changelog.crops.spreading.ponder.label.spread_stats",
       "camera": {
         "rotY": 50.0
       },
@@ -65,7 +65,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "The stats of the spread crop will likely change, and you can use a Plant Lens to find them out!",
+          "textKey": "changelog.crops.spreading.ponder.text.spread_stats",
           "independent": true,
           "yOffset": -80,
           "maxWidth": 180,
@@ -73,7 +73,7 @@
         },
         {
           "type": "text",
-          "text": "If not fertilized, the stats will all change in the range of -2 -> +4. This is +0 -> +4 if fertilized",
+          "textKey": "changelog.crops.spreading.ponder.text.fertilized_stats",
           "independent": true,
           "xOffset": -20,
           "yOffset": 60,
@@ -90,7 +90,7 @@
     },
     {
       "time": 360,
-      "label": "Weeds",
+      "labelKey": "changelog.crops.spreading.ponder.label.weeds",
       "camera": {
         "rotY": -110.0
       },
@@ -108,7 +108,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "Weeds will always randomly pop up on cropsticks (and doubles!) unless they have **Weed-Ex**",
+          "textKey": "changelog.crops.spreading.ponder.text.weeds",
           "independent": true,
           "xOffset": -20,
           "yOffset": 60,
@@ -119,7 +119,7 @@
           "type": "box",
           "minX": 0.05, "minY": 1.05, "minZ": -0.05,
           "maxX": 0.95, "maxY": 1.95, "maxZ": -0.95,
-          "color": "ox88FF0088",
+          "color": "0x88FF0088",
           "lineWidth": 1.5,
           "alwaysOnTop": false
         }
@@ -127,7 +127,7 @@
     },
     {
       "time": 480,
-      "label": "Sickness",
+      "labelKey": "changelog.crops.spreading.ponder.label.sickness",
       "camera": {
         "rotY": -130.0
       },
@@ -142,7 +142,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "Weeds will spread sickness to surrounding plants. This can be cured with **Plant Cure**",
+          "textKey": "changelog.crops.spreading.ponder.text.sickness_spread",
           "independent": true,
           "xOffset": -20,
           "yOffset": -80,
@@ -151,7 +151,7 @@
         },
         {
           "type": "text",
-          "text": "Plants can also get sick if their basic requirements are not met, such as wrong water levels, or wrong biome",
+          "textKey": "changelog.crops.spreading.ponder.text.sickness_requirements",
           "independent": true,
           "xOffset": -20,
           "yOffset": 60,

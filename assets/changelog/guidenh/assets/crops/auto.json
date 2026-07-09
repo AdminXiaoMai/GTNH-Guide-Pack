@@ -3,7 +3,7 @@
   "keyframes": [
     {
       "time": 0,
-      "label": "Automation Setup",
+      "labelKey": "changelog.crops.auto.ponder.label.automation_setup",
       "camera": {
         "zoom": 3.0,
         "rotX": 20.0,
@@ -16,7 +16,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "One of the easiest methods of automation is the **Crop Manager**. The LV version works in an **11x5x11** region",
+          "textKey": "changelog.crops.auto.ponder.text.crop_manager_overview",
           "independent": true,
           "yOffset": -80,
           "maxWidth": 180,
@@ -26,7 +26,7 @@
     },
     {
       "time": 120,
-      "label": "Soil Setup",
+      "labelKey": "changelog.crops.auto.ponder.label.soil_setup",
       "camera": {
         "rotY": 140
       },
@@ -34,7 +34,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "Add one layer of sub-soil blocks (if required)",
+          "textKey": "changelog.crops.auto.ponder.text.subsoil",
           "independent": true,
           "yOffset": 80,
           "maxWidth": 180,
@@ -50,7 +50,7 @@
         },
         {
           "type": "text",
-          "text": "Add a second layer with the correct soil type for your plants. These <Color id='GREEN'>Bauxia</Color> plants need Stone!",
+          "textKey": "changelog.crops.auto.ponder.text.soil_type",
           "independent": true,
           "yOffset": -80,
           "maxWidth": 180,
@@ -68,7 +68,7 @@
     },
     {
       "time": 240,
-      "label": "Water",
+      "labelKey": "changelog.crops.auto.ponder.label.water",
       "camera": {
         "rotY": 170
       },
@@ -76,7 +76,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "Provide water through a pipe (or any other method) to help hydrate your crops",
+          "textKey": "changelog.crops.auto.ponder.text.water",
           "independent": true,
           "yOffset": -80,
           "maxWidth": 180,
@@ -94,7 +94,7 @@
     },
     {
       "time": 360,
-      "label": "Power",
+      "labelKey": "changelog.crops.auto.ponder.label.power",
       "camera": {
         "rotY": 0
       },
@@ -102,7 +102,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "Provide power to the side of the crop manager. Make sure you get your voltage and ampage correct!",
+          "textKey": "changelog.crops.auto.ponder.text.power",
           "independent": true,
           "yOffset": 80,
           "maxWidth": 180,
@@ -120,7 +120,7 @@
     },
     {
       "time": 480,
-      "label": "Output Items",
+      "labelKey": "changelog.crops.auto.ponder.label.output_items",
       "camera": {
         "rotY": -210
       },
@@ -128,7 +128,7 @@
       "annotations": [
         {
           "type": "text",
-          "text": "Output items using a conveyor or any other extraction method to a storage area",
+          "textKey": "changelog.crops.auto.ponder.text.output_items",
           "independent": true,
           "yOffset": 90,
           "maxWidth": 120,
