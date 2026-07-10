@@ -16,7 +16,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15566"/>
 </GameScene>
-<Color id="GREEN">工业搅拌机</Color> 是一台 IV 级多方块，用于混合合金和其它粉末混合物。<Color id="GREEN">IMM</Color> 是单方块搅拌机和蒸汽搅拌机的直接升级版，最高可达 <Color id="RED">900%</Color> 速度，并且每个电压等级可提供 <Color id="BLUE">8</Color> 并行。UIV+ 玻璃还允许 <Color id="GREEN">IMM</Color> 使用一个多 A 能源仓来替代普通能源仓。若想在同一台机器中同时使用不同编程电路，建议为 <Color id="GREEN">IMM</Color> 启用输入隔离。
+<Color id="GREEN">工业搅拌机</Color> 是一台 IV 级多方块，用于混合合金和其他粉末混合物。<Color id="GREEN">IMM</Color> 是单方块搅拌机和蒸汽搅拌机的直接升级版，最高可达 <Color id="RED">900%</Color> 速度，并且每个电压等级可提供 <Color id="BLUE">8</Color> 并行。UIV+ 玻璃还允许 <Color id="GREEN">IMM</Color> 使用一个多 A 能源仓来替代普通能源仓。若想在同一台机器中同时使用不同编程电路，建议为 <Color id="GREEN">IMM</Color> 启用输入隔离。
 
 <br clear="all"/>
 

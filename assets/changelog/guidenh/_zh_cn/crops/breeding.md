@@ -53,8 +53,8 @@ date: 2026-05-20
 
 但实际消耗会随着输入种子的属性大幅变化：
 
-- 1/1/1 输入：<Latex formula="\text{Fertilizer} = 6 \times 144 + (1 + 1 + 1) \times 72 = 1080L" />
-- 31/31/31 输入：<Latex formula="\text{Fertilizer} = 6 \times 144 + (31 + 31 + 31) \times 72 = 7560L" />
+- 1/1/1 输入：<Latex formula="\text{肥料} = 6 \times 144 + (1 + 1 + 1) \times 72 = 1080L" />
+- 31/31/31 输入：<Latex formula="\text{肥料} = 6 \times 144 + (31 + 31 + 31) \times 72 = 7560L" />
 
 这点特别关键，因为像 MV 作物培育机举例，它的输入流体槽只能容纳 6,400L。
 

@@ -28,28 +28,28 @@ date: 2026-05-20
 
 ## 原版颜色：
 
-| Code | Color |
+| 代码 | 颜色 |
 | -------------- | --------------- |
-| `\&0` | <Color id="BLACK">Black</Color> |
-| `\&1` | <Color color="#0000AA">Dark Blue</Color> |
-| `\&2` | <Color color="#00AA00">Dark Green</Color> |
-| `\&3` | <Color color="#00AAAA">Dark Aqua</Color> |
-| `\&4` | <Color color="#AA0000">Dark Red</Color> |
-| `\&5` | <Color color="#AA00AA">Dark Purple</Color> |
-| `\&6` | <Color color="#FFAA00">Gold</Color> |
-| `\&7` | <Color color="#AAAAAA">Gray</Color> |
-| `\&8` | <Color color="#555555">Dark Gray</Color> |
-| `\&9` | <Color color="#5555FF">Blue</Color> |
-| `\&a` | <Color color="#55FF55">Green</Color> |
-| `\&b` | <Color color="#55FFFF">Aqua</Color> |
-| `\&c` | <Color color="#FF5555">Red</Color> |
-| `\&d` | <Color color="#FF55FF">Light Purple</Color> |
-| `\&e` | <Color color="#FFFF55">Yellow</Color> |
-| `\&f` | <Color color="#FFFFFF">White</Color> |
+| `\&0` | <Color id="BLACK">黑色</Color> |
+| `\&1` | <Color color="#0000AA">深蓝色</Color> |
+| `\&2` | <Color color="#00AA00">深绿色</Color> |
+| `\&3` | <Color color="#00AAAA">深青色</Color> |
+| `\&4` | <Color color="#AA0000">深红色</Color> |
+| `\&5` | <Color color="#AA00AA">深紫色</Color> |
+| `\&6` | <Color color="#FFAA00">金色</Color> |
+| `\&7` | <Color color="#AAAAAA">灰色</Color> |
+| `\&8` | <Color color="#555555">深灰色</Color> |
+| `\&9` | <Color color="#5555FF">蓝色</Color> |
+| `\&a` | <Color color="#55FF55">绿色</Color> |
+| `\&b` | <Color color="#55FFFF">青色</Color> |
+| `\&c` | <Color color="#FF5555">红色</Color> |
+| `\&d` | <Color color="#FF55FF">浅紫色</Color> |
+| `\&e` | <Color color="#FFFF55">黄色</Color> |
+| `\&f` | <Color color="#FFFFFF">白色</Color> |
 
 ## 格式：
 
-| Code | Effect |
+| 代码 | 效果 |
 | -------------- | --------------- |
 | `\&l` | __粗体文本__ |
 | `\&o` | _斜体文本_  |
@@ -63,15 +63,15 @@ date: 2026-05-20
 
 16 色不够？那就自己造！你可以使用任何合法的十六进制颜色代码（实在不会，也可以去找个在线取色器）
 
-| Code | Color |
+| 代码 | 颜色 |
 | -------------- | --------------- |
-| `\&#FF6B4A` | <Color color="#FF6B4A">Coral Orange</Color> |
-| `\&#4ECDC4` | <Color color="#4ECDC4">Soft Teal</Color> |
-| `\&#7B68EE` | <Color color="#7B68EE">Slate Blue</Color> |
-| `\&#FF69B4` | <Color color="#FF69B4">Hot Pink</Color> |
+| `\&#FF6B4A` | <Color color="#FF6B4A">珊瑚橙</Color> |
+| `\&#4ECDC4` | <Color color="#4ECDC4">柔和青绿</Color> |
+| `\&#7B68EE` | <Color color="#7B68EE">岩板蓝</Color> |
+| `\&#FF69B4` | <Color color="#FF69B4">亮粉色</Color> |
 
 ## 渐变：
 
-输入 `\&g` 再跟上两个合法的十六进制颜色，就可以在两者之间生成一段渐变！比如输入 `\&g\&#FF0000\&#FFFF00<YourTextHere>`，就能做出火焰色文字。
+输入 `\&g` 再跟上两个合法的十六进制颜色，就可以在两者之间生成一段渐变！比如输入 `\&g\&#FF0000\&#FFFF00<你的文本>`，就能做出火焰色文字。
 
 有一种特殊渐变还带有专属代码：输入 `\&q` 就能得到彩虹效果！

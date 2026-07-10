@@ -16,7 +16,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15512"/>
 </GameScene>
-<Color id="GREEN">工业离心机（IC）</Color> 是一台 EV 级多方块，用于将粉末、流体及其它物品离心分解为组成部分。它是单方块离心机的直接升级版。到了 ZPM 阶段，它会被 <Color id="RED">离心中枢-2737</Color> 取代。
+<Color id="GREEN">工业离心机（IC）</Color> 是一台 EV 级多方块，用于将粉末、流体及其他物品离心分解为组成部分。它是单方块离心机的直接升级版。到了 ZPM 阶段，它会被 <Color id="RED">离心中枢-2737</Color> 取代。
 <br clear="all"/>
 
 > [!NOTE]

@@ -13,4 +13,4 @@ date: 2026-05-30
 
 这是个小改动，但确实挺舒服。
 
-现在你可以在 Hodgepodge options -> tweaks 里，通过 `showInventoryEffectIcons` 开关切换物品栏中的效果图标！如果你觉得那排显示药水效果的横幅太挤眼，现在终于可以直接开关了。
+现在你可以在 `Hodgepodge options -> tweaks` 中，通过 `showInventoryEffectIcons` 开关切换物品栏里的效果图标。如果你觉得那排显示药水效果的横幅太挤眼，现在终于可以直接把它关掉了。

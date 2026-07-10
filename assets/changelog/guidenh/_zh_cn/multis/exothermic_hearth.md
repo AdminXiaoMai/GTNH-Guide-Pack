@@ -18,7 +18,7 @@ date: 2026-05-27
   <ImportStructureLib controller="gregtech:gt.blockmachines:15517" />
 </GameScene>
 
-<Color id="GREEN">放热壁炉（ExH）</Color> 是一台 ZPM 级多方块高炉，用于大规模把粉末熔成锭、制作硅晶锭，以及为各种材料加热。它取代了旧版的巨型工业高炉。<Color id="GREEN">ExH</Color> 可以视为 <Color id="GREEN">工业高炉</Color> <ItemImage id="gregtech:gt.blockmachines:1000"/> 的直接升级版，因为它最多支持 <Color id="RED">512</Color> 并行、支持 <Color id="GREEN">多 A 与激光能源仓</Color> 来进行高强度超频，并且具备 <Color id="BLUE">无限跳级</Color>。这意味着只要热量和供电足够，它就能运行任意电压等级的配方。机器在运行时，可用并行会缓慢从 256 提升到 512；空闲时则会逐步回落到 256。你还可以在控制器 GUI 中启用 <Color id="GREEN">炽焱加热</Color>，以每秒消耗 250-500L <Color id="GREEN">烈焰之炽焱</Color> 为代价，将并行增长速度提高到 6 倍。除此之外，<Color id="GREEN">ExH</Color> 还会对“高于配方要求的热量”给予奖励：每超出 900K，获得 5% 耗电减免；每超出 1,800K，获得 1 次无损超频。只有在真正吃满 512 并行（通常是 4 次以上超频）时，<Color id="GREEN">ExH</Color> 才会明显超过 <Color id="GREEN">Volcanus</Color> <ItemImage id="gregtech:gt.blockmachines:963"/>。
+<Color id="GREEN">放热壁炉（ExH）</Color> 是一台 ZPM 级多方块高炉，用于大规模把粉末熔成锭、制作硅晶锭，以及为各种材料加热。它取代了旧版的巨型工业高炉。<Color id="GREEN">ExH</Color> 可以视为 <Color id="GREEN">工业高炉</Color> <ItemImage id="gregtech:gt.blockmachines:1000"/> 的直接升级版，因为它最多支持 <Color id="RED">512</Color> 并行、支持 <Color id="GREEN">多 A 与激光能源仓</Color> 来进行高强度超频，并且具备 <Color id="BLUE">无限跳级</Color>。这意味着只要热量和供电足够，它就能运行任意电压等级的配方。机器在运行时，可用并行会缓慢从 256 提升到 512；空闲时则会逐步回落到 256。你还可以在控制器界面中启用 <Color id="GREEN">炽焱加热</Color>，以每秒消耗 250-500L <Color id="GREEN">烈焰之炽焱</Color> 为代价，将并行增长速度提高到 6 倍。除此之外，<Color id="GREEN">ExH</Color> 还会对“高于配方要求的热量”给予奖励：每超出 900K，获得 5% 耗电减免；每超出 1,800K，获得 1 次无损超频。只有在真正吃满 512 并行（通常是 4 次以上超频）时，<Color id="GREEN">ExH</Color> 才会明显超过 <Color id="GREEN">Volcanus</Color> <ItemImage id="gregtech:gt.blockmachines:963"/>。
 
 <br clear="all"/>
 
@@ -55,7 +55,7 @@ date: 2026-05-27
 
 <Color id="GREEN">ExH</Color> 作为工业高炉的升级版，最多提供 512 并行，支持多 A 与激光能源仓，并具备无限跳级。只要热量和供电够高，它就能处理任意等级的配方。举例来说，一只 ZPM 256A 激光能源仓，只要热容量足够高，就能驱动 UIV 配方。这里要特别注意：玻璃等级限制的是 <Color id="RED">能源仓电压等级</Color>，而 <Color id="RED">不是配方等级</Color>。
 
-机器在运行时，可用并行会从 256 缓慢提升到 512；停止工作后，又会逐渐跌回 256。按默认速度，需要连续工作 30 分钟才能爬满 512 并行，但只要空转 4 分 16 秒就会掉光。你也可以在控制器 GUI 中启用 <Color id="GREEN">炽焱加热</Color>，以每秒 250-500L 的 <Color id="GREEN">烈焰之炽焱</Color> 为代价，把并行增长速度提高到 6 倍。烈焰之炽焱的消耗会随着额外并行数线性增长，但这样就能把爬满 512 并行所需时间缩短到仅 5 分钟。若启用了炽焱加热却中途断供烈焰之炽焱，机器会立刻停机，并清空当前配方。
+机器在运行时，可用并行会从 256 缓慢提升到 512；停止工作后，又会逐渐跌回 256。按默认速度，需要连续工作 30 分钟才能爬满 512 并行，但只要空转 4 分 16 秒就会掉光。你也可以在控制器界面中启用 <Color id="GREEN">炽焱加热</Color>，以每秒 250-500L 的 <Color id="GREEN">烈焰之炽焱</Color> 为代价，把并行增长速度提高到 6 倍。烈焰之炽焱的消耗会随着额外并行数线性增长，但这样就能把爬满 512 并行所需时间缩短到仅 5 分钟。若启用了炽焱加热却中途断供烈焰之炽焱，机器会立刻停机，并清空当前配方。
 
 - 运行时每 5 秒 +0.711 并行（关闭炽焱加热），30 分钟到上限
 - 运行时每 5 秒 +4.267 并行（开启炽焱加热），5 分钟到上限

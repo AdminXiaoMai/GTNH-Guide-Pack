@@ -21,7 +21,7 @@ date: 2026-05-25
 ## 搭建：
 <Color id="GREEN">异星铸造塔</Color> 分为 3 个等级。三者唯一的结构区别在于中央使用的 <Color id="GREEN">磁力塔架</Color> 等级不同，而功能区别则只体现在模块槽位数量上，分别为 2/3/4 个。总线与仓室可以替换结构中任意位置的 <Color id="GREEN">异星铸造塔基础机械方块</Color>。在最低机械方块需求下，整机依然可以提供最多 25 个输入位来服务 35 个总模具位。机器支持 <Color id="RED">多 A 与激光能源仓</Color>，但若没有 <Color id="GREEN">超级冷却器</Color> <ItemImage id="gregtech:gt.foundrycasings:9"/> 或 <Color id="GREEN">日耀投射强化</Color> <ItemImage id="gregtech:gt.foundrycasings:7" /> 模块，就不能超频到高于能源仓本身电压等级的档位。机器不需要维护仓或消声仓。可用螺丝刀右键控制器关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 可以查看或搭建结构；其中子信道 `chassis` 用于指定中央磁力塔架等级。
 
-先在控制器 GUI 中选择要启用的模块，再使用多方块结构全息投影仪去实际搭建。模块会以圆环形式套在中央立柱周围，它们的属性摘要会显示在控制器 GUI 的“显示机器信息”部分。模块的顺序不会影响机器运行。若想拆除模块，需要先在模块选择菜单中对其按住 Shift 左键取消选择，再用 <ItemLink id="gregtech:gt.Tool_Vajra" /> <ItemImage id="gregtech:gt.Tool_Vajra" /> 或其它工具把对应结构真正打掉。
+先在控制器界面中选择要启用的模块，再使用多方块结构全息投影仪去实际搭建。模块会以圆环形式套在中央立柱周围，它们的属性摘要会显示在控制器界面的“显示机器信息”部分。模块的顺序不会影响机器运行。若想拆除模块，需要先在模块选择菜单中对其按住 Shift 左键取消选择，再用 <ItemLink id="gregtech:gt.Tool_Vajra" /> <ItemImage id="gregtech:gt.Tool_Vajra" /> 或其他工具把对应结构真正打掉。
 
 ### 需要：
 - 1 个 <ItemLink id="gregtech:gt.blockmachines:14050" /> <ItemImage id="gregtech:gt.blockmachines:14050" />
@@ -56,7 +56,7 @@ date: 2026-05-25
 | 1 个 SCB+ | 34 | 68 | 102 | 136 | 170 | 204 | 238 | 272 | 306 | 340 | 374 | 408 | 442 | 476 | 510 |
 | 2 个 SCB+ | 46 | 92 | 138 | 184 | 230 | 276 | 322 | 368 | 414 | 460 | 506 | 552 | 598 | 644 | 690 |
 
-整机共有 7 种模块，而结构等级决定你能装 2/3/4 个模块。模块在控制器 GUI 内选择即可。它们既可以全部不同，也可以通过重复安装来叠加增益。唯一的例外是 <Color id="GREEN">超级冷却器</Color> <ItemImage id="gregtech:gt.foundrycasings:9" />、<Color id="GREEN">感知超频器</Color> <ItemImage id="gregtech:gt.foundrycasings:5" /> 和 <Color id="GREEN">宇宙坍缩者</Color> <ItemImage id="gregtech:gt.foundrycasings:4" />，这三种模块每台异星铸造塔最多各装 1 个。
+整机共有 7 种模块，而结构等级决定你能装 2/3/4 个模块。模块在控制器界面内选择即可。它们既可以全部不同，也可以通过重复安装来叠加增益。唯一的例外是 <Color id="GREEN">超级冷却器</Color> <ItemImage id="gregtech:gt.foundrycasings:9" />、<Color id="GREEN">感知超频器</Color> <ItemImage id="gregtech:gt.foundrycasings:5" /> 和 <Color id="GREEN">宇宙坍缩者</Color> <ItemImage id="gregtech:gt.foundrycasings:4" />，这三种模块每台异星铸造塔最多各装 1 个。
 
 <Color id="GREEN">日耀投射强化</Color> <ItemImage id="gregtech:gt.foundrycasings:7" /> 与 <Color id="GREEN">感知超频器</Color> <ItemImage id="gregtech:gt.foundrycasings:5" /> 都会提高机器的 <Color id="GREEN">超频系数</Color>。这是异星铸造塔独有的机制，作用方式很直接：它会把每次超频带来的速度倍率进一步抬高。举例来说，普通有损超频是 4 倍耗电换 2 倍速度；若超频系数增加 0.35，那么异星铸造塔在执行同样一次超频时就会变成 4 倍耗电换 2.35 倍速度。
 
@@ -76,7 +76,7 @@ date: 2026-05-25
 
 ## 原型电压稳定器 <ItemImage id="gregtech:gt.foundrycasings:6" />
 <Color id="GREEN">原型电压稳定器</Color>（PVS，UEV）会先从配方基础 EU/t 中减去 10%，再把结果乘以 0.8，如下式所示。装 1 个 PVS 相当于获得 28% 的 EU 折扣；装 2 个则能达到 49%。它不会缩短配方时长，因此不会直接提高机器速度。加法折扣可以和 <Color id="GREEN">日耀投射强化</Color> 叠加，而乘法折扣则可以和 <Color id="GREEN">宇宙坍缩者</Color> 叠加。PVS 的安装数量没有上限。若它与 <Color id="GREEN">感知超频器</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">谐和效率</Color>：额外 -50% EU/t，并再提高 0.1 超频系数。
-<Latex formula="\text{EU/t} = (100\% - \sum \text{AddBonus}) \times \prod \text{MultBonus}"/>
+<Latex formula="\text{EU/t} = (100\% - \sum \text{加算奖励}) \times \prod \text{乘算奖励}"/>
 
 | 模块 | 耗电（EU/t） |
 | --------------- | --------------- |
@@ -97,7 +97,7 @@ date: 2026-05-25
 
 ## 流线型铸造器 <ItemImage id="gregtech:gt.foundrycasings:10" />
 <Color id="GREEN">流线型铸造器</Color>（SC，UEV）会在基础 150% 速度之上，再额外增加 150% 速度，如下式所示。也就是说，装 1 个 SC 后总速度为 300%，装 2 个则会来到 450%。它的加法速度增益可以和 <Color id="GREEN">日耀投射强化</Color> 叠加，而 <Color id="GREEN">宇宙坍缩者</Color> 的乘法加成会在最后再结算。SC 数量没有上限。若它与 <Color id="GREEN">超致密铸造盆</Color> 联动，就会解锁一次性奖励 <Color id="GREEN">最优生产</Color>：每级电压再 +6 并行，速度额外 +75%。
-<Latex formula="(150\% + \sum \text{AddBonus}) \times \prod \text{MultBonus}" />
+<Latex formula="(150\% + \sum \text{加算奖励}) \times \prod \text{乘算奖励}" />
 
 | 模块 | 速度 |
 | --------------- | --------------- |
@@ -154,7 +154,7 @@ date: 2026-05-25
 
 ## 感知超频器 <ItemImage id="gregtech:gt.foundrycasings:5"/>
 <Color id="GREEN">感知超频器</Color>（SO，UMV）会把机器的超频系数提高 0.35。换句话说，每一次有损超频都会额外多提供 35% 速度，具体可见下表。每台异星铸造塔最多只能安装 1 个 SO。若它与 <Color id="GREEN">原型电压稳定器</Color> 联动，则会解锁一次性奖励 <Color id="GREEN">谐和效率</Color>：-50% EU/t，并额外再 +0.1 超频系数。
-| 速度 | 1 次 OC | 2 次 OC | 3 次 OC | 4 次 OC | 5 次 OC |
+| 速度 | 1 次超频 | 2 次超频 | 3 次超频 | 4 次超频 | 5 次超频 |
 | --------------- | --------------- | --------------- | --------------- | --------------- |--------------- |
 | 基础 | 200% | 400% | 800% | 1,600% | 3,200% |
 | $$\geq$$ 3 个 HR | 210% | 441% | 926% | 1,945% | 4,084% |

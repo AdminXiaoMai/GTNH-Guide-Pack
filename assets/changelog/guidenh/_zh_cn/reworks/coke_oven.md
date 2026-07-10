@@ -27,7 +27,7 @@ date: 2026-05-27
 > 共墙：由于它现在属于 GT 多方块，因此可以共墙摆放
 
 ## 搭建
-<Color id="GREEN">焦炉</Color> 是一个中空立方体，外壳由 <Color id="GREEN">焦炉砖块</Color> 构成，并在其中一侧放置控制器。你可以直接通过控制器 GUI 手动操作 <Color id="GREEN">焦炉</Color>，也可以使用 <Color id="RED">焦炉仓</Color> <ItemImage id="gregtech:gt.blockmachines:237"/> 来自动输入原料和导出产物。<Color id="RED">焦炉仓</Color> 可以替换结构中任意位置的任意一块焦炉砖块，并有三种模式可切换：输入、物品输出和流体输出。用螺丝刀右键仓室可切换模式，用扳手右键可旋转朝向。焦炉仓本身没有内部库存，因此破坏它时不会掉物，也不会虚空流体，只有控制器会这样。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
+<Color id="GREEN">焦炉</Color> 是一个中空立方体，外壳由 <Color id="GREEN">焦炉砖块</Color> 构成，并在其中一侧放置控制器。你可以直接通过控制器界面手动操作 <Color id="GREEN">焦炉</Color>，也可以使用 <Color id="RED">焦炉仓</Color> <ItemImage id="gregtech:gt.blockmachines:237"/> 来自动输入原料和导出产物。<Color id="RED">焦炉仓</Color> 可以替换结构中任意位置的任意一块焦炉砖块，并有三种模式可切换：输入、物品输出和流体输出。用螺丝刀右键仓室可切换模式，用扳手右键可旋转朝向。焦炉仓本身没有内部库存，因此破坏它时不会掉物，也不会虚空流体，只有控制器会这样。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 可以查看或搭建结构。
 
 若一台 <Color id="GREEN">焦炉</Color> 安装 3 个仓室，则总共需要 114 个焦炉砖块（按锭计）、54 个铁和 18 个青铜。制作这些砖块本身还需要 190 个沙子、114 个黏土，以及木制模具 38 次耐久。尽管如此，仍强烈建议你在前期多备一些材料，方便额外再搭几台焦炉。
 
@@ -61,7 +61,7 @@ date: 2026-05-27
 
 
 ## 杂酚油
-<Color id="GREEN">杂酚油</Color> 是几乎所有焦炉配方都会产出的副产物。你可以用桶、流体单元、匠魂焦黑容器、超级储罐等方式手动取出杂酚油，也可以通过连接在焦炉仓上的流体管道实现自动抽取。储存方面，则可以使用 Railcraft 蓄水器、超级储罐或任何其它流体储罐。杂酚油既能在原版熔炉、Railcraft 锅炉、大型锅炉等多种设备中作为燃料，也能高效制作火把，或进一步蒸馏成润滑油。
+<Color id="GREEN">杂酚油</Color> 是几乎所有焦炉配方都会产出的副产物。你可以用桶、流体单元、匠魂焦黑容器、超级储罐等方式手动取出杂酚油，也可以通过连接在焦炉仓上的流体管道实现自动抽取。储存方面，则可以使用 Railcraft 蓄水器、超级储罐或任何其他流体储罐。杂酚油既能在原版熔炉、Railcraft 锅炉、大型锅炉等多种设备中作为燃料，也能高效制作火把，或进一步蒸馏成润滑油。
 
 当内部没有足够空间继续容纳杂酚油或木炭/焦炭时，焦炉会自动停机。因此你必须定期清空它，机器才能持续运行。这既可以手动完成，也可以自动化，后文会给出自动化示例。若只是想立刻把杂酚油清掉，也可以直接拆掉再重新放置控制器。
 

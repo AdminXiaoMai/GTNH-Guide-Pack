@@ -16,7 +16,7 @@ date: 2026-05-27
   <ImportStructure src="../assets/reworks/cutting.snbt"/>
 </GameScene>
 
-<Color id="GREEN">工业切割机（ICF）</Color> 是一台 IV 级多方块，用于切割杆、晶圆、方块等材料。它可以视作单方块切割机的直接升级版，因为它最高可达 <Color id="BLUE">450%</Color> 速度、最低只需原本 <Color id="RED">60%</Color> 的 EU/t，并且最多可提供 <Color id="GREEN">6</Color> 并行。具体加成，以及可安装的最高能源仓等级，都取决于控制器内所放置的锯片等级。整机只需要一把锯片，而四个等级的锯片都拥有无限耐久，因此升级机器只是一笔一次性成本。<Color id="GREEN">超时空金属锯片</Color> <ItemImage id="gregtech:gt.metaitem.01:32105"/> 是最强等级，并会解锁“可使用一个多 A 能源仓”的特殊能力。若你想在同一台 <Color id="GREEN">ICF</Color> 里同时跑不同编程电路和/或其它不消耗工具，建议启用输入隔离。
+<Color id="GREEN">工业切割机（ICF）</Color> 是一台 IV 级多方块，用于切割杆、晶圆、方块等材料。它可以视作单方块切割机的直接升级版，因为它最高可达 <Color id="BLUE">450%</Color> 速度、最低只需原本 <Color id="RED">60%</Color> 的 EU/t，并且最多可提供 <Color id="GREEN">6</Color> 并行。具体加成，以及可安装的最高能源仓等级，都取决于控制器内所放置的锯片等级。整机只需要一把锯片，而四个等级的锯片都拥有无限耐久，因此升级机器只是一笔一次性成本。<Color id="GREEN">超时空金属锯片</Color> <ItemImage id="gregtech:gt.metaitem.01:32105"/> 是最强等级，并会解锁“可使用一个多 A 能源仓”的特殊能力。若你想在同一台 <Color id="GREEN">ICF</Color> 里同时跑不同编程电路和/或其他不消耗工具，建议启用输入隔离。
 <br clear="all"/>
 
 > [!NOTE]

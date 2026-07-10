@@ -21,6 +21,6 @@ date: 2026-05-30
 
 多方块的工作音效现在会从结构中心发出，而不再像以前那样从控制器位置发声。
 
-## Howler Alarm：
+## 嚎叫警报器：
 
 嚎叫警报器 <ItemImage id="IC2NuclearControl:blockNuclearControlMain:2"/> 现在新增了一个音效选项：<Color id="GREEN">Factorio Rocket Silo</Color>！

@@ -33,7 +33,7 @@ date: 2026-05-16
 
 <FloatingImage src="../assets/qol/toolbox_ui.png" wrap="inline" align="left" width="256">
   <ImageAnnotation>
-    新工具箱的内部 UI
+    新工具箱的内部界面
 </ImageAnnotation>
 </FloatingImage>
 

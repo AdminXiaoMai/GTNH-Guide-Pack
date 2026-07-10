@@ -10,7 +10,7 @@ date: 2026-05-22
 ---
 # Fether
 
-<Color id="RED">Fether</Color> 是对 Pam 的 “Harvest the Nether” 的 1:1 替代，同时带来了整套全新的贴图，并让下界农业内容更丰富一些！其中包括：
+<Color id="RED">Fether</Color> 是对 Pam 的 “Harvest the Nether” 的完整替代，同时带来了整套全新的贴图，并让下界农业内容更丰富了一些！其中包括：
 
 - 一整套新的石英系护甲与工具
 - 可以在下界 ~~带着杀意地~~ 睡觉的床！

@@ -18,4 +18,4 @@ date: 2026-05-24
   <ImportPonder src="../assets/crops/auto.json" />
 </GameScene>
 
-如果你还在为“怎么搞无限水”发愁，那其实取决于你当前进度，可选方案很多。从 <Color id="RED">神秘时代</Color> 到 <Color id="GREEN">GregTech 多方块</Color>，都可以翻翻自己喜欢的那几套思路。
+如果你还在为“怎么搞无限水”发愁，那答案其实取决于你当前进度，可选方案很多。从 <Color id="RED">神秘时代</Color> 到 <Color id="GREEN">GregTech 多方块</Color>，都可以翻翻自己喜欢的那几套思路。

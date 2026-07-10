@@ -10,7 +10,7 @@ date: 2026-05-22
 ---
 # 改进的 ArchitectureCraft 光照
 
-你是不是那种特别喜欢拿 <Color id="BLUE">ArchitectureCraft</Color> 搞建筑，但又很讨厌它那些斜面带来的光照表现的玩家？现在不用再忍了。
+如果你很喜欢用 <Color id="BLUE">ArchitectureCraft</Color> 搞建筑，却一直受不了那些斜面带来的光照表现，现在不用再忍了。
 
 通过调整内部计算方式，这些方块之间的光照过渡现在比以前自然得多。直接看图：
 

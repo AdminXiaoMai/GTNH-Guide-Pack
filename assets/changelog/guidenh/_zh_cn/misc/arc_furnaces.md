@@ -20,4 +20,4 @@ date: 2026-05-30
 - 钢现在在任何情况下都需要煤才能制作
 - 所有配方现在都新增了使用 __惰性气体__ 的替代配方（缩放方式与 EBF 一致）
 - 下界合金相关配方整体降级
-- Chronic Singulatiry 配方也已降级
+- <Color id="BLUE">Chronic Singularity</Color> 的配方也已降级

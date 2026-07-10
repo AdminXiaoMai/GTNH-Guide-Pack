@@ -18,7 +18,7 @@ date: 2026-05-27
 </GameScene>
 <Color id="GREEN">大型硅岩反应堆（LNR）</Color> 是一台 ZPM 级多方块，用于消耗各类硅岩系液体燃料发电。<Color id="GREEN">LNR</Color> 会把燃料直接转化为 EU，没有预热阶段，也不需要涡轮。真正的难点在于满足它的输入条件：任意时刻，所有输入仓里 <Color id="RED">只能存在一种</Color> 燃料；并且 <Color id="GREEN">LNR</Color> 必须持续供应 2,400 L/s 的液态空气，才能正常输出功率。你还可以额外提供一种冷却剂来提高效率，和/或一种激发态流体来提高整体吞吐量。单台 <Color id="GREEN">LNR</Color> 在使用最高等级液体时，发电量最高可达 6650 亿 EU/t，因此在更高电压阶段依然非常能打。到了后期，它才会被 <Color id="GREEN">戴森云地面单元</Color> <ItemImage id="gregtech:gt.blockmachines:14001"/> 或 <Color id="GREEN">半稳定反物质稳定序列器（SSASS）</Color> <ItemImage id="gregtech:gt.blockmachines:32027"/> 取代。
 
-前两级硅岩系流体燃料分别在聚变反应堆和大型化学反应釜中制作。剩下四级则都要在 [硅岩燃料精炼厂](./naq_refinery.md) 中，通过高级力场约束线圈来解锁对应配方。MK-V 燃料还会用于制造恒星燃料，而枯竭的 MK-V 与 MK-VI 燃料则会被 SSASS 用于活化稳定。<Color id="GREEN">中子活化器</Color> <ItemImage id="gregtech:gt.blockmachines:32013"/> 可以显著加快硅岩燃料的衰变速度，但它本身不会发电。
+前两级硅岩系流体燃料分别在聚变反应堆和大型化学反应釜中制作。剩下四级则都要在 [硅岩燃料精炼厂](./naq_refinery.md) 中，通过高级力场约束线圈来解锁对应配方。Mk-V 燃料还会用于制造恒星燃料，而枯竭的 Mk-V 与 Mk-VI 燃料则会被 SSASS 用于活化稳定。<Color id="GREEN">中子活化器</Color> <ItemImage id="gregtech:gt.blockmachines:32013"/> 可以显著加快硅岩燃料的衰变速度，但它本身不会发电。
 
 [GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
@@ -48,7 +48,7 @@ date: 2026-05-27
 <Color id="GREEN">LNR</Color> 的各个侧面，以及结构中央的球体部分，都可以共墙，以节省机械方块、框架箱与仓室数量。若一只激光动力仓的吞吐足够，它甚至还能被 2-4 台机器同时共用。上图展示的是两台机器共墙的摆法；若你愿意，还可以在剩下那条轴上再放第三台（需要激光反射镜）。
 
 ## 使用
-和其它发电多方块相比，<Color id="GREEN">LNR</Color> 的使用方式其实很直接。它会把燃料直接转化为 EU，没有预热阶段，也不需要涡轮。真正需要注意的只有下面这些输入条件：
+和其他发电多方块相比，<Color id="GREEN">LNR</Color> 的使用方式其实很直接。它会把燃料直接转化为 EU，没有预热阶段，也不需要涡轮。真正需要注意的只有下面这些输入条件：
 
 - 任意时刻，所有输入仓里 <Color id="RED">只能有一种</Color> 燃料，否则机器会爆炸。
 - <Color id="GREEN">LNR</Color> 必须持续供应 2,400 L/s 的液态空气才能发电，否则燃料会被白白烧掉。

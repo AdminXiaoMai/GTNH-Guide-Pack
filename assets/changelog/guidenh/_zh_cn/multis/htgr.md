@@ -70,7 +70,7 @@ date: 2026-05-31
 
 <Color id="GREEN">HTGR</Color> 使用的燃料是 <Color id="GREEN">TRISO 燃料球</Color>，<Color id="RED">不是</Color> TRISO 燃料丸。总共有 9 种不同的 TRISO 燃料球，而且它们在必要时可以同时混装在同一台机器里。机器至少要有 100 个 TRISO 燃料球才能开始运行；但若数量低于上限 10,000 个，机器效率就会下降，具体可由下式和下图看出。
 
-不同 TRISO 燃料球会根据其材料不同，携带各自独立的材料属性。在 NEI tooltip 中，它们会以 “Properties: [x], [y], [z]” 的形式显示，分别对应 <Color id="GREEN">Base（基础值）</Color>、<Color id="GREEN">Multiplier（倍率）</Color> 和 <Color id="GREEN">Exponent（指数）</Color>。这三项属性会直接影响发电规模和处理时长，后文会进一步说明。
+不同 TRISO 燃料球会根据其材料不同，携带各自独立的材料属性。在 NEI 提示框中，它们会以 `Properties: [x], [y], [z]` 的形式显示，其中 x、y、z 分别对应基础值、倍率和指数。这三项属性会直接影响发电规模和处理时长，后文会进一步说明。
 
 机器一旦开始运行，中途不能继续提升效率，而且效率上限始终不能超过 100%。每出现一个维护问题，最大效率还会额外下降 20%。
 
