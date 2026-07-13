@@ -22,4 +22,4 @@ item_ids:
 
 <RecipeFor id="appliedenergistics2:tile.BlockQuartzGlass" />
 
-<RecipeFor id="appliedenergistics2:tile.BlockQuartzLamp" />
+<RecipeFor id="appliedenergistics2:tile.BlockQuartzLamp" input="appliedenergistics2:tile.BlockQuartzGlass" />
