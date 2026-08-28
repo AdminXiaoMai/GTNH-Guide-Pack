@@ -16,7 +16,7 @@ item_ids:
 - thaumicenergistics:part.base:4632:5
 ---
 
-# 终端系统
+# 终端
 
 <GameScene zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/terminals.snbt" />
@@ -25,13 +25,13 @@ item_ids:
 
 虽然<ItemLink id="appliedenergistics2:tile.BlockInterface" />（ME样板供应器）、<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />（ME输入总线）和<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（ME存储总线）等设备是AE2网络与外界交互的主要方式，但终端系统是网络与*玩家*交互的核心界面。各类终端提供不同功能。
 
-终端颜色会继承所在[线缆](cables.md)的颜色。
+终端会继承支持其的[线缆](cables.md)的颜色。
 
 终端属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
-## 终端放置技巧
+## 终端的放置
 
-由于终端通常是玩家首次接触的[子部件](../ae2-mechanics/cables-subparts.md)，常见错误是反向安装。以下是正确与错误示例：
+终端通常是最先放置的[子部件](../ae2-mechanics/cables-subparts.md)，因此出现放置问题或反着放置等都是正常现象。应当做和不应当做的事见下方示例：
 
 <GameScene width="350" height="250" zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/terminal_placement.snbt" />
@@ -52,11 +52,11 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:380" scale="4" />
 
-基础终端允许查看和操作[网络存储](../ae2-mechanics/import-export-storage.md)，并提交[自动合成](../ae2-mechanics/autocrafting.md)请求。
+基础终端，使你能访问[网络存储](../ae2-mechanics/import-export-storage.md)的内容，也可向[自动合成](../ae2-mechanics/autocrafting.md)设施发送请求。
 
-## 界面说明
+## 界面
 
-基础终端界面分为多个功能区：
+基础终端的UI分为若干部分。
 
 **中央区域**显示网络存储内容，支持存取操作：
 - 左键点击获取整组，右键获取半组
@@ -87,11 +87,11 @@ item_ids:
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:360" scale="4" />
 
 
-合成终端在基础终端功能上增加合成网格，可自动从[网络存储](../ae2-mechanics/import-export-storage.md)补充材料。Shift+点击输出槽需谨慎！
+合成终端和普通终端比较相似，它们的UI区域与设置均相同，但合成终端新增了可自动从[网络存储](../ae2-mechanics/import-export-storage.md)中补充的合成方格。按住Shift合成时要小心谨慎！
 
-建议尽早升级基础终端为合成终端。
+应当**尽快**将普通终端升级为合成终端。
 
-## 界面说明
+## 界面
 
 合成终端界面新增中央合成网格，包含两个功能按钮：
 - 清空合成网格至网络存储
@@ -108,11 +108,11 @@ item_ids:
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:340" scale="4" />
 
 
-样板编码终端用于编写[样板](patterns.md)，其合成网格仅用于配方记录，不执行实际合成。
+样板编码终端和普通终端比较相似，它们的UI区域与设置均相同，但样板编码终端新增了[样板](patterns.md)编码界面。其和合成终端的UI外形较为相似，不过此处的合成方格并不能真正进行合成。
 
-建议与合成终端配合使用。
+应当在拥有合成终端后再配一个样板编码终端。
 
-## 界面说明
+## 界面
 
 **样板编码区**包含：
 - <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:52" />（空白样板）输入槽
@@ -152,7 +152,7 @@ item_ids:
 1. 在密集的<ItemLink id="appliedenergistics2:tile.BlockInterface" />（ME样板供应器）阵列中远程存取样板
 2. 避免长途跋涉手动操作样板
 
-## 界面说明
+## 界面
 
 该终端采用独特布局：
 - 可调节界面高度

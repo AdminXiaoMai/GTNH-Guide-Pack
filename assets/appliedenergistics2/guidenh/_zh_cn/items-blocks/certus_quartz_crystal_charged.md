@@ -15,6 +15,6 @@ item_ids:
 
 经<ItemLink id="appliedenergistics2:tile.BlockCharger" />处理的<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:0" />。用于制作<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:1" handlerId="gt.recipe.chemicalreactor" />

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items-blocks-index.md
-  title: 合成存储器（存储器/协处理器/监控器/单元）
+  title: 合成CPU多方块结构（合成存储器/并行处理单元/合成监控器/合成单元）
   icon: appliedenergistics2:tile.BlockSingularityCraftingStorage
 categories:
 - devices
@@ -26,7 +26,7 @@ item_ids:
 - appliedenergistics2:tile.BlockSingularityCraftingStorage
 ---
 
-# 合成CPU多方块结构（存储器/协处理器/监控器/单元）
+# 合成CPU多方块结构（合成存储器/并行处理单元/合成监控器/合成单元）
 
 <GameScene width="350" height="220" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/crafting_cpus.snbt" />
@@ -43,7 +43,7 @@ item_ids:
   <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit:0" scale="4" />
 </Row>
 
-合成CPU负责管理[自动合成](../ae2-mechanics/autocrafting.md)任务，存储中间产物并影响合成规模与效率。每个CPU同时只能处理一个任务，多个任务需要多个CPU结构。
+合成CPU管理合成请求与合成任务。它们会在执行多步骤合成任务时将中间产物存于自身，并影响合成任务的大小上限，某种程度上也会影响这些任务的完成速度。详细信息见[自动合成](../ae2-mechanics/autocrafting.md)。
 
 ## 核心功能
 
@@ -62,7 +62,7 @@ item_ids:
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit" scale="4" />
 
-（可选）用于填充CPU结构空间，也是其他组件的合成原料。
+（可选）合成单元仅用于填充CPU内空隙，以保证CPU的形状是实心长方形棱柱。没有其他组件时可用此填补。它们也是其他组件的合成材料。
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingUnit" />
 
@@ -88,7 +88,7 @@ item_ids:
   <BlockImage id="appliedenergistics2:tile.BlockAdvancedCraftingStorage:3" scale="4" />
 </Row>
 
-（必需）提供1k/4k/16k/64k/256k存储容量，决定CPU可处理的合成任务复杂度。
+（必需）合成存储器支持所有标准元件大小（1k、4k、16k、64k、256k）。它们会将与合成相关的材料和中间材料存于自身，因此处理所需材料更多的合成任务需要更大的或更多个合成存储器。
 
 <Column>
   <Row>
@@ -128,6 +128,6 @@ item_ids:
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingMonitor" scale="4" />
 
-（可选）显示当前CPU处理的合成任务，支持<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />染色。
+（可选）合成监控器会显示CPU当前正在处理的任务。其屏幕可用<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />染色。
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingMonitor" />

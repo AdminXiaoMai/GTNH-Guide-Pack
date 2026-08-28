@@ -11,11 +11,11 @@ item_ids:
 
 ---
 
-# 样板系统
+# 样板
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:52" scale="4" />
 
-样板在<ItemLink id="appliedenergistics2:item.ItemMultiPart:340" />中使用空白样板制作，可插入<ItemLink id="gregtech:gt.blockmachines:2719" />或<ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />实现自动化生产。
+样板是在<ItemLink id="appliedenergistics2:item.ItemMultiPart:340" />中以空白样板制作而得的，可装入<ItemLink id="gregtech:gt.blockmachines:2719" />和<ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />。
 
 ## 样板类型
 

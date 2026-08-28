@@ -10,7 +10,7 @@ item_ids:
 - appliedenergistics2:item.ToolNetherQuartzWrench
 ---
 
-# 扳手工具
+# 扳手
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ToolCertusQuartzWrench" scale="4" />
@@ -18,11 +18,11 @@ item_ids:
   <ItemImage id="appliedenergistics2:item.ToolNetherQuartzWrench" scale="4" />
 </Row>
 
-扳手用于旋转AE2设备（右键点击）和拆卸AE2方块（Shift+右键点击）。可单独移除[线缆子部件](../ae2-mechanics/cables-subparts.md)而不影响整体线缆结构。
+扳手可用于旋转AE2设备（右击）和拆卸AE2方块（Shift右击）。也可将单个[子部件](../ae2-mechanics/cables-subparts.md)拆下而不影响同线缆上其他事物。（也可拆下线缆而不影响子部件。）
 
-许多AE2方块支持旋转，即使文档未明确说明也可尝试。
+许多AE2方块都可旋转，指南未提及并不意味不能旋转。
 
-## 合成配方
+## 配方
 
 <Row>
   <RecipeFor id="appliedenergistics2:item.ToolCertusQuartzWrench" />

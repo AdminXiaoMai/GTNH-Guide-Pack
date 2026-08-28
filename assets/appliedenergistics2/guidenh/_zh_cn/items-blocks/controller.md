@@ -27,7 +27,7 @@ ME控制器是[ME网络](../ae2-mechanics/me-network-connections.md)的核心组
 
 ## 多方块结构规则
 
-控制器可自由组合构建，但需遵循以下原则：
+多方块控制器的结构相对自由。
 
 <GameScene width="400" height="200" zoom="2" showBackground={false}>
   <ImportStructure src="../assets/structures/controllers.snbt" />
@@ -43,7 +43,7 @@ ME控制器是[ME网络](../ae2-mechanics/me-network-connections.md)的核心组
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-当满足所有条件且供电正常时，控制器将呈现彩色循环光效。
+在遵守所有规则且供给能量的情况下，控制器会发光并循环显示颜色。
 
 ## 诊断功能
 

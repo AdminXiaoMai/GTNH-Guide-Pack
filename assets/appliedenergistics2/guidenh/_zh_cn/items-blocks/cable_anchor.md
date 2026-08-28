@@ -26,10 +26,10 @@ item_ids:
 - 让线缆视觉上贴合周围墙面
 - 制作<ItemLink id="appliedenergistics2:item.ItemFacade" />（线缆伪装板）
 
-线缆锚会阻止其所在面的线缆自动连接。
+线缆锚阻止其附着位置形成连接。
 
-可像梯子一样攀爬。
+可以像梯子一样沿其攀爬。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:120" />

@@ -13,13 +13,13 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemViewCell" scale="4" />
 
-显示元件用于过滤[终端](terminals.md)的显示内容。可在<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />（元件工作台）中设置其过滤规则。
+显示元件可过滤[终端](terminals.md)的显示，需在<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />中为其分区。
 
-例如，若希望终端仅显示特定石材建材，可在显示元件中设置对应材料的过滤规则并放入终端，即可仅显示这些物品。
+例如，也许你会想让某个终端只显示一部分石制建材。将显示元件分区为这些材料并装入终端，终端就只会显示这些物品了。
 
-多个显示元件的过滤效果为叠加模式。若分别设置橡木木板和圆石的过滤规则，同时放入两个显示元件将同时显示这两种物品。
+显示元件的效果会叠加，比如装入分区为橡木木板和分区为圆石的显示元件，相应设备两者都会显示。
 
-## 合成配方
+## 配方
 
 <Recipe id="appliedenergistics2:item.ItemViewCell" />
 

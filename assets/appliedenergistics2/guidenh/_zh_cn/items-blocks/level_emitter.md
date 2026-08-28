@@ -13,24 +13,24 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:280" scale="4" />
 
-ME标准发信器会根据[网络存储](../ae2-mechanics/import-export-storage.md)中指定物品的数量发出红石信号。
+标准发信器会根据[网络存储](../ae2-mechanics/import-export-storage.md)中物品数量发出红石信号。
 
-另有一种ME能源发信器，会根据网络中存储的[能源](../ae2-mechanics/energy.md)量发出红石信号。
+它有一根据网络中[能量](../ae2-mechanics/energy.md)水平发出红石信号的变种。
 
-即使未实际拥有某物品，仍可通过JEI/REI将其拖入过滤槽。
+如果没有所需物品或流体，可从JEI/REI中拖拽以放入过滤槽。
 
-右键点击流体容器（如桶或储罐）可设置流体过滤器而非容器物品本身。
+用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
 
 该设备属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
-与其他[设备](../ae2-mechanics/devices.md)不同，标准发信器*无需*占用[频道](../ae2-mechanics/channels.md)。
+和其他[设备](../ae2-mechanics/devices.md)不同，标准发信器*不*需要[频道](../ae2-mechanics/channels.md)。
 
-## 设置项
+## 设置
 
 * 可切换"大于等于"或"小于"模式
 * 安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />后，可启用"合成时发信"或"发信触发合成"模式
 
-## 可安装升级
+## 升级
 
 标准发信器支持以下[升级卡](upgrade_cards.md)：
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 启用按耐久度过滤或忽略物品NBT

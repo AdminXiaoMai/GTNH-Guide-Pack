@@ -24,9 +24,9 @@ categories:
 
 另一个重要特性是，接口最多可存储9种不同流体（普通储罐仅能存1种），同时兼具物品存储功能。本质上它们是带有增强功能的箱体/复合储罐，断开网络连接时仍可作为普通容器使用。
 
-## 内部工作机制
+## 接口内部的工作原理
 
-接口本质上是一个集成多组超强<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />，并配备多组<ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />的复合设备：
+正如前文所提，接口本质上就是箱子和储罐，再附上一些超级酷炫的<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />以及<ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />。
 
 <GameScene width="450" height="200" zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/interface_internals.snbt" />
@@ -56,7 +56,7 @@ categories:
 
 ## 特殊交互
 
-接口与其他AE2[设备](../ae2-mechanics/devices.md)有以下特殊交互：
+接口和其他AE2[设备](../ae2-mechanics/devices.md)间有若干种特殊交互功能：
 
 * 在未配置的接口上安装<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />时，存储总线将直接访问该接口所在网络的[全部存储](../ae2-mechanics/import-export-storage.md)，如同将存储总线安装在网络本身。若接口设置库存物品，此功能将被禁用。
 

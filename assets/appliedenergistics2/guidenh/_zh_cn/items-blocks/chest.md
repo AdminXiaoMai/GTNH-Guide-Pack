@@ -13,11 +13,11 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockChest" scale="4"/>
 
-ME箱子集成了<ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />、<ItemLink id="appliedenergistics2:tile.BlockDrive" />和<ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" />，相当于微型网络。由于仅支持单个[存储元件](../items-blocks/storage_cells.md)，其独立存储能力有限。
+ME箱子类似于带有<ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />、<ItemLink id="appliedenergistics2:tile.BlockDrive" />，以及<ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" />的微缩网络。可将其用作小型网络存储，但其仅能装下单个[存储元件](../items-blocks/storage_cells.md)的容量则限制了其功能性。
 
-核心功能：通过内置终端直接管理插入的存储元件。主网络中的[设备](../ae2-mechanics/devices.md)可通过[网络存储](../ae2-mechanics/import-export-storage.md)访问ME箱子内容。
+它在与其中元件单独交互方面非常有用。集成其中的终端只能访问箱子内的元件，而普通网络中的[设备](../ae2-mechanics/devices.md)则能访问任何[网络存储](../ae2-mechanics/import-export-storage.md)位置，包括ME箱子。
 
-## 
+## 操作
 
 * **顶部面**：打开集成终端（仅允许存入物品）
 * **其他面**：显示存储元件插槽和优先级设置（支持物流设备存取）
@@ -34,7 +34,7 @@ ME箱子集成了<ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />、
 * 使用<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />可改变终端颜色
 * 支持与普通终端相同的设置（不支持<ItemLink id="appliedenergistics2:item.ItemViewCell" />）
 
-## 元件状态指示灯
+## 元件状态LED
 
 | 颜色   | 状态描述                  |
 | :----- | :----------------------- |

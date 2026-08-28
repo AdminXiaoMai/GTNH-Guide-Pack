@@ -15,10 +15,10 @@ item_ids:
 
 虽然网络的主要供能方式是<ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" />（能源接收器），但谐振仓可直接生成中小量级的AE能源。
 
-默认配置（无[升级卡](upgrade_cards.md)且使用默认设置）下可产出40 AE/t。
+默认状况下（无[升级](upgrade_cards.md)且处于默认配置），它会产出40AE/t。
 
-当网络[能源存储](../ae2-mechanics/energy.md)满载时，谐振仓会降低燃料消耗以节能，但无法完全停止工作。
+网络的[能量](../ae2-mechanics/energy.md)存满时，谐振仓会减缓工作速度以减少燃料消耗，但它不会完全停止工作。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockVibrationChamber" />

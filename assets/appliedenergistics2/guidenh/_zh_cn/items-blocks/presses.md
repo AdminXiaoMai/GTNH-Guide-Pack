@@ -15,7 +15,7 @@ item_ids:
 
 # 压印模板
 
-共有5种不同类型的压印模板可用于<ItemLink id="appliedenergistics2:tile.BlockInscriber" />（压印器）。
+共有5种压印模板可用于<ItemLink id="appliedenergistics2:tile.BlockInscriber" />。
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="4" />

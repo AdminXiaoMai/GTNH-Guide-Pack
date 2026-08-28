@@ -14,7 +14,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ToolNetworkTool" scale="4" />
 
-网络工具是改良版[石英扳手](wrench.md)，兼具网络诊断功能和[升级卡](upgrade_cards.md)存储能力。保留快速拆卸设备和移除线缆[子部件](../ae2-mechanics/cables-subparts.md)的功能，但无法旋转方块。
+网络工具是修改版本的[扳手](wrench.md)，它能显示网络诊断信息，也能存储[升级卡](upgrade_cards.md)。它仍保留了扳手拆卸[子部件](../ae2-mechanics/cables-subparts.md)等事物的能力，但无法再旋转方块。
 
 内置9个升级卡槽位，当工具在物品栏时，所有AE2设备界面均可访问这些升级卡。
 
@@ -31,8 +31,8 @@ item_ids:
 
 手持网络工具时，<a href="facades.md">伪装板</a>将被隐藏。
 
-此时可直接与伪装板后方的方块交互，无需先行移除伪装板。
+此时可以直接与隐藏的伪装板后方的方块交互，无需取下伪装板。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ToolNetworkTool" />

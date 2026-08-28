@@ -20,9 +20,9 @@ item_ids:
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-监控器可在不打开GUI的情况下展示并操作单一物品或流体类型。
+监控器可在不打开GUI的情况下展示单种物品或流体，并允许与其交互。
 
-监控器颜色继承其所在[线缆](cables.md)的颜色。
+监控器会继承支持其的[线缆](cables.md)的颜色。
 
 若安装在地面或天花板，可使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转方向。
 
@@ -30,9 +30,9 @@ item_ids:
 
 # ME存储监控器
 
-显示指定物品/流体及其存储数量。可安装于自动化农场等区域作为可视化指示器。
+能显示单种物品或流体，以及其数量。在农场之类的设施旁放几个比较好……
 
-*无需*占用[频道](../ae2-mechanics/channels.md)。
+*不需要*占用[频道](../ae2-mechanics/channels.md)。
 
 操作指令：
 * 右键持有物品/双击流体容器：设置监控物品

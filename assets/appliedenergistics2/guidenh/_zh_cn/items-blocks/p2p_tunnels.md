@@ -26,11 +26,11 @@ P2P通道的使用方法与特性详见[AE2 机制-P2P通道](../ae2-mechanics/p
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:472" scale="4" />
 </Row>
 
-P2P通道能在不直接干预网络的情况下传输物品、流体、红石信号、能源、光照和[频道](../ae2-mechanics/channels.md)。每种P2P通道仅传输特定类型内容，本质上是通过网络建立远程两点间的定向传输通道。
+P2P通道是在网络中传输物品、流体、红石信号、能量、光、[频道](../ae2-mechanics/channels.md)等事物的一种方式，且不必直接与网络交互。P2P通道有多种变种，每种只能传输一类事物。可将它们看做能远距直接连接两方块的传送门。这种连接有确定的输入和输出端，而并非双向的。
 
 ![通道示意图](../assets/images/p2p_portal.png)
 
-例如，物品P2P通道连接的漏斗与木桶将建立直接传输链路：
+例如，朝向物品P2P通道的漏斗和直接放在木桶上的漏斗没有区别，物品可以正常传输。
 
 <GameScene width="300" height="200" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_hopper_barrel.snbt" />
@@ -44,7 +44,7 @@ P2P通道能在不直接干预网络的情况下传输物品、流体、红石�
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-红石P2P通道的典型应用场景：
+也有其他变种，如红石P2P通道。
 
 <GameScene width="350" height="200" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_redstone.snbt" />
@@ -84,7 +84,7 @@ ME通道最常用于[频道](../ae2-mechanics/channels.md)的高密度传输。�
 
 ![量子通道示意图](../assets/images/p2p_quantum_network.png)
 
-## 嵌套限制
+## 嵌套
 
 ME通道不支持递归嵌套传输（红色线缆的ME通道处于离线状态），但其他类型通道可穿透ME通道：
 

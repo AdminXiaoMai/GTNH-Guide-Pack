@@ -13,8 +13,8 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockSkyCompass" scale="4" />
 
-陨石罗盘会指向最近的<ItemLink id="appliedenergistics2:tile.BlockQuartz" />，从而定位最近的[陨石](../ae2-mechanics/meteorites.md)。这是你应当优先制作的AE2基础物品之一。
+陨石罗盘会指向最近的<ItemLink id="appliedenergistics2:tile.BlockQuartz" />，也即指向最近的[陨石](../ae2-mechanics/meteorites.md)。应当首先制作这种AE2物品。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockSkyCompass" />

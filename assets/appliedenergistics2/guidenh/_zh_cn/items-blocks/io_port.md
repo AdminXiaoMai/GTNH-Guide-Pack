@@ -15,15 +15,15 @@ item_ids:
 
 IO端口可用于快速将[存储元件](../items-blocks/storage_cells.md)与[网络存储](../ae2-mechanics/import-export-storage.md)之间进行数据转移。
 
-可使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转设备方向。
+可被<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转。
 
-## 设置项
+## 设置
 
 * 可配置当元件为空/已满/操作完成时自动移至输出槽
 * 安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" />后支持红石触发条件设置
 * GUI中央箭头可设置传输方向：从元件到网络存储，或反向传输
 
-## 可安装升级
+## 升级
 
 IO端口支持以下[升级卡](upgrade_cards.md)：
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> 提升单次操作传输量

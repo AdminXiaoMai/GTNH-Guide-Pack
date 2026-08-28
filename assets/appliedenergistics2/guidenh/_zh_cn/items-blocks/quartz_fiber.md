@@ -20,10 +20,10 @@ item_ids:
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-石英纤维用于在保持[网络](../ae2-mechanics/me-network-connections.md)独立的同时共享能源。通过这种方式，您无需在各处布置能源接收器和能源线缆即可为[子网](../ae2-mechanics/subnetworks.md)供能。虽然使用不同颜色的线缆或<ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />（线缆锚）更为经济高效，但石英纤维也可用于防止线缆连接。
+石英纤维可在[网络](../ae2-mechanics/me-network-connections.md)之间传输能量而不会将其连接起来。也由此不用到处摆能源接收器和供能线缆就能给[子网络](../ae2-mechanics/subnetworks.md)供能了。它也能阻止线缆连接，不过使用异色线缆或者<ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />更便宜也更有效。
 
 该设备属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:140" />

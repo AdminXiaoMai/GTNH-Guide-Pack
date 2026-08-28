@@ -16,7 +16,7 @@ item_ids:
 压印器用于通过[压印模板](presses.md)刻印电路和[处理器](processors.md)，并将各种物品粉碎成粉末。
 可接受AE2能源（AE）或Fabric/Forge Energy（E/FE）。支持分面输入，不同面可插入不同槽位物品。可通过<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转方向。支持将合成产物推入相邻容器。
 
-输入缓冲区大小可调节。例如在批量压印阵列中，小缓冲区能优化材料分配（避免首个压印器装满64个而其他空闲）。
+输入缓存的大小可以调整。假如需要用单个容器为许多压印器提供材料，则可使用小缓存，以提高材料的分配效率（而非第一台填满至64个而其余的仍为空）。
 
 四种电路压印模板用于制作[处理器](processors.md):
 
@@ -30,11 +30,11 @@ item_ids:
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="4" />
 </Row>
 
-名称压印模板可为方块命名（类似铁砧），适用于<ItemLink id="appliedenergistics2:item.ItemMultiPart:500" />中的标记：
+而名称压印模板则可像铁砧一样命名物品，便于在<ItemLink id="appliedenergistics2:item.ItemMultiPart:500" />中标记事物。
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:21" scale="4" />
 
-## 设置项
+## 设置
 
 * 可切换分面模式（特定面输入）或非分面模式（任意面输入，自动分拣）。非分面模式下无法从顶部/底部槽取出物品
 * 可启用向相邻容器推送物品
@@ -63,9 +63,9 @@ D. **输出槽** - 通过左右前后四面输出（仅限输出，不可输入�
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-非分面模式下可直接通过管道输入输出
+也可以在非面敏感状态直接输入输出物品。
 
-## 可安装升级
+## 升级
 
 压印器支持以下[升级卡](upgrade_cards.md)：
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />（加速卡）

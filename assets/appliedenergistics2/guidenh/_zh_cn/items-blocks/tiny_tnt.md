@@ -15,10 +15,10 @@ AE提供的小型TNT，它破坏范围非常小并且不会造成伤害，常用
 
 <BlockImage id="appliedenergistics2:tile.BlockTinyTNT" scale="4" />
 
-小型TNT，适用于小范围爆破。用于制作成对的<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:48" />（量子缠绕态奇点）。
+专为小型爆炸设计的小型TNT。在制造<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:48" />对的过程中非常有用。
 
-可通过配置文件禁用其方块破坏效果，适用于想在服务器中禁用TNT和苦力怕破坏的场景。
+如果需要在服务器中禁用TNT和苦力怕，可在配置文件中禁用此物品的地形破坏效果，从而允许在禁用破坏地形的情况下制作奇点对。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockTinyTNT" handlerId="gt.recipe.centrifuge"/>

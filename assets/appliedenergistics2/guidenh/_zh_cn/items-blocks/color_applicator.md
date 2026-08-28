@@ -18,7 +18,7 @@ item_ids:
 - 使用[染色球](paintballs.md)或普通染料
 - 使用雪球清除线缆颜色或染色球痕迹
 
-能量补充：通过<ItemLink id="appliedenergistics2:tile.BlockCharger" />充能
+可在<ItemLink id="appliedenergistics2:tile.BlockCharger" />中为其充能。
 
 ## 存储特性
 

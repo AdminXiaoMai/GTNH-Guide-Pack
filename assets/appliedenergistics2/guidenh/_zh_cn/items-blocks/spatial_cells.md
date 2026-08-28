@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items-blocks-index.md
-  title: 空间存储元件
+  title: 空间元件
   icon: appliedenergistics2:item.ItemSpatialStorageCell.2Cubed
 categories:
 - tools
@@ -54,7 +54,7 @@ item_ids:
 
 # 空间组件
 
-空间组件是空间存储元件的核心部件，每级组件的存储维度提升8倍：
+空间组件是空间存储元件的核心。每级组件容量的边长是前一级组件的8倍。
 
 <Row>
     <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:32" />

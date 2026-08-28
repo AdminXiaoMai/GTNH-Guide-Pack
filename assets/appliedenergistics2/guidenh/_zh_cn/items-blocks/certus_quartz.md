@@ -14,11 +14,11 @@ item_ids:
 
 <ItemImage id="gregtech:gt.metaitem.01:8516" scale="4" />
 
-*"赛特斯石英水晶具备独特性质，其晶格结构可承载大量能量"*
+*“赛特斯石英水晶具有能在其晶态基质中存储大量能量的独特性质”*
 
 AE2设备、方块及物品的核心原料之一。通过采矿获取。
 
-## 替代配方
+## 部分替代配方
 
 <Recipe id="gregtech:gt.metaitem.01:8516" handlerId="smelting" />
 

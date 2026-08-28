@@ -24,9 +24,9 @@ ME破坏面板具备破坏方块与收集物品的功能，其工作原理类似
 
 **请确保在领地插件中启用假人权限**
 
-## 过滤机制
+## 过滤
 
-仅当破坏产物可存入网络时，破坏面板才会执行操作。通常需构建[子网](../ae2-mechanics/subnetworks.md)，通过<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />或[存储元件](../items-blocks/storage_cells.md)[分区](cell_workbench.md)实现过滤。
+破坏面板只会在掉落物或物品能存入网络时破坏方块或捡起物品。也即*需要限制其网络中可存储物品的种类*才能过滤破坏面板，通常会将其放在[子网络](../ae2-mechanics/subnetworks.md)中。使用<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />或设置[分区](cell_workbench.md)的[元件](../items-blocks/storage_cells.md)可达成这一点。
 
 <GameScene width="300" height="200" zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/annihilation_filtering.snbt" />
@@ -42,7 +42,7 @@ ME破坏面板具备破坏方块与收集物品的功能，其工作原理类似
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-过滤依据为*最终掉落物*。例如要过滤破坏<ItemLink id="etfuturum:amethyst_cluster_2:6" />，需为面板附加精准采集，否则未成熟阶段无掉落物时将不受限制。
+破坏面板过滤的是*掉落物*。因此假如要设置仅破坏<ItemLink id="etfuturum:amethyst_cluster_2:6" />，则面板必须附有精准采集。未长成的紫晶芽什么都不会掉落，而网络永远能存下“空气”，因此普通的破坏面板会一直破坏它们。
 
 ## 合成配方
 

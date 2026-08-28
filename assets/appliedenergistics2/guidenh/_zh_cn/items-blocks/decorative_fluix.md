@@ -10,14 +10,14 @@ item_ids:
 - appliedenergistics2:tile.FluixSlabBlock
 ---
 
-# 装饰性福鲁伊克斯方块
+# 福鲁伊克斯装饰方块
 
 <Row gap="20">
 <BlockImage id="appliedenergistics2:tile.FluixStairBlock" perspective="isometric-north-west" scale="4" /> 
 <BlockImage id="appliedenergistics2:tile.FluixSlabBlock" scale="4" /> 
 </Row>
 
-<ItemLink id="appliedenergistics2:tile.BlockFluix" />可通过合成与切石加工制成多种装饰性建筑组件。
+<ItemLink id="appliedenergistics2:tile.BlockFluix" />可由合成或切石加工为装饰性建筑方块。
 
 ## 配方
 

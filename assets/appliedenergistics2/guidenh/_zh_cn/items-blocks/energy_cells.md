@@ -22,15 +22,15 @@ item_ids:
   <BlockImage id="appliedenergistics2:tile.BlockCreativeEnergyCell" scale="4" />
 </Row>
 
-该设备可为网络提供额外的[能源存储](../ae2-mechanics/energy.md)。适当的能源缓冲有助于缓解物品大量存取时的瞬时能耗波动，更大的存储容量可使网络在无能源输入时（如太阳能板夜间停运）持续运行，或应对[空间存储系统](../ae2-mechanics/spatial-io.md)的瞬时高能耗。
+能源元件给予网络更大的[能量](../ae2-mechanics/energy.md)容量。一定量的能量缓存能减少大量输入输出造成的能量尖峰影响，更大的能量存储容量则使得网络能在脱离供电时（例如晚上的太阳能板阵列）运作，也可处理[空间存储](../ae2-mechanics/spatial-io.md)产生的巨量瞬时能量消耗。
 
-## 充能指示条
+## 填充条
 
 <Row>
 <BlockImage id="appliedenergistics2:tile.BlockEnergyCell" scale="4" />
 </Row>
 
-元件侧面的指示条显示当前储能状态：
+元件侧面的填充条对应其能量水平。
 
 *   0 条：储能低于25%
 *   1 条：储能25%-50%
@@ -38,7 +38,7 @@ item_ids:
 *   3 条：储能75%-99%
 *   4 条：储能99%以上
 
-## 元件类型
+## 元件种类
 
 *   <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />：基础型号，可存储20万AE能源，足以应对常规网络操作中的能耗波动
 *   <ItemLink id="appliedenergistics2:tile.BlockDenseEnergyCell" />：致密型号，可存储160万AE能源，适用于依赖储能运行网络或处理大型[空间存储系统](../ae2-mechanics/spatial-io.md)的瞬时高负载

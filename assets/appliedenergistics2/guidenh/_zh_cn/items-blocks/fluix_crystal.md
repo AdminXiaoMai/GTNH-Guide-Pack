@@ -13,7 +13,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:7" scale="4" />
 
-*"福鲁伊克斯水晶具有独特的吸收和转换能量的能力，是所有物质能源技术的基石"*
+*“福鲁伊克斯水晶具有吸收并转换能量形态的独特能力，也因此是所有物质能量科技的基石所在”*
 
 ## 配方
 

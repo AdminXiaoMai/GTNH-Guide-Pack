@@ -13,16 +13,9 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockCharger" scale="4" />
 
-核心功能：
-- 为兼容工具充能
-- 将<ItemLink id="gregtech:gt.metaitem.01:8516" />转化为<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />
+充能器可以为兼容工具充能，也能将<ItemLink id="gregtech:gt.metaitem.01:8516" />转化为<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />。
 
-## 技术参数
-
-* 能量接口：顶部/底部（支持AE2线缆或FE能源导管）
-* 兼容能源：AE2能源（AE）或其他能源
-* 物品存取：任意面（仅允许取出成品，无需过滤）
-* 方向调整：使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转设备朝向
+需从顶部或底部为其供能，可以使用AE2线缆或其他模组的能源线缆。物品可从任意面输入或输出，且只有完成充能的产物才会被抽出，因此无需设置过滤。可用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转充能器以配合自动化。
 
 ## 主要用途
 
@@ -34,15 +27,15 @@ item_ids:
 
 ~~在顶部/底部安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:46" />，右键转动曲柄直至物品完成充能。~~
 
-## 简易自动化示例
+## 简单自动化
 
-通过调整朝向实现半自动化供料：
+充能器可以通过调整朝向实现半自动化：
 
 <GameScene zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/charger_hopper.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockCharger" />

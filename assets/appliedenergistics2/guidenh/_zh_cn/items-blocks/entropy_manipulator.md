@@ -19,9 +19,9 @@ item_ids:
 - 将原木烧制成木炭
 - 将圆石烧制成石头
 
-若无特定操作对象时，可作为打火石使用。
+如果无法对方块做出特殊操作，则其与打火石表现相同。
 
-能量可通过<ItemLink id="appliedenergistics2:tile.BlockCharger" />充能器补充。
+可在<ItemLink id="appliedenergistics2:tile.BlockCharger" />中为其充能。
 
 ## 配方
 

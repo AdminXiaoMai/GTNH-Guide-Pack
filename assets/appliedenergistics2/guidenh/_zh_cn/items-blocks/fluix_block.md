@@ -13,8 +13,8 @@ item_ids:
 
 <BlockImage id="appliedenergistics2:tile.BlockFluix" scale="4" />
 
-这是<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />（福鲁伊克斯水晶）的存储方块，同时也用于部分机器的合成配方。
+<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />的存储方块。也用在部分机器的配方中。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockFluix" />
