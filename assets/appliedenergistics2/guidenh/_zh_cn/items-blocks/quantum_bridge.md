@@ -11,9 +11,9 @@ item_ids:
 ---
 
 <Row>
-<ItemImage id="appliedenergistics2:tile.BlockQuantumRing" scale="4"/>
+<BlockImage id="appliedenergistics2:tile.BlockQuantumRing" scale="4"/>
 
-<ItemImage id="appliedenergistics2:tile.BlockQuantumLinkChamber" scale="4"/>
+<BlockImage id="appliedenergistics2:tile.BlockQuantumLinkChamber" scale="4"/>
 </Row>
 
 量子环是AE的无线跨维度频道传输方案，具体机制参考[量子环](../ae2-mechanics/quantum-bridge.md)。
@@ -43,17 +43,17 @@ item_ids:
 
 # 量子环
 
-<BlockImage id="appliedenergistics2:tile.BlockQuantumLinkChamber" scale="8" />
+<BlockImage id="appliedenergistics2:tile.BlockQuantumRing" scale="8" />
 
 8个量子环围绕<ItemLink id="appliedenergistics2:tile.BlockQuantumRing" />可构建量子网络桥。仅4个与链接仓直接相邻的量子环可连接网络，角落的4个量子环无法连接线缆。
 
 ## 合成配方
 
-<RecipeFor id="appliedenergistics2:tile.BlockQuantumLinkChamber" />
+<RecipeFor id="appliedenergistics2:tile.BlockQuantumRing" />
 
 # 量子链接仓
 
-<BlockImage id="appliedenergistics2:tile.BlockQuantumRing" scale="8" />
+<BlockImage id="appliedenergistics2:tile.BlockQuantumLinkChamber" scale="8" />
 
 该方块被<ItemLink id="appliedenergistics2:tile.BlockQuantumLinkChamber" />环绕后形成量子网络桥。链接仓本身无法连接线缆，仅在完整结构建成后接入网络。
 
@@ -61,4 +61,4 @@ item_ids:
 
 ## 合成配方
 
-<RecipeFor id="appliedenergistics2:tile.BlockQuantumRing" />
+<RecipeFor id="appliedenergistics2:tile.BlockQuantumLinkChamber" />

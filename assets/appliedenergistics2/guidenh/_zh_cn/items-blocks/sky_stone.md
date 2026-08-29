@@ -18,7 +18,7 @@ item_ids:
 
 ## 获取方式
 
-将<ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />（ME破坏面板）朝上放置在世界高度上限处可获得陨石粉。
+世界构造时会随机生成[陨石](../ae2-mechanics/meteorites.md)，需要钻石镐等级才能挖动。陨石中心处会有[陨石箱子](../items-blocks/skystone_chest.md)里面会随机得到印刷压片总共有4种。陨石在地表和地下都会生成，多为地下，高度为40-60。陨石顶部高度一般在50-55左右。
 
 ## 合成配方
 

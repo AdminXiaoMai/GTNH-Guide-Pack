@@ -16,7 +16,7 @@ item_ids:
 
 ---
 
-# 处理器系统
+# 处理器
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:22" scale="4" />
@@ -26,18 +26,18 @@ item_ids:
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:24" scale="4" />
 </Row>
 
-处理器是AE2[设备](../ae2-mechanics/devices.md)和机器的核心组件，也是首个重要的自动化挑战。共有三种类型，分别使用金锭、<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:0" />和钻石制造。需通过[压印模板](presses.md)在<ItemLink id="appliedenergistics2:tile.BlockInscriber" />中经过多步骤工艺完成（通常需要一系列压印器和过滤管道协同工作）。
+处理器是AE2[设备](../ae2-mechanics/devices.md)和机器的基础合成材料之一。它们也是你遇到的第一个大型自动化挑战。共有三种处理器，分别由金、<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:0" />、钻石制成。可在<ItemLink id="appliedenergistics2:tile.BlockInscriber" />中以[压印模板](presses.md)通过多步合成过程制造（通常由一系列压印器和带有过滤的管道实现）。
 
-## 生产工艺流程
+## 生产步骤
 
 <Column gap="5">
-  1. **收集基础材料**：硅、红石、金锭、赛特斯石英水晶、钻石
+  1.  收集/制造所需材料：硅、红石、金、<ItemLink id="gregtech:gt.metaitem.01:8516 />、钻石。
 
   <RecipeFor id="gregtech:gt.metaitem.01:17856" />
 
   <br />
 
-2. **预制印刷电路组件**
+  2. 压印出中间产物电路板
 
   <Row>
     <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:20" />
@@ -53,7 +53,7 @@ item_ids:
 
   <br />
 
-3. **最终组装成型**
+3. 最终组装步骤
 
   <Row>
     <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:23" />

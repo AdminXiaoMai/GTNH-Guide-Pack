@@ -19,7 +19,7 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-它们能够遮挡线缆的每一面，但[子部件](../ae2-mechanics/cables-subparts.md)和线缆连接不会被遮断。
+它们能够遮挡线缆的每一面，但[子部件](../ae2-mechanics/cable-subparts.md)和线缆连接不会被遮断。
 
 <GameScene zoom="6"  interactive={false}>
   <ImportStructure src="../assets/structures/facades_2.snbt" />

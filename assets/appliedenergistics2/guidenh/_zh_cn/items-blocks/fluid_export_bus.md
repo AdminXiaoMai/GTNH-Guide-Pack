@@ -11,7 +11,9 @@ item_ids:
 
 # ME流体输出总线
 
-<ItemImage id="appliedenergistics2:item.ItemMultiPart:260" scale="4"/>
+<ItemImage id="ae2fc:part_fluid_export" scale="4"/>
+
+*“来自AE2FC的神秘力量”*
 
 该设备从[网络存储](../ae2-mechanics/import-export-storage.md)中提取物品和流体（安装扩展模块后可支持更多类型），并推送至连接的容器。
 
@@ -49,4 +51,4 @@ item_ids:
 
 ## 配方
 
-<RecipeFor id="appliedenergistics2:item.ItemMultiPart:260" /> ~~
+<RecipeFor id="ae2fc:part_fluid_export" />

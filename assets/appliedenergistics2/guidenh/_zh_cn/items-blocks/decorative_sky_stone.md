@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items-blocks-index.md
-  title: 装饰陨石方块
+  title: 陨石装饰方块
   icon: appliedenergistics2:tile.SkyStoneStairBlock
 categories:
 - misc ingredients blocks
@@ -12,7 +12,7 @@ item_ids:
 - appliedenergistics2:tile.BlockSkyStone:3
 ---
 
-# 装饰陨石方块
+# 陨石装饰方块
 
 <Row>
 <BlockImage id="appliedenergistics2:tile.BlockSkyStone" scale="4" />
@@ -37,7 +37,7 @@ item_ids:
 <ItemImage id="appliedenergistics2:tile.BlockSkyChest:1" scale="4" />
 </Row>
 
-<ItemLink id="appliedenergistics2:tile.BlockSkyStone" /> 可通过合成、熔炼或切石机制加工成多种装饰性建筑方块。
+<ItemLink id="appliedenergistics2:tile.BlockSkyStone" /> 可由合成、切石加工为装饰性建筑方块。
 
 ## Recipes
 

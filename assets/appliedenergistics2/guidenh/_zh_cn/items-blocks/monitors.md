@@ -20,40 +20,44 @@ item_ids:
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-监控器可在不打开GUI的情况下展示并操作单一物品或流体类型。
+监控器可在不打开GUI的情况下展示单种物品或流体，并允许与其交互。
 
-监控器颜色继承其所在[线缆](cables.md)的颜色。
+监控器会继承支持其的[线缆](cables.md)的颜色。
 
-若安装在地面或天花板，可使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转方向。
+如果监控器位于顶面或底面，则可用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />选择。
 
-该设备属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
+它们是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
 
-# ME存储监控器
+# 存储监控器
 
-显示指定物品/流体及其存储数量。可安装于自动化农场等区域作为可视化指示器。
+能显示单种物品或流体，以及其数量。在农场之类的设施旁放几个比较好⋯⋯
 
-*无需*占用[频道](../ae2-mechanics/channels.md)。
+需要占用[频道](../ae2-mechanics/channels.md)。
 
-操作指令：
-* 右键持有物品/双击流体容器：设置监控物品
-* 空手右键：清空监控目标
-* Shift+空手右键：锁定当前配置
+按键绑定：
 
-## 合成配方
+*   手持物品右击或手持流体容器右键双击以将监控器设置为该物品/流体
+*   空手右击以清空设置
+*   空手Shift右击以锁定监控器
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:400" />
 
-# ME交换监控器
+# 交换监控器
 
-在存储监控功能基础上，支持物品存取操作。当配置物品[可自动合成](../ae2-mechanics/autocrafting.md)且库存为零时，提取操作将触发合成界面。
+交换监控器和存储监控器类似，同时允许取出或存入所展示的物品。
+
+如果所设置的物品可[自动合成](../ae2-mechanics/autocrafting.md)且库存内无该物品，取出物品时监控器会打开设定合成数量的UI。
 
 *需要*占用[频道](../ae2-mechanics/channels.md)。
 
-扩展操作指令：
-* 左键点击：提取整组物品（库存不足时触发合成）
-* 持有物品右键：存入物品
-* 空手右键：存入背包中所有匹配物品
+新增按键绑定：
 
-## 合成配方
+*   左击以取出一组物品，没有对应物品时会发送合成请求
+*   手持任意物品右击以存入该物品
+*   空手右击以存入物品栏内所有所设置的物品
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:420" />

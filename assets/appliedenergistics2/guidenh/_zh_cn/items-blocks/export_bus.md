@@ -11,6 +11,8 @@ item_ids:
 - thaumicenergistics:part.base:3
 ---
 
+# 输出总线
+
 <Row>
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:260" scale="4" />
@@ -21,41 +23,39 @@ item_ids:
 </Row>
 
 
-# ME流体输出总线
+输出总线会从[网络存储](../ae2-mechanics/import-export-storage.md)中抽出物品和流体（以及附属添加的其他类型），并存入其所连接的容器。
 
-该设备从[网络存储](../ae2-mechanics/import-export-storage.md)中提取物品和流体（安装扩展模块后可支持更多类型），并推送至连接的容器。
+为减少卡顿，输出总线会在近期未输出的情况下进入某种“睡眠模式”，此时其工作速度较慢，并会在其输出物品时被唤醒并逐渐进入正常状态（每秒传输4次）。
 
-为优化性能，当总线近期无操作时会进入"休眠模式"降低运行频率。成功输出后将加速至全速模式（每秒4次操作）。
+输出总线是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
 
-属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
+## 过滤
 
-## 过滤设置
+默认情况下，输出总线不会输出任何东西。放入其过滤槽的物品会加入白名单，也即只会输出其中指明的事物。
 
-默认状态下不输出任何物品。在过滤槽中放入物品将建立白名单机制，仅允许指定物品输出。
+如果没有所需物品或流体，可从JEI/REI中拖拽以放入过滤槽。
 
-可通过NEI将物品或流体直接拖入过滤槽（无需实际持有该物品）。
+用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
 
-手持流体容器（如桶或储罐）右键点击可设置流体过滤（而非容器本身）。
+## 升级
 
-## 升级支持
+输出总线支持以下[升级](upgrade_cards.md)：
 
-支持以下[升级卡](upgrade_cards.md)：
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> 增加过滤槽位数，并给予设置输出顺序的功能
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> 增加每次传输时移动的物品数
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 将过滤模式切换为黑名单
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />使总线能向[自动合成](../ae2-mechanics/autocrafting.md)系统发送所需物品的请求；可设置为使用或不使用已存储物品
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" /> 加入红石控制功能，使其会在高信号、低信号、遇脉冲时启动
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> 增加过滤槽数量
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 提升单次操作传输量
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> 将过滤模式切换为黑名单
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />：向[自动合成系统](../ae2-mechanics/autocrafting.md)发起合成请求，可配置优先使用现存物品或强制合成新物品
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" /> 添加红石控制（高电平激活/低电平激活/脉冲激活）
+## 速度
 
-## 传输速率
-
-| 加速卡数量 | 每次操作传输量 |
-|:-----------|:--------------|
-| 0          | 1             |
-| 1          | 8             |
-| 2          | 32            |
-| 3          | 64            |
-| 4          | 96            |
+| 加速卡数 | 每次传输移动的物品数 |
+| :------- | :------------------- |
+| 0        | 1                    |
+| 1        | 8                    |
+| 2        | 32                   |
+| 3        | 64                   |
+| 4        | 96                   |
 
 ## 配方
 

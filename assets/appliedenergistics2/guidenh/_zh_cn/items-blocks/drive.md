@@ -13,33 +13,27 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockDrive" scale="4" />
 
-该设备用于接入[存储元件](storage_cells.md)，为[网络存储系统](../ae2-mechanics/import-export-storage.md)提供容量支持。驱动器提供10个槽位，每个槽位可容纳一个存储元件。
+驱动器是用于放置[存储元件](storage_cells.md)的[设备](../ae2-mechanics/devices.md)，其中元件视作[网络存储](../ae2-mechanics/import-export-storage.md)。其有10个接受单个元件的槽位。
 
-可通过漏斗或AE2总线等物流系统对驱动器槽位内的元件进行存取操作。
+如有需求，可使用任意物流方式（如漏斗和AE2总线）抽取或存入元件。
 
-使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />可调整设备朝向。
+可被<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转。
 
-## 元件状态指示灯
+## 元件状态LED
 
-驱动器槽位配备LED指示灯显示存储状态：
+驱动器中的元件可通过其LED表明其状态：
 
-| 颜色   | 状态描述                                                                       |
-| :----- | :----------------------------------------------------------------------------- |
-| 绿色   | 元件空置                                                                       |
-| 蓝色   | 元件已存储部分物品                                                             |
-| 橙色   | [类型容量](../ae2-mechanics/bytes-and-types.md)已满，无法添加新类型物品       |
-| 红色   | [字节容量](../ae2-mechanics/bytes-and-types.md)已满，无法存入更多物品         |
-| 黑色   | 设备断电或未分配[频道](../ae2-mechanics/channels.md)                           |
+| 颜色 | 状态                                                          |
+| :--- | :------------------------------------------------------------ |
+| 绿色 | 空                                                            |
+| 蓝色 | 装有事物                                                      |
+| 橙色 | [类型](../ae2-mechanics/bytes-and-types.md)已满，不可新增类型 |
+| 红色 | [字节](../ae2-mechanics/bytes-and-types.md)已满，不可新增物品 |
+| 黑色 | 无能量或驱动器缺少[频道](../ae2-mechanics/channels.md)        |
 
-## 优先级设置
+## 优先级
 
-通过点击GUI右上角的扳手图标可设置存储优先级。物品存入网络时会优先选择最高优先级的存储位置。当多个存储设备优先级相同时：
-
-- 若某存储已存在该物品，则优先选择该存储
-- [分区存储元件](cell_workbench.md)在相同优先级组中会被视为已包含分区物品
-- 取出物品时优先从最低优先级的存储中移除
-
-该机制将确保高优先级存储优先填满，低优先级存储优先清空。
+可点击GUI右上角扳手以设置优先级。输入网络的物品会优先进入最高优先级的存储位置，如果有两个优先级相同的存储位置，则会优先选择已经存有该物品的那个。经过[分区](cell_workbench.md)的元件在同优先级情况下视作已经存有该物品。从存储中输出的物品会优先从最低优先级的位置输出。这一优先级系统使得在输入输出物品的过程中，高优先级的存储位置会被填满，而低优先级的会被搬空。
 
 ## 配方
 

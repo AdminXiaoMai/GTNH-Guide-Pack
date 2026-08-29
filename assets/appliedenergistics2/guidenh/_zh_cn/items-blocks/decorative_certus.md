@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items-blocks-index.md
-  title: 装饰赛特斯方块
+  title: 赛特斯石英装饰方块
   icon: appliedenergistics2:tile.QuartzStairBlock
 categories:
 - misc ingredients blocks
@@ -17,7 +17,7 @@ item_ids:
 - appliedenergistics2:tile.QuartzPillarSlabBlock
 ---
 
-# 装饰性赛特斯石英方块
+# 赛特斯石英装饰方块
 <Row>
 <BlockImage id="appliedenergistics2:tile.BlockQuartz" scale="4" />
 <BlockImage id="appliedenergistics2:tile.BlockQuartzChiseled" scale="4" />
@@ -32,7 +32,7 @@ item_ids:
 <BlockImage id="appliedenergistics2:tile.QuartzPillarSlabBlock" scale="4" />
 </Row>
 
-<ItemLink id="appliedenergistics2:tile.BlockQuartz" />可通过合成、熔炼或切石机制加工成多种装饰性建筑方块。
+<ItemLink id="appliedenergistics2:tile.BlockQuartz" />可由合成、烧炼、切石加工为装饰性建筑方块。
 
 ## 配方
 

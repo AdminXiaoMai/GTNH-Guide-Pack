@@ -11,8 +11,7 @@ categories:
 - devices
 ---
 
-
-# ME接口
+# 接口
 
 <Row gap="20">
 <BlockImage id="appliedenergistics2:tile.BlockInterface" scale="4" />
@@ -20,13 +19,13 @@ categories:
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:471" scale="4" />
 </Row>
 
-接口的作用类似于小型箱体/流体储罐，能够根据槽位设置从[网络存储](../ae2-mechanics/import-export-storage.md)自动补充或清空物品。其单游戏刻可处理多达9组物品，若搭配高速管道可实现快速输入输出。
+接口可视作小型箱子和流体储罐，能根据自身设置对[网络存储](../ae2-mechanics/import-export-storage.md)输入输出。其会尝试在单个游戏刻内完成输入输出，也即1游戏刻最多可传输9组物品。这也让其成为一种快速的输入输出手段，适用于快速运送物品。
 
-另一个重要特性是，接口最多可存储9种不同流体（普通储罐仅能存1种），同时兼具物品存储功能。本质上它们是带有增强功能的箱体/复合储罐，断开网络连接时仍可作为普通容器使用。
+接口还有一个实用特性，大多数流体储罐只能存储1种流体，而接口能存储最多9种，物品也是一样。它们实际上就是带有若干额外功能的箱子/多流体储罐，且可断开网络连接以禁用额外功能。因此，在某些需要存储少量多种事物的特定场合下，它们十分有用。
 
-## 内部工作机制
+## 接口内部的工作原理
 
-接口本质上是一个集成多组超强<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />，并配备多组<ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />的复合设备：
+正如前文所提，接口本质上就是箱子和储罐，再附上一些超级酷炫的<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />以及<ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />
 
 <GameScene width="450" height="200" zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/interface_internals.snbt" />
@@ -56,16 +55,16 @@ categories:
 
 ## 特殊交互
 
-接口与其他AE2[设备](../ae2-mechanics/devices.md)有以下特殊交互：
+接口和其他AE2[设备](../ae2-mechanics/devices.md)间有若干种特殊交互功能：
 
-* 在未配置的接口上安装<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />时，存储总线将直接访问该接口所在网络的[全部存储](../ae2-mechanics/import-export-storage.md)，如同将存储总线安装在网络本身。若接口设置库存物品，此功能将被禁用。
+连接有<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />的未经修改的接口会将其所处网络的[网络存储](../ae2-mechanics/import-export-storage.md)向存储总线所处网络展示，此时接口网络就好像一整个接有存储总线的大箱子。在接口的过滤槽中设置物品会禁用此特性。
 
 <GameScene width="200" height="150" zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/interface_storage.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-* [子网](../ae2-mechanics/subnetworks.md)中的样板供应器与接口存在特殊交互：未配置的接口将允许供应器直接推送物品至子网存储，跳过接口槽位填充，且仅在存储有空位时才会推送新批次。
+样板供应器和接口有一特殊交互效果⸺[子网络](../ae2-mechanics/subnetworks.md)：如果接口未经修改（请求槽内无内容），则供应器会跳过接口，直接输出到该子网络的[存储模块](../ae2-mechanics/import-export-storage.md)，而非输出到接口的存储槽；更重要的是，只要对应的存储模块没有足够的空间，下一批物品就不会输出。
 
 <GameScene width="320" height="200" zoom="4" showBackground={false}>
 <ImportStructure src="../assets/structures/provider_interface_storages.snbt" />
@@ -85,32 +84,37 @@ categories:
 <IsometricCamera yaw="185" pitch="30" />
 </GameScene>
 
-## 变体类型
+## 变种
 
-接口有两种形态：标准版和扁平版/[子部件](../ae2-mechanics/cables-subparts.md)：
+接口有2种变种：普通、面板/[子部件](../ae2-mechanics/cable-subparts.md)。这会影响各面输出材料，接收物品，提供网络连接的能力。
 
-* **标准接口**：允许所有面进行物品存取，并提供全向网络连接
-* **扁平接口**：作为线缆子部件，可密集排布。仅允许正面存取物品，且不提供正面网络连接
+*   普通型接口会向各面输出材料，会从各面接收物品，且和大多数AE2机器一样向各面提供网络连接，类似线缆。
 
-两者可通过合成相互转换。
+*   面板型接口是[线缆子部件](../ae2-mechanics/cable-subparts.md)，因此可在同一线缆上放置多个，便于设计紧凑设施。它们能从其存储空间输出，或接收物品至存储空间，并给予其他事物访问其存储空间的权限，但不提供网络连接。
 
-## 设置项
+接口的普通和面板形态可在合成方格中转换。
 
-* 上方9个槽位定义需要维持的库存物品/流体
-* 右键流体容器（如桶）可设置流体过滤
-* 点击槽位旁的扳手设置库存数量
+## 设置
 
-## 可安装升级
+接口上排槽位设定需要存储于自身的物品。可直接放入或从JEI/REI中拖拽放入，有物品的槽位上方会出现扳手图标，可用其设置数量。
 
-接口支持以下[升级卡](upgrade_cards.md)：
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 启用模糊匹配（按耐久或忽略NBT）
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> 启用自动合成请求，优先从存储提取，不足时触发[自动合成](../ae2-mechanics/autocrafting.md)
+用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
 
-## 优先级设置
+设置为存储模式的槽位同时不会接受任何其他事物进入其中。
 
-点击GUI右上角扳手设置优先级，高优先级接口优先获取物品。
+## 升级
 
-## 合成配方
+接口支持以下[升级](upgrade_cards.md)：
+
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 使得接口能按耐久度或忽略物品NBT过滤
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> 使接口能向[自动合成](../ae2-mechanics/autocrafting.md)系统发送所需物品的请求；其会优先从存储中获取物品，无足够物品才会发送合成请求
+
+## 优先级
+
+可点击GUI右上角扳手以设置优先级。高优先级的接口会先于低优先级接口获取物品。
+
+## 配方
+
 <Row>
 <Recipe id="appliedenergistics2:tile.BlockInterface" />
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:440" />

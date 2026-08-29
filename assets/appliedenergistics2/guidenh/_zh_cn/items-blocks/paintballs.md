@@ -22,11 +22,11 @@ item_id: appliedenergistics2:item.ItemPaintBall:*
   <ItemImage id="appliedenergistics2:item.ItemPaintBall:14" scale="4" />
 </Row>
 
-染色球需配合<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />使用，可为[线缆](cables.md)、羊毛、陶瓦、玻璃和混凝土等可染色方块着色。也可作为<ItemLink id="appliedenergistics2:item.ToolMassCannon" />的弹药发射色斑。
+染色球可用于<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />，以给[线缆](cables.md)、羊毛、陶瓦、玻璃，混凝土等可染色方块染色。它们也可用于<ItemLink id="appliedenergistics2:item.ToolMassCannon" />以射出一小滩染料。
 
-## 合成配方
+## 配方
 
-8个物质球围绕1个染料
+在染料周围放置8个物质球。
 
 <Column>
   <Row>
@@ -60,11 +60,11 @@ item_id: appliedenergistics2:item.ItemPaintBall:*
   <ItemImage id="appliedenergistics2:item.ItemPaintBall:34" scale="4" />
 </Row>
 
-功能与普通染色球相同，但通过<ItemLink id="appliedenergistics2:item.ToolMassCannon" />发射时会发出照明光效，可作为信号枪使用。
+它们和普通染色球表现相同，不过在<ItemLink id="matter_cannon" />中发射时，它们留下的染料滩会发光。也许适合拿来当信号枪。
 
-## 合成配方
+## 配方
 
-8个染色球围绕1个荧石粉
+在荧石粉周围放置8个染色球。
 
 <Column>
   <Row>

@@ -13,21 +13,22 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockCellWorkbench" scale="4" />
 
-元件工作台用于配置[存储元件](../items-blocks/storage_cells.md)和<ItemLink id="appliedenergistics2:item.ItemViewCell" />。
+元件工作台可用于配置[存储元件](storage_cells.md)和<ItemLink id="appliedenergistics2:item.ItemViewCell" />。
 
-主要功能：
-- 添加[升级卡](../items-blocks/upgrade_cards.md)
-- 设置存储分区（过滤存储内容）
-- 支持从NEI拖拽物品/流体进行配置（无需实际拥有该物品）
-- 右键使用流体容器（如桶或流体储罐）可设置流体过滤
+可向元件装入[升级卡](upgrade_cards.md)，或配置“分区”以限定元件可存储的物品种类。
 
-## 配置选项
+如果没有所需物品或流体，可从NEI中拖拽以放入过滤槽。
 
-顶部左侧提供三个功能按钮：
-1. 根据元件现有内容自动分区
-2. 清空所有分区设置
-3. 启用配置保留模式（拔出元件时保留设置，便于批量配置）
+用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
 
-## 合成配方
+## 设置
+
+元件工作台左上角有若干按钮：
+
+*   可根据元件已存有的物品为其分区
+*   可清空元件的分区设置
+*   元件工作台可设置为保留分区设置，便于将其复制到其他元件中
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockCellWorkbench" />

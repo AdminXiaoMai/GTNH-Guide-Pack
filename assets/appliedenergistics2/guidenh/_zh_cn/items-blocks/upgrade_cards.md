@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items-blocks-index.md
-  title: 基础卡
+  title: 升级卡
   icon: appliedenergistics2:item.ItemMultiMaterial:25
   position: 410
 categories:
@@ -15,7 +15,7 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:68
 ---
 
-# 基础卡
+# 升级卡
 
 <Column>
   <Row>
@@ -30,9 +30,10 @@ item_ids:
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:64" scale="2" />
   </Row>
 </Column>
-升级卡会改变AE2设备和机器的行为，提高其速度、改善其过滤能力、启用红石控制等。
 
-## 卡组件
+升级卡能改变AE2[设备](../ae2-mechanics/devices.md)和机器的行为，增加速度，加强过滤功能，启用红石控制，如此种种。
+
+## 升级卡组件
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:25" scale="2" />
@@ -42,7 +43,7 @@ item_ids:
 
 查看 [高级卡](../ae2-mechanics/upgrade_card.md).
 
-由基础卡或高级卡作为基底合成
+升级卡需用基础卡或高级卡合成。
 
 <Row>
   <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:25" />

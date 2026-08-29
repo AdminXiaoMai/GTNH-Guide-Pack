@@ -9,14 +9,15 @@ item_ids:
 - appliedenergistics2:tile.BlockSpatialPylon
 ---
 
-# ME空间塔
+# 空间塔
 
 <BlockImage id="appliedenergistics2:tile.BlockSpatialPylon" scale="4" />
 
-空间塔用于[空间存储操作](../ae2-mechanics/spatial-io.md)中生成空间力场并划定存储区域范围。
+空间塔用于[空间IO](../ae2-mechanics/spatial-io.md)，可生成空间场并确定影响区域。
 
-* 每段连续的塔链消耗1个[频道](../ae2-mechanics/channels.md)
-* 塔链长度需至少2个方块方可生效
+每一段连续的空间塔段占用1个[频道](../ae2-mechanics/channels.md)。
+
+空间塔段至少需2格长才可正常工作。
 
 ## 合成配方
 

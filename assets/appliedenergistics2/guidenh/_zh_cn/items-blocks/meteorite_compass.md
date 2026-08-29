@@ -13,7 +13,16 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockSkyCompass" scale="4" />
 
-陨石罗盘会指向最近的<ItemLink id="appliedenergistics2:tile.BlockQuartz" />，从而定位最近的[陨石](../ae2-mechanics/meteorites.md)。这是你应当优先制作的AE2基础物品之一。
+----
+用以寻找[陨石](../ae2-mechanics/meteorites.md)，指针会指向有陨石方块的区块，不论那个陨石是否是人造的。(可以当指家的指南针用了！)
+
+快速旋转(0.5s/圈)代表当前区块有陨石。
+
+慢速旋转(2s/圈)代表非常大的范围内没有陨石（如关闭了陨石生成）。
+
+————来自MOD百科
+
+----
 
 ## 合成配方
 

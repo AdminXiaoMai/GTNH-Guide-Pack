@@ -13,36 +13,25 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockCharger" scale="4" />
 
-核心功能：
-- 为兼容工具充能
-- 将<ItemLink id="gregtech:gt.metaitem.01:8516" />转化为<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />
+充能器能为其支持的工具和<ItemLink id="gregtech:gt.metaitem.01:8516" />充能。
 
-## 技术参数
+需向其顶面或底面供能，AE2[线缆](cables.md)和其他模组的能量线缆均可。充能器能接受AE2能量（AE）和Forge能量（FE）。其允许从各面输入输出物品。只有产物才会被抽出，因此不需要设置过滤。可用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转以实现自动化。
 
-* 能量接口：顶部/底部（支持AE2线缆或FE能源导管）
-* 兼容能源：AE2能源（AE）或其他能源
-* 物品存取：任意面（仅允许取出成品，无需过滤）
-* 方向调整：使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转设备朝向
+可将<ItemImage id="gregtech:gt.metaitem.01:8516" /><ItemLink id="gregtech:gt.metaitem.01:8516" />充能为<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />，或是将<ItemImage id="minecraft:compass" /><ItemLink id="minecraft:compass" />变为<ItemLink id="appliedenergistics2:tile.BlockSkyCompass" />。
 
-## 主要用途
+~~在顶面或底面放置<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:46" />并右击手摇即可手工充能物品。~~
 
-* 制作充能水晶：<ItemImage id="gregtech:gt.metaitem.01:8516" /><ItemLink id="gregtech:gt.metaitem.01:8516" /> → <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />
-* 制作陨石罗盘：<ItemImage id="minecraft:compass" /><ItemLink id="minecraft:compass" /> → <ItemLink id="appliedenergistics2:tile.BlockSkyCompass" />
-* 村民职业工作站
+它也是[福鲁伊克斯研究员](fluix_researcher.md)的工作站点。
 
-## 手动充能
+## 简单自动化
 
-~~在顶部/底部安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:46" />，右键转动曲柄直至物品完成充能。~~
-
-## 简易自动化示例
-
-通过调整朝向实现半自动化供料：
+如下例，充能器的可旋转性使其能按下述方式半自动化：
 
 <GameScene zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/charger_hopper.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockCharger" />

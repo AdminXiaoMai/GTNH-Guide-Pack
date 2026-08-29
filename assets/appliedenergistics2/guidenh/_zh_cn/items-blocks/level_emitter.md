@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items-blocks-index.md
-  title: ME标准发信器
+  title: 标准发信器
   icon: appliedenergistics2:item.ItemMultiPart:280
 categories:
 - devices
@@ -9,48 +9,46 @@ item_ids:
 - appliedenergistics2:item.ItemMultiPart:280
 ---
 
-# ME标准发信器
+# 标准发信器
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:280" scale="4" />
 
-ME标准发信器会根据[网络存储](../ae2-mechanics/import-export-storage.md)中指定物品的数量发出红石信号。
+标准发信器会根据[网络存储](../ae2-mechanics/import-export-storage.md)中物品数量发出红石信号。
 
-另有一种ME能源发信器，会根据网络中存储的[能源](../ae2-mechanics/energy.md)量发出红石信号。
+它有一根据网络中[能量](../ae2-mechanics/energy.md)水平发出红石信号的变种。
 
-即使未实际拥有某物品，仍可通过JEI/REI将其拖入过滤槽。
+如果没有所需物品或流体，可从JEI/REI中拖拽以放入过滤槽。
 
-右键点击流体容器（如桶或储罐）可设置流体过滤器而非容器物品本身。
+用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
 
-该设备属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
+它们是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
 
-与其他[设备](../ae2-mechanics/devices.md)不同，标准发信器*无需*占用[频道](../ae2-mechanics/channels.md)。
+和其他[设备](../ae2-mechanics/devices.md)不同，标准发信器*不*需要[频道](../ae2-mechanics/channels.md)。
 
-## 设置项
+## 设置
 
-* 可切换"大于等于"或"小于"模式
-* 安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />后，可启用"合成时发信"或"发信触发合成"模式
+*   标准发信器有“大于等于”和“小于”两种模式。
+*   装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />时，有“当物品合成时发出红石信号”和“发出红石信号以合成物品”两种模式。
 
 ## 可安装升级
 
 标准发信器支持以下[升级卡](upgrade_cards.md)：
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 启用按耐久度过滤或忽略物品NBT
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> 启用合成相关功能
 
-## 合成控制功能
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 使得发信器能按耐久度或忽略物品NBT过滤
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> 能启用合成功能
 
-安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />后，发信器将启用合成控制模式：
+## 合成功能
 
-**模式一：合成时发信**  
-当<ItemLink id="appliedenergistics2:tile.BlockInterface" />正在合成指定物品时发出红石信号。适用于按需启动高耗能设备。
+如果装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />，则发信器会进入合成状态。
 
-**模式二：发信触发合成**  
-创建虚拟[合成样板](patterns.md)（需确保网络中不存在该物品的实际样板）。当发信器激活时，系统会认为该物品"即将被合成"，适用于：
-- 无限资源农场（如无原料输入的自动化生产）
-- 处理递归配方（如"1圆石=2圆石"的复制机）
-- 概率性产出设备（如非100%成功率的机器）
+此时其有两种模式：
 
-## 合成配方
+第一种是“当物品合成时发出红石信号”，此时发信器会在[自动合成](../ae2-mechanics/autocrafting.md)系统以<ItemLink id="appliedenergistics2:tile.BlockInterface" />合成特定物品时发出红石信号。如此就可在某些耗能量大的自动化设施真正需要使用时才启动它们。
 
-<RecipeFor id="appliedenergistics2:item.ItemMultiPart:280" />
+第二种是“发出红石信号以合成物品”，此模式在处理无限农场和概率产出产物的自动化设施上极其有用。发信器会同时创建一个所过滤物品的虚[样板](patterns.md)，可供[自动合成](../ae2-mechanics/autocrafting.md)系统使用。（为正常运转，<ItemLink id="appliedenergistics2:tile.BlockInterface" />中**不应存在**同一物品的相同配方。）
+
+这种“样板”不会定义也不会关心合成材料。换言之，“如果在此标准发信器发出红石信号，则ME系统会在未来某时间点收到这些物品”。其通常用于启用或禁用不需要输入材料的无限农场，或是启用处理[递归配方](../example-setups/recursive-crafting-setup.md)（标准自动合成无法处理）的系统，例如“1x 圆石 = 2x 圆石”，如果有一台能复制圆石的机器的话。
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:280" />

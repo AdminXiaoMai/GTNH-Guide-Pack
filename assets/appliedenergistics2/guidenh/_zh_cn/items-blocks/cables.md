@@ -8,39 +8,38 @@ categories:
 item_id: "appliedenergistics2:item.ItemMultiPart 0-16,20-36,40-56,60-76,520-536"
 ---
 
+# 线缆
+
 <GameScene zoom="3" showBackground={false}>
   <ImportStructure src="../assets/structures/cables.snbt" />
   <IsometricCamera yaw="135" pitch="30" />
 </GameScene>
 
-ME网络可通过相邻的ME兼容设备建立，而线缆是扩展ME网络覆盖范围的主要方式。
+虽然相邻的ME机器也可创建ME网络，大面积扩展ME网络的主要方式仍是线缆。
 
-不同颜色的线缆可防止相邻线缆自动连接，优化[频道](../ae2-mechanics/channels.md)分配。线缆颜色同时影响所连接终端的配色（福鲁伊克斯色线缆可连接所有颜色）。
+线缆异色可避免相邻的线缆连接，使得[频道](../ae2-mechanics/channels.md)的分布更有效率。它们也会影响其上终端的颜色，就不会只出现紫色的终端了。福鲁伊克斯色线缆可与所有颜色的线缆相连。
 
-**重要提示：频道分配与线缆颜色无关**
+需要注意，**频道和线缆颜色没有关系**。
 
-## 给新手的建议
+## 重要备注
 
-**若您不熟悉频道机制，请优先使用智能线缆和致密智能线缆。它们可直观显示频道路径，帮助理解网络结构。**
+**如果你新入门AE2，还不熟悉频道的话，可以在各处尽量使用智能线缆和致密线缆。它们会显示频道在网络中的路径，方便理解频道的行为。**
 
-## 功能说明
+## 另一则备注
 
-**这些线缆并非传统意义上的物流管道。** 它们没有内部存储，设备之间通过线缆建立网络连接而非物品传输。
-
----
+**频道不是物品/流体/能量/其他类型的管道。**&zwnj;频道没有内部存储空间，样板供应器和机器不会向频道“输入”物品，频道唯一做的事情便是将AE2[设备](../ae2-mechanics/devices.md)连成一个网络。
 
 ## 玻璃线缆
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:16" scale="4" />
 
-<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />是最基础的线缆，支持能量传输和8个[频道](../ae2-mechanics/channels.md)。提供17种配色（默认福鲁伊克斯色），可用染料染色。
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />是最简单的线缆，能传输能量，最多可传输8个[频道](../ae2-mechanics/channels.md)。它共有17种颜色，默认为福鲁伊克斯色，且可用16种染料染成相应颜色。
 
-染色方法：
-- 工作台：8个同类型线缆+任意染料
-- 游戏内：使用兼容的染色工具
-- 浸入水桶可褪色
+在合成方格内用8个线缆包围染料以合成染色线缆（合成用线缆的颜色不要求一致，但必须是同种线缆，如玻璃，智能等）。也可用任意Forge兼容的颜料刷给世界中的线缆染色。
 
-可升级为<ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />（包层线缆）或<ItemLink id="appliedenergistics2:item.ItemMultiPart:56" />（智能线缆）
+可将任意染色线缆与水桶合成以洗去染料。
+
+可用羊毛包裹线缆制得<ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />，也可合成<ItemLink id="appliedenergistics2:item.ItemMultiPart:56" />（以更好观察[频道](../ae2-mechanics/channels.md)的行为。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:16" />
 
@@ -54,6 +53,10 @@ ME网络可通过相邻的ME兼容设备建立，而线缆是扩展ME网络覆�
 
 与玻璃线缆功能相同，仅外观差异。可通过红石和荧石升级为<ItemLink id="appliedenergistics2:item.ItemMultiPart:536" />（致密包层线缆）
 
+相对<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />，包层线缆并未提供任何额外游戏功能。不过如果喜欢包层线缆的外观的话，也可以用作实用装饰。
+
+包层线缆可像<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />一样染色。四个<ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />再加红石和荧石就可合成<ItemLink id="appliedenergistics2:item.ItemMultiPart:536" />。
+
 <Recipe id="appliedenergistics2:item.ItemMultiPart:36" />
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:31" />
@@ -64,14 +67,13 @@ ME网络可通过相邻的ME兼容设备建立，而线缆是扩展ME网络覆�
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:536" scale="4" />
 
-高容量线缆，支持32个频道。使用时需注意：
-1. 无法直接连接设备总线
-2. 需通过普通线缆中转
-3. 频道优先选择最短致密路径
+高容量线缆，能传输32个频道，而非普通线缆的8个。但是致密线缆不支持总线，必须先将致密线缆降为小型线缆（例如<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:56" />），才能放上总线和面板。
+
+致密线缆会对频道的“最短路径”特性稍加修改：频道会先沿最短路径抵达致密线缆，再沿经过该致密线缆的最短路径抵达控制器。
 
 <Recipe id="appliedenergistics2:item.ItemMultiPart:536" />
 
-<RecipeFor id="aappliedenergistics2:item.ItemMultiPart:531" />
+<RecipeFor id="appliedenergistics2:item.ItemMultiPart:531" />
 
 ---
 
@@ -84,11 +86,13 @@ ME网络可通过相邻的ME兼容设备建立，而线缆是扩展ME网络覆�
 </GameScene>
 </Row>
 
-可视化诊断功能：
-- 普通智能线缆：前4个频道显示线缆颜色，后4个显示白色条纹
-- 致密智能线缆：每条纹代表4个频道
-- 含控制器的网络：显示频道实际路径
-- 临时网络：显示全网已用频道数
+虽然外形与<ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />较为相似，但智能线缆能在其上显示频道的使用情况，具有诊断功能。频道会显示为线缆黑色条纹上的带色细线，便于理解网络内频道的使用状况。普通智能线缆上前四个频道与线缆同色，后四个为白色。致密线缆的每条细线则代表4个频道。
+
+在带有<ItemLink id="appliedenergistics2:tile.BlockController" />的网络中，线缆上的细线和频道的实际线路完全一致。
+
+处于自组织网络的智能线缆则会显示全网络所占用的频道数，而非经过自身的频道数。
+
+智能线缆可像<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />一样染色。
 
 <Recipe id="appliedenergistics2:item.ItemMultiPart:56" />
 

@@ -17,19 +17,45 @@ item_ids:
 
 该设备可将其他科技模组的通用能源形式转化为AE2内部使用的[AE能源](../ae2-mechanics/energy.md)。虽然<ItemLink id="appliedenergistics2:tile.BlockController" />控制器也具备此功能，但由于控制器接口较为珍贵，通常建议使用专用能源接收器。
 
-能量转化比例为：
-*   2 FE = 1 AE (Forge)
-*   1 E  = 2 AE (Fabric)
+能源接收器会将其他科技模组的常见能量系统转换为AE2内部使用的[能量](../ae2-mechanics/energy.md)⸺AE。虽然<ItemLink id="appliedenergistics2:tile.BlockController" />也能做到这一点，但控制器的面非常珍贵，一般还是推荐使用能源接收器。
 
-转化速率完全取决于网络可存储的AE能源上限，具体原理详见[能源机制说明](../ae2-mechanics/energy.md)。
+转换速度完全由网络能量容量决定，具体原因参见[此页](../ae2-mechanics/energy.md)。
 
-## 形态变体
+## 变种
 
-能源接收器提供两种形态：
-- 标准形态
-- 扁平化/[线缆子部件](../ae2-mechanics/cables-subparts.md)形态
+能源接收器有2种变种⸺普通、面板/[子部件](../ae2-mechanics/cable-subparts.md)，便于设计紧凑设施。
 
-两种形态可通过合成网格自由转换，便于构建紧凑型系统。
+能源接收器的普通和面板形态可在合成方格中转换。
+
+能接收其他 Mod 的能源转换成ae能给me网络供电，比例如下：
+
+工业时代2
+1 EU = 2 AE
+
+热力膨胀 3
+2 RF = 1 AE
+
+旋转机械工艺
+11256 Watts/Joules = 1 AE
+
+Buildcraft 6
+1 MJ = 5 AE
+
+电动力学 Electrodynamics
+40W = 1 AE/t
+
+
+可以在配置文件中调整（以下配置文件内容来自rv6）
+
+powerratios {
+
+    D:ForgeEnergy=0.5
+
+    D:IC2=2.0
+
+    D:UsageMultiplier=1.0
+
+}
 
 ## 配方
 

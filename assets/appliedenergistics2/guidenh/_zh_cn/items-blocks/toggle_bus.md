@@ -17,11 +17,11 @@ item_ids:
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-该总线功能类似<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />（福鲁伊克斯玻璃线缆）等线缆，但可通过红石信号切换连接状态。可用于切断[ME网络](../ae2-mechanics/me-network-connections.md)的特定区段。
+触发总线是与<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />和其他线缆功能类似的总线，区别在于其连接状态会受红石信号调控。可用其连通或切断[ME网络](../ae2-mechanics/me-network-connections.md)的连接。
 
-当接收到红石信号时，<ItemLink id="appliedenergistics2:item.ItemMultiPart:80" />会激活连接；而<ItemLink id="appliedenergistics2:item.ItemMultiPart:100" />（反相触发总线）则会在信号激活时禁用连接。
+触发总线会在收到红石信号时连通连接，<ItemLink id="appliedenergistics2:item.ItemMultiPart:100" />则行为相反，会在收到红石信号时断开连接。
 
-注意：切换连接可能导致网络重启并重新计算连接设备。
+需要注意，切换连接状态会导致网络重启并重新统计所连的设备。
 
 触发总线属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 

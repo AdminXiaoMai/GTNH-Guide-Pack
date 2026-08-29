@@ -11,7 +11,6 @@ categories:
 - devices
 ---
 
-
 # ME二合一接口
 
 <Row gap="20">
@@ -19,6 +18,8 @@ categories:
 <ItemImage id="ae2fc:part_fluid_interface" scale="4" />
 <ItemImage id="ae2fc:part_fluid_p2p_interface" scale="4" />
 </Row>
+
+*"来自AE2FC的神秘力量"*
 
 接口的作用类似于小型箱体/流体储罐，能够根据槽位设置从[网络存储](../ae2-mechanics/import-export-storage.md)自动补充或清空物品。其单游戏刻可处理多达9组物品，若搭配高速管道可实现快速输入输出。
 

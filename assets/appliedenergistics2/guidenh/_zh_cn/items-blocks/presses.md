@@ -15,7 +15,7 @@ item_ids:
 
 # 压印模板
 
-共有5种不同类型的压印模板可用于<ItemLink id="appliedenergistics2:tile.BlockInscriber" />（压印器）。
+共有5种压印模板可用于<ItemLink id="appliedenergistics2:tile.BlockInscriber" />
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="4" />
@@ -31,7 +31,7 @@ item_ids:
 
 ## 处理器压印模板
 
-硅、逻辑、运算和工程压印模板用于生产[处理器](processors.md)。这4种模板可通过破坏[陨石](../ae2-mechanics/meteorites.md)中的<ItemLink id="appliedenergistics2:tile.BlockQuartz" />（神秘方块）获得，也可在压印器中复制。
+硅、逻辑、计算、工程压印模板均用于[处理器](processors.md)的制造过程。这4种压印模板是由破坏[陨石](../ae2-mechanics/meteorites.md)中<ItemLink id="appliedenergistics2:tile.BlockSkyChest" />所得的。也可在<ItemLink id="appliedenergistics2:tile.BlockInscriber" />中复制它们。
 
 <Column>
   <Row>
@@ -50,10 +50,6 @@ item_ids:
 
 ## 名称压印模板
 
-名称压印模板功能类似铁砧，可为物品命名。制作方法：
-1. 右键点击<ItemLink id="appliedenergistics2:item.ToolCertusQuartzCuttingKnife" />或<ItemLink id="appliedenergistics2:item.ToolNetherQuartzCuttingKnife" />
-2. 放入金属锭
-3. 输入想要刻印的名称
-4. 取出成品模板
+名称压印模板可用于压印器以命名物品，与铁砧类似。
 
-在压印器中可同时使用两个名称压印模板，上方槽位的名称将优先于下方槽位显示。
+手持<ItemLink id="appliedenergistics2:item.ToolCertusQuartzCuttingKnife" />或<ItemLink id="appliedenergistics2:item.ToolNetherQuartzCuttingKnife" />右击并放入一个金属锭，输入希望印上去的名字后拿出产物即可。可在压印器内使用一块或同时使用两块名称压印模板，若使用两块，则会压印出两者名称的结合，先压印顶部槽位再压印底部槽位。

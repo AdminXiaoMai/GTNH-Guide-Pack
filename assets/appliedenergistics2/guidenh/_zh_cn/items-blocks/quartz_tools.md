@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items-blocks-index.md
-  title: 赛特斯石英镐
+  title: 石英工具
   icon: appliedenergistics2:item.ToolCertusQuartzPickaxe
 categories:
 - tools
@@ -35,7 +35,7 @@ item_ids:
   <ItemImage id="appliedenergistics2:item.ToolNetherQuartzSword" scale="4" />
 </Row>
 
-石英工具在功能上与铁制工具相同，具有相同的伤害、耐久度、挖掘速度等属性。包含[赛特斯石英](fluix_crystal.md)和下界石英两种变体。
+石英工具与铁工具完全一致：两者的攻击伤害、耐久度、挖掘速度等均完全一致。有下界石英和[赛特斯石英](fluix_crystal.md)的变种。
 
 ## 合成配方
 

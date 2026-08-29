@@ -13,45 +13,43 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockChest" scale="4"/>
 
-ME箱子集成了<ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />、<ItemLink id="appliedenergistics2:tile.BlockDrive" />和<ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" />，相当于微型网络。由于仅支持单个[存储元件](../items-blocks/storage_cells.md)，其独立存储能力有限。
+ME箱子类似于带有<ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />、<ItemLink id="appliedenergistics2:tile.BlockDrive" />和<ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" />的微缩网络。可将其用作小型网络存储，但其仅能装下单个[存储元件](storage_cells.md)的容量则限制了其功能性。
 
-核心功能：通过内置终端直接管理插入的存储元件。主网络中的[设备](../ae2-mechanics/devices.md)可通过[网络存储](../ae2-mechanics/import-export-storage.md)访问ME箱子内容。
+它在与其中元件单独交互方面非常有用。集成其中的终端只能访问箱子内的元件，而普通网络中的[设备](../ae2-mechanics/devices.md)则能访问任何[网络存储](../ae2-mechanics/import-export-storage.md)位置，包括ME箱子。
 
-## 
+其有2个GUI，且对面敏感。与顶面的终端交互会打开终端界面，物流系统仅可向其输入，而不能从中抽取物品。与其他面交互则会打开放置存储元件和优先级设置的GUI。物品物流系统仅可通过带有元件槽的面输出输出元件。
 
-* **顶部面**：打开集成终端（仅允许存入物品）
-* **其他面**：显示存储元件插槽和优先级设置（支持物流设备存取）
-* 使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />调整设备朝向
+可被<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转。
+
+其只有一小型AE能量缓存，因此若不配备[能源元件](energy_cells.md)，对其同时输入输出过多物品可能会导致能量耗尽。
+
+终端可用<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />染色。
 
 <GameScene width="250" height="190" zoom="4" showBackground={false}>
 <ImportStructure src="../assets/structures/chest_color.snbt" />
 <IsometricCamera yaw="135" pitch="30" />
 </GameScene>
 
-## 技术参数
+## 设置
 
-* 内置小型AE能源缓冲（未连接[能源元件](../items-blocks/energy_cells.md)时，高频存取可能断电）
-* 使用<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />可改变终端颜色
-* 支持与普通终端相同的设置（不支持<ItemLink id="appliedenergistics2:item.ItemViewCell" />）
+ME箱子的设置与<ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:360" />的相同，但不支持<ItemLink id="appliedenergistics2:item.ItemViewCell" />。
 
-## 元件状态指示灯
+## 元件状态LED
 
-| 颜色   | 状态描述                  |
-| :----- | :----------------------- |
-| 绿色   | 元件为空                  |
-| 蓝色   | 元件有存储内容            |
-| 橙色   | [类型容量](../ae2-mechanics/bytes-and-types.md)已满 |
-| 红色   | [存储容量](../ae2-mechanics/bytes-and-types.md)已满 |
-| 黑色   | 断电或未分配[频道](../ae2-mechanics/channels.md) |
+箱子中的元件可通过其LED表明其状态：
 
-## 优先级设置
+| 颜色 | 状态                                                          |
+| :--- | :------------------------------------------------------------ |
+| 绿色 | 空                                                            |
+| 蓝色 | 装有事物                                                      |
+| 橙色 | [类型](../ae2-mechanics/bytes-and-types.md)已满，不可新增类型 |
+| 红色 | [字节](../ae2-mechanics/bytes-and-types.md)已满，不可新增物品 |
+| 黑色 | 无能量或箱子缺少[频道](../ae2-mechanics/channels.md)          |
 
-点击元件插槽界面右上角扳手图标设置优先级：
-- **存入逻辑**：物品优先进入最高优先级存储
-- **同类优先**：同优先级时优先已有该物品的存储
-- **分区优先**：分区元件在同优先级组中视为已包含物品
-- **取出逻辑**：优先从最低优先级存储提取
+## 优先级
 
-## 合成配方
+可点击GUI右上角扳手以设置优先级。输入网络的物品会优先进入最高优先级的存储位置，如果有两个优先级相同的存储位置，则会优先选择已经存有该物品的那个。经过[分区](cell_workbench.md)的元件在同优先级情况下视作已经存有该物品。从存储中输出的物品会优先从最低优先级的位置输出。这一优先级系统使得在输入输出物品的过程中，高优先级的存储位置会被填满，而低优先级的会被搬空。
+
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockChest" />
