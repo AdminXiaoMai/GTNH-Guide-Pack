@@ -13,8 +13,8 @@ item_ids:
 
 <ItemImage id="gregtech:gt.metaitem.01:2516" scale="4" />
 
-由<ItemLink id="gregtech:gt.metaitem.01:2516" />经<ItemLink id="gregtech:gt.metatool.01:12" />粉碎制成。用于制造若干种AE2材料和组件。
+被<ItemLink id="gregtech:gt.metatool.01:12" />粉碎的<ItemLink id="gregtech:gt.metaitem.01:2516" />。用于制造若干种AE2材料和组件。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="gregtech:gt.metaitem.01:2516" handlerId="Shaped" input="gregtech:gt.metaitem.01:8516" />

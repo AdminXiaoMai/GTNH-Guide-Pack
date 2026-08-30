@@ -25,7 +25,7 @@ item_ids:
 
 在[管道子网络](../example-setups/pipe-subnet.md)等设施中，此[设备](../ae2-mechanics/devices.md)的行为方式类似存储总线；如果需要放置方块或投出物品而非传输的话，也能替代存储总线。
 
-成型面板是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+成型面板是[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 **记得在你认领的区块内允许放置假玩家**
 

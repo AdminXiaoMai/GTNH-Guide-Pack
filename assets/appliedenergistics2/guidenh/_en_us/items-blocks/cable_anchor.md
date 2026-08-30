@@ -8,8 +8,22 @@ categories:
 item_ids:
 - appliedenergistics2:item.ItemMultiPart:120
 ---
+
+# Cable Anchor
+
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:120" scale="4"/>
-A small part that can be attached to any side of a cable. A Cable Anchor separates the attached [cable](./cables.md) from the cable adjacent to the face it is attached to, preventing the two cables from transmitting power or channels to each other. It is commonly used to separate different networks or to plan [channel routing](../ae2-mechanics/channels.md#channel-routing).
 
-You can also climb them like ladders.
+Attached to any AE cable, it prevents the AE cable from connecting to cables or machines.
 
+<GameScene width="300" height="200" zoom="5" showBackground={false}>
+  <ImportStructure src="../assets/structures/cable_anchor.snbt" />
+  <IsometricCamera yaw="30" pitch="30" />
+</GameScene>
+
+Small decorative cable-mounted spikes that can prevent cables from connecting, turn cables into ladders, and make cables appear connected to the walls around them. They are also used to craft <ItemLink id="appliedenergistics2:item.ItemFacade" />.
+
+You can climb them like a ladder.
+
+## Recipe
+
+<RecipeFor id="appliedenergistics2:item.ItemMultiPart:120" />

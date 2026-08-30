@@ -23,7 +23,7 @@ item_ids:
 
 ## 变种
 
-能源接收器有2种变种⸺普通、面板/[子部件](../ae2-mechanics/cable-subparts.md)，便于设计紧凑设施。
+能源接收器有2种变种⸺普通、面板/[子部件](../ae2-mechanics/cables-subparts.md)，便于设计紧凑设施。
 
 能源接收器的普通和面板形态可在合成方格中转换。
 

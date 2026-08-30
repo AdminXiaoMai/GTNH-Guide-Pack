@@ -11,13 +11,13 @@ item_ids:
 
 # ME箱子
 
-<ItemImage id="appliedenergistics2:tile.BlockChest" scale="4"/>
+<BlockImage id="appliedenergistics2:tile.BlockChest" meta="0" nbt='{inv:{item0:{},item1:{id:"appliedenergistics2:item.ItemBasicStorageCell.1k",Count:1b,tag:{ic:1L,it:1s,__guidenh_encoded_keys_v1:[0:{v:1L,k:"@0"},1:{v:{Craft:0b,Cnt:1L,id:"minecraft:stone",Count:0b,Damage:0s,Req:0L},k:"#0"}]},Damage:0s}},proxy:{p:0,g:341L,k:-1L},orientation_up:"UP",SORT_BY:"NAME",terminalSettings:[0:{uuid_l:-8061629327903583552L,uuid_m:-937944366173238364L,savedString:"""",map:[]}],VIEW_MODE:"ALL",paintedColor:16b,id:"BlockChest",priority:0,SORT_DIRECTION:"ASCENDING",orientation_forward:"NORTH",internalCurrentPower:0.0d}' scale="4" />
 
 ME箱子类似于带有<ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />、<ItemLink id="appliedenergistics2:tile.BlockDrive" />和<ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" />的微缩网络。可将其用作小型网络存储，但其仅能装下单个[存储元件](storage_cells.md)的容量则限制了其功能性。
 
 它在与其中元件单独交互方面非常有用。集成其中的终端只能访问箱子内的元件，而普通网络中的[设备](../ae2-mechanics/devices.md)则能访问任何[网络存储](../ae2-mechanics/import-export-storage.md)位置，包括ME箱子。
 
-其有2个GUI，且对面敏感。与顶面的终端交互会打开终端界面，物流系统仅可向其输入，而不能从中抽取物品。与其他面交互则会打开放置存储元件和优先级设置的GUI。物品物流系统仅可通过带有元件槽的面输出输出元件。
+其有2个GUI，侧面和顶面会打开不同的GUI。与顶面的终端交互会打开终端界面，存储总线从任意没有带有元件槽的面可以访问ME箱子内元件的存储。物流系统仅可向其输入，而不能从中抽取物品。与其他面交互则会打开放置存储元件和优先级设置的GUI。物品物流系统仅可通过带有元件槽的面输出元件。
 
 可被<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转。
 
@@ -25,9 +25,9 @@ ME箱子类似于带有<ItemLink id="appliedenergistics2:item.ItemMultiPart:380"
 
 终端可用<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />染色。
 
-<GameScene width="250" height="190" zoom="4" showBackground={false}>
+<GameScene width="450" height="190" zoom="4" showBackground={false} interactive={false}>
 <ImportStructure src="../assets/structures/chest_color.snbt" />
-<IsometricCamera yaw="135" pitch="30" />
+<IsometricCamera yaw="105" pitch="30" />
 </GameScene>
 
 ## 设置

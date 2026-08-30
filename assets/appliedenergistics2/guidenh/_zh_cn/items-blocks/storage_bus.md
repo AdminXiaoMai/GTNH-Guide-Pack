@@ -27,7 +27,7 @@ item_ids:
 
 注意事项：抽屉这类经过优化的大容器性能表现不错，但巨型箱子等拥有大量槽位的、*未*经优化的大容器和存储总线放在一起时，性能会受到严重影响。
 
-存储总线是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+存储总线是[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 ## 过滤
 

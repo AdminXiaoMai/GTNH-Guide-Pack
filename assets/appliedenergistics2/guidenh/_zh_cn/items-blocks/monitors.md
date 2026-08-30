@@ -26,7 +26,7 @@ item_ids:
 
 如果监控器位于顶面或底面，则可用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />选择。
 
-它们是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+它们是[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 # 存储监控器
 

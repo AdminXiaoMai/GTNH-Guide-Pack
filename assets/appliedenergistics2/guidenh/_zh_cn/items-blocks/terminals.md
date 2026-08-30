@@ -27,11 +27,11 @@ item_ids:
 
 终端会继承支持其的[线缆](cables.md)的颜色。
 
-它们是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+它们是[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 ## 终端的放置
 
-终端通常是最先放置的[子部件](../ae2-mechanics/cable-subparts.md)，因此出现放置问题或反着放置等都是正常现象。应当做和不应当做的事见下方示例：
+终端通常是最先放置的[子部件](../ae2-mechanics/cables-subparts.md)，因此出现放置问题或反着放置等都是正常现象。应当做和不应当做的事见下方示例：
 
 <GameScene width="350" height="250" zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/terminal_placement.snbt" />

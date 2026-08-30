@@ -21,7 +21,7 @@ item_ids:
 
 用流体容器（如铁桶或流体储罐）右击即可将流体设为过滤，而非铁桶和储罐物品。
 
-它们是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+它们是[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
 和其他[设备](../ae2-mechanics/devices.md)不同，标准发信器*不*需要[频道](../ae2-mechanics/channels.md)。
 

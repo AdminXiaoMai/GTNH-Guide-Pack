@@ -205,7 +205,7 @@ item_ids:
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> 将过滤模式从白名单切换为黑名单
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" /> 为每种类型平均分配存储字节空间，避免单一类型占满整个元件
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> 当元件已满时，自动销毁继续输入的物品（若安装均衡分配卡，则仅销毁超出该类型分配空间的物品）。这对于防止自动化农场因存储堵塞而停机十分有用。建议配合分区功能使用。
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" /> 可输入矿物辞典过滤规则，根据物品矿辞进行匹配与筛选，支持正则表达式 
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" /> 可输入矿物辞典过滤规则，根据物品矿典进行匹配与筛选，支持正则表达式 
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" /> （仅在标记过滤后生效）指定物品或流体的存储位置，被标记的对象会仅会存入安装了粘性卡的存储元件，并不会被存入网络中的其他存储设备
 
 # 外壳

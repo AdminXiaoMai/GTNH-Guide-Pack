@@ -27,7 +27,7 @@ item_id: "appliedenergistics2:item.ItemMultiPart 0-16,20-36,40-56,60-76,520-536"
 
 ## 另一则备注
 
-**频道不是物品/流体/能量/其他类型的管道。**&zwnj;频道没有内部存储空间，样板供应器和机器不会向频道“输入”物品，频道唯一做的事情便是将AE2[设备](../ae2-mechanics/devices.md)连成一个网络。
+**频道不是物品/流体/能量/其他类型的管道。** 频道没有内部存储空间，ME接口和机器不会向频道“输入”物品，频道唯一做的事情便是将AE2[设备](../ae2-mechanics/devices.md)连成一个网络。
 
 ## 玻璃线缆
 
@@ -37,9 +37,9 @@ item_id: "appliedenergistics2:item.ItemMultiPart 0-16,20-36,40-56,60-76,520-536"
 
 在合成方格内用8个线缆包围染料以合成染色线缆（合成用线缆的颜色不要求一致，但必须是同种线缆，如玻璃，智能等）。也可用任意Forge兼容的颜料刷给世界中的线缆染色。
 
-可将任意染色线缆与水桶合成以洗去染料。
+可将任意染色线缆放入工作台以洗去染料。
 
-可用羊毛包裹线缆制得<ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />，也可合成<ItemLink id="appliedenergistics2:item.ItemMultiPart:56" />（以更好观察[频道](../ae2-mechanics/channels.md)的行为。
+可用福鲁伊克斯水晶包裹线缆制得<ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />，也可合成<ItemLink id="appliedenergistics2:item.ItemMultiPart:56" />（以更好观察[频道](../ae2-mechanics/channels.md)的行为。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:16" />
 
@@ -51,11 +51,9 @@ item_id: "appliedenergistics2:item.ItemMultiPart 0-16,20-36,40-56,60-76,520-536"
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:36" scale="4" />
 
-与玻璃线缆功能相同，仅外观差异。可通过红石和荧石升级为<ItemLink id="appliedenergistics2:item.ItemMultiPart:536" />（致密包层线缆）
-
 相对<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />，包层线缆并未提供任何额外游戏功能。不过如果喜欢包层线缆的外观的话，也可以用作实用装饰。
 
-包层线缆可像<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />一样染色。四个<ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />再加红石和荧石就可合成<ItemLink id="appliedenergistics2:item.ItemMultiPart:536" />。
+包层线缆可像<ItemLink id="appliedenergistics2:item.ItemMultiPart:16" />一样染色。四个<ItemLink id="appliedenergistics2:item.ItemMultiPart:36" />就可合成<ItemLink id="appliedenergistics2:item.ItemMultiPart:536" />。
 
 <Recipe id="appliedenergistics2:item.ItemMultiPart:36" />
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items-blocks-index.md
-  title: 破坏面板
+  title: ME破坏面板
   icon: appliedenergistics2:item.ItemMultiPart:300
 categories:
 - devices
@@ -16,15 +16,15 @@ item_ids:
 <ImportStructure src="../assets/structures/annihilation_plane.snbt" />
 </GameScene>
 
-破坏面板能破坏方块和捡起物品。它会将物品输入[网络存储](../ae2-mechanics/import-export-storage.md)，与<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />工作方式类似。它只会捡起与面板碰撞的物品，而不是区域内所有物品。
+破坏面板能破坏方块和捡起物品。它会将物品输入[网络存储](../ae2-mechanics/import-export-storage.md)，与<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />工作方式类似。普通情况下，它会主动拾取破坏方块后目标位置附近的物品；对于直接碰撞到面板的物品，则只会拾取位于面板表面碰撞范围内的物品。
 
-破坏面板接受所有镐魔咒，因此只要模组包允许，就可以为其附上等级很高的时运再放去[自动化矿石处理](../tricks-example/ore-fortuner.md)。此外，精准采集和带有此魔咒的工具表现相同，效率能减少破坏方块的能量消耗，耐久则提升破坏时不使用能量的概率。
+破坏面板只能破坏满足一定条件的方块，例如不能破坏空气、液体、基岩、末地传送门、末地传送门框架和命令方块，并且方块硬度必须非负，同时还需要通过挖掘权限检查。
 
-破坏面板是[线缆子部件](../ae2-mechanics/cable-subparts.md)。
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />和带有此附魔的工具表现相同，但是能耗为破坏面板的16倍。
 
-**记得在你认领的区块内允许放置假玩家**
+破坏面板是[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
-## 过滤
+**记得在你认领的区块内允许假玩家放置**
 
 ## 过滤
 
@@ -32,15 +32,12 @@ item_ids:
 
 <GameScene width="300" height="200" zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/annihilation_filtering.snbt" />
-
   <DiamondAnnotation pos="1 0.5 0.5" color="#00ff00">
     过滤目标方块的掉落物
   </DiamondAnnotation>
-
   <DiamondAnnotation pos=".5 0.5 2.5" color="#00ff00">
     对掉落物进行存储分区
   </DiamondAnnotation>
-
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
