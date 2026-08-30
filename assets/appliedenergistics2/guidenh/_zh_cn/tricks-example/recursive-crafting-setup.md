@@ -17,7 +17,7 @@ navigation:
 
 ***
 
-<GameScene zoom="6" width="350" yaw="15" pitch="30" interactive={true}>
+<GameScene zoom="6" width="350"  interactive={true}>
 	<ImportStructure src="../assets/structures/recursive_recipe_setup.snbt" />
 	<DiamondAnnotation pos="3.5 0.5 1.5" color="#00ff00">
         至主网络
@@ -63,6 +63,7 @@ navigation:
 		<ItemImage id="witchery:ingredient:130" scale="2" /> 
 	</Row>
     </BoxAnnotation>
+	<IsometricCamera yaw="15" pitch="30" />
 </GameScene>
 
 ## 配置
