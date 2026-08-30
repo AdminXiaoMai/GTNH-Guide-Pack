@@ -28,8 +28,8 @@ item_ids:
 * **清空**：清除工作台中的所有分区设置。
 * **分区存储**：根据当前元件中已有的物品自动填充分区。
 * **复制模式**：设置取出元件后是否保留工作台中的分区设置。默认会清空；启用保留后，可将同一分区设置复制到其他元件。若新元件本身已有分区设置，则优先使用元件自身的设置。
-* **模糊对比**：安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" showIcon="left" linksTo="../ae2-mechanics/upgrade_cards.md#模糊卡"/>后可用，用于调整分区的模糊匹配方式。
-* **矿典过滤**：安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" showIcon="left" linksTo="../ae2-mechanics/upgrade_cards.md#矿词过滤卡"/>后可用，用于调后可用，可输入矿典名进行过滤。启用后会隐藏普通分区槽，并优先于模糊模式。
+* **模糊对比**：安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" showIcon="left" linksTo="../items-blocks/upgrade_cards.md#模糊卡"/>后可用，用于调整分区的模糊匹配方式。
+* **矿典过滤**：安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" showIcon="left" linksTo="../items-blocks/upgrade_cards.md#矿词过滤卡"/>后可用，用于调后可用，可输入矿典名进行过滤。启用后会隐藏普通分区槽，并优先于模糊模式。
 * **限制设置**：点击后可进入GUI设置：
   * **最大物品数量**：限制元件中所有物品的总数量，并非分别限制每种物品。
   * **最大物品种类**：限制元件最多存储的物品种类数。
