@@ -80,7 +80,7 @@ item_ids:
 
 右侧部分是<ItemLink id="appliedenergistics2:item.ItemViewCell" />槽位。
 
-中间部分的右上角（锤子图标）会显示[自动合成](../ae2-mechanics/autocrafting.md)状态UI，允许查看自动合成的进度和各个[合成CPU](crafting_cpu_multiblock.md)的当前任务。
+中间部分的右上角（锤子图标）会显示[自动合成](../ae2-mechanics/autocrafting.md)状态UI，允许查看自动合成的进度和各个[合成CPU](crafting_cpu.md)的当前任务。
 
 ## 合成配方
 

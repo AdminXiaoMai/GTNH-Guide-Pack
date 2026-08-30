@@ -17,7 +17,7 @@ item_ids:
 
 福鲁伊克斯水晶是AE2方块、[设备](../ae2-mechanics/devices.md)、物品的基础合成材料之一。通过将下界石英、红石、<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />投入水中制得。
 
-它可用<ItemLink id="appliedenergistics2:item.ItemMultiPart:320" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />[自动化](../example-setups/throw-in-water-automation.md)。
+它可用<ItemLink id="appliedenergistics2:item.ItemMultiPart:320" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />[自动化](../tricks-example/throw-in-water-automation.md)。
 
 ## 配方
 

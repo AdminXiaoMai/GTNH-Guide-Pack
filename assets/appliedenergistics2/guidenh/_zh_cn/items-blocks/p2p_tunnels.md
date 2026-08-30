@@ -28,7 +28,7 @@ P2P通道的使用方法与特性详见[AE2 机制-P2P通道](../ae2-mechanics/p
 
 2P通道是在网络中传输物品、流体、红石信号、能量、光、[频道](../ae2-mechanics/channels.md)等事物的一种方式，且不必直接与网络交互。P2P通道有多种变种，每种只能传输一类事物。可将它们看做能远距直接连接两方块的传送门。这种连接有确定的输入和输出端，而并非双向的。
 
-![Portal](../assets/assemblies/p2p_portal.png)
+![Portal](../assets/images/p2p_portal.png)
 
 例如，朝向物品P2P通道的漏斗和直接放在木桶上的漏斗没有区别，物品可以正常传输。
 

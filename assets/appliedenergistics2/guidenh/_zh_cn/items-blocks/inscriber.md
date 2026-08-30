@@ -44,7 +44,7 @@ item_ids:
 
 处于面敏感模式时，压印器会根据物品输入输出的面决定其目标槽位。
 
-![压印器GUI](../assets/diagrams/inscriber_gui.png) ![压印器各面](../assets/diagrams/inscriber_sides.png)
+![压印器GUI](../assets/images/inscriber_gui.png) ![压印器各面](../assets/images/inscriber_sides.png)
 
 A. **顶部输入**需从顶面访问（允许输入输出）
 

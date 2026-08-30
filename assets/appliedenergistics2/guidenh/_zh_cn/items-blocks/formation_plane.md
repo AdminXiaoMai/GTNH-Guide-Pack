@@ -23,7 +23,7 @@ item_ids:
   <IsometricCamera yaw="-30" pitch="30" />
 </GameScene>
 
-在[管道子网络](../example-setups/pipe-subnet.md)等设施中，此[设备](../ae2-mechanics/devices.md)的行为方式类似存储总线；如果需要放置方块或投出物品而非传输的话，也能替代存储总线。
+在[管道子网络](../tricks-example/pipe-subnet.md)等设施中，此[设备](../ae2-mechanics/devices.md)的行为方式类似存储总线；如果需要放置方块或投出物品而非传输的话，也能替代存储总线。
 
 成型面板是[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
