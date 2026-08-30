@@ -82,7 +82,7 @@ P2P通道的最常见用途是通过ME P2P通道以高效传输[频道](../ae2-m
 
 另一示例（与[量子桥](quantum_bridge.md)共同运用）可见下方用画图画出来的粗略图案：
 
-![P2P和量子桥](../assets/diagrams/p2p_quantum_network.png)
+![P2P和量子桥](../assets/images/p2p_quantum_network.png)
 
 ## 嵌套
 
