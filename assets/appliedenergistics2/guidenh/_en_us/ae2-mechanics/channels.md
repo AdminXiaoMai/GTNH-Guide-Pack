@@ -97,7 +97,7 @@ Channels are a resource consumed by devices in an AE2 [ME Network](me-network-co
   </DiamondAnnotation>
 </GameScene>
 
-Normal cables can carry 8 channels, while dense cables can carry 32 channels. An easy way to observe channel usage is to use [Smart Cables](../items-blocks/cables.md#smart-cables), which show channel usage with their textures and lighting.
+Normal cables can carry 8 channels, while dense cables can carry 32 channels. An easy way to observe channel usage is to use [Smart Cables](../items-blocks/cables.md#Smart Cable), which show channel usage with their textures and lighting.
 
 
 # Channel Routing

@@ -2,7 +2,7 @@
 navigation:
   parent: /items-blocks-index.md
   title: Upgrade Cards
-  icon: speed_card
+  icon: appliedenergistics2:item.ItemMultiMaterial:25
   position: 410
 categories:
 - tools
