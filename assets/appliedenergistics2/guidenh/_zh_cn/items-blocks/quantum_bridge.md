@@ -22,7 +22,7 @@ item_ids:
 
 ![量子网桥示意图](../assets/images/quantum_bridge_demonstration.png)
 
-量子网桥可实现[ME网络](../ae2-mechanics/me-network-connections.md)的无限距跨维度连接。该结构总共可承载32个频道（与各面线缆连接方式无关），本质上相当于无线[致密线缆](cables.md#dense-cable)。
+量子网桥可实现[ME网络](../ae2-mechanics/me-network-connections.md)的无限距跨维度连接。该结构总共可承载32个频道（与各面线缆连接方式无关），本质上相当于无线[致密线缆](cables.md#致密线缆)。
 
 <GameScene width="400" height="300" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/quantum_bridge_internal_structure_1.snbt" />
