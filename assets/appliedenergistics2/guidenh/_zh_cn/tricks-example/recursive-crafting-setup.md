@@ -71,7 +71,7 @@ navigation:
 * <ItemLink id="appliedenergistics2:tile.BlockInterface" />（1）设置为存储所需的额外材料：岩浆膏、烈焰粉和小撮下界之星粉。
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />（2）配置为“<ItemLink id="witchery:ingredient:130" />”，设置为“发出红石信号以合成物品”。
 * 第一个<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />（3）设置为过滤接口所存储的物品。装有红石卡。红石模式设置为“有红石信号时激活”。
-* 第一个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（4）的[优先级](../ae2-mechanics/import-export-storage.md#存储优先级)需*高于*第二个存储总线。
+* 第一个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（4）的[优先级](../ae2-mechanics/import-export-storage.md#优先级)需*高于*第二个存储总线。
 * <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />（5）装有复制<ItemLink id="witchery:ingredient:130" />的样板，以及一个手动放入的<ItemLink id="witchery:ingredient:130" />。
 
   *样板*
@@ -82,7 +82,7 @@ navigation:
 
 ## 工作原理
 
-1. 由于其装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />且设置为“发出红石信号以合成物品”，<ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />相当于一个[样板](../items-blocks-machines/patterns.md)。“<ItemLink id="witchery:ingredient:130" />”会出现在[终端](../items-blocks-machines/terminals.md)中作为可[自动合成](../ae2-mechanics/autocrafting.md)物品。
+1. 由于其装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />且设置为“发出红石信号以合成物品”，<ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />相当于一个[样板](../items-blocks/patterns.md)。“<ItemLink id="witchery:ingredient:130" />”会出现在[终端](../items-blocks/terminals.md)中作为可[自动合成](../ae2-mechanics/autocrafting.md)物品。
 2. 收到来自玩家或系统的合成请求时，标准发信器会开启。
 3. 第一个<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />被标准发信器激活，并从<ItemLink id="appliedenergistics2:tile.BlockInterface" />中抽出材料。
 4. 网络中能存储这些材料的<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />仅有装配室上的。
