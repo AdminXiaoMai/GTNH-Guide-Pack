@@ -11,7 +11,7 @@ item_ids:
 
 # ME Chest
 
-<BlockImage id="appliedenergistics2:tile.BlockChest" meta="0" nbt='{inv:{item0:{},item1:{id:"appliedenergistics2:item.ItemBasicStorageCell.1k",Count:1b,tag:{ic:1L,it:1s,__guidenh_encoded_keys_v1:[0:{v:1L,k:"@0"},1:{v:{Craft:0b,Cnt:1L,id:"minecraft:stone",Count:0b,Damage:0s,Req:0L},k:"#0"}]},Damage:0s}},proxy:{p:0,g:341L,k:-1L},orientation_up:"UP",SORT_BY:"NAME",terminalSettings:[0:{uuid_l:-8061629327903583552L,uuid_m:-937944366173238364L,savedString:"""",map:[]}],VIEW_MODE:"ALL",paintedColor:16b,id:"BlockChest",priority:0,SORT_DIRECTION:"ASCENDING",orientation_forward:"NORTH",internalCurrentPower:0.0d}' scale="4" />
+<BlockImage id="appliedenergistics2:tile.BlockChest" meta="0" nbt='{inv:{item0:{},item1:{id:"appliedenergistics2:item.ItemBasicStorageCell.1k",Count:1b,tag:{ic:1L,it:1s,__guidenh_encoded_keys_v1:[0:{v:1L,k:"@0"},1:{v:{Craft:0b,Cnt:1L,id:"minecraft:stone",Count:0b,Damage:0s,Req:0L},k:"#0"}]},Damage:0s}},proxy:{p:0,g:341L,k:-1L},orientation_up:"UP",SORT_BY:"NAME",terminalSettings:[0:{uuid_l:-8061629327903583552L,uuid_m:-937944366173238364L,savedString:"""",map:[]}],VIEW_MODE:"ALL",paintedColor:16b,id:"BlockChest",priority:0,SORT_DIRECTION:"ASCENDING",orientation_forward:"NORTH",internalCurrentPower:40.0d}' scale="4" />
 
 The ME Chest is like a miniature network containing an <ItemLink id="appliedenergistics2:item.ItemMultiPart:380" />, an <ItemLink id="appliedenergistics2:tile.BlockDrive" />, and an <ItemLink id="appliedenergistics2:tile.BlockEnergyAcceptor" />. It can be used as a small network storage, but its functionality is limited by the fact that it can only hold a single [storage cell](storage_cells.md).
 
@@ -25,7 +25,7 @@ It has only a small AE energy buffer, so without an [energy cell](energy_cells.m
 
 The terminal can be dyed using the <ItemLink id="appliedenergistics2:item.ToolColorApplicator" />.
 
-<GameScene width="450" height="190" zoom="4" showBackground={false} interactive={false}>
+<GameScene width="250" height="100" zoom="4" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/chest_color.snbt" />
   <IsometricCamera yaw="105" pitch="30" />
 </GameScene>

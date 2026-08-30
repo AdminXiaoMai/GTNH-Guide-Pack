@@ -28,8 +28,8 @@ The Cell Workbench has several buttons in the top-left and top-right. Some butto
 * **Clear**: Clears all partition settings in the workbench.
 * **Partition Storage**: Automatically fills the partition slots based on the items currently stored in the cell.
 * **Copy Mode**: Determines whether the workbench's partition settings are retained when the cell is removed. They are cleared by default. When retention is enabled, the same partition settings can be copied to other cells. If the new cell already has partition settings, the cell's own settings take priority.
-* **Fuzzy Comparison**: Available when a <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" showIcon="left"/> is installed. Adjusts how partitions perform fuzzy matching.
-* **Ore Dictionary Filter**: Available when a <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" showIcon="left"/> is installed. Allows ore dictionary names to be entered for filtering. When enabled, the normal partition slots are hidden, and it takes priority over fuzzy mode.
+* **Fuzzy Comparison**: Available when a <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" showIcon="left" linksTo="../ae2-mechanics/upgrade_cards.md#Fuzzy Card"/> is installed. Adjusts how partitions perform fuzzy matching.
+* **Ore Dictionary Filter**: Available when a <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" showIcon="left" linksTo="../ae2-mechanics/upgrade_cards.md#Ore Dictionary Filter Card"/> is installed. Allows ore dictionary names to be entered for filtering. When enabled, the normal partition slots are hidden, and it takes priority over fuzzy mode.
 * **Cell Restriction**: Click to open the restriction settings GUI:
   * **Maximum Item Count**: Limits the total number of items stored in the cell, rather than limiting each item type separately.
   * **Maximum Item Types**: Limits the number of different item types the cell can store.
