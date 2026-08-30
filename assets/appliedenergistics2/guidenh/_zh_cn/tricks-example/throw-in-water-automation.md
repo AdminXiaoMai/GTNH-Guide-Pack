@@ -15,6 +15,7 @@ navigation:
 
 <GameScene offsetX="-85" offsetY="-70">
     <ImportStructure src="../assets/structures/throw_in_water.snbt" />
+	<IsometricCamera yaw="180" pitch="0" />
     <BlockAnnotation pos="1 0 0">
                 （1）样板供应器：默认配置，装有相应处理样板。
 				<Row>
@@ -39,7 +40,6 @@ navigation:
     <DiamondAnnotation pos="2.5 0.5 0.5">
         至主网络或充能器自动化设施
     </DiamondAnnotation>
-	<IsometricCamera yaw="180" pitch="0" />
 </GameScene>
 
 ## 配置与样板
