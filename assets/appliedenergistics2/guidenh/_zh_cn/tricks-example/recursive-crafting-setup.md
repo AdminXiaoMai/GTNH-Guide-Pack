@@ -78,7 +78,7 @@ navigation:
   <RecipeFor id="witchery:ingredient:130" />
 
 * 第二个<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />（6）处于默认配置。
-* 第二个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（7）设置为过滤“<ItemLink id="witchery:ingredient:130" />”。其[优先级](../ae2-mechanics/import-export-storage.md#存储优先级)*低于*第一个存储总线。
+* 第二个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（7）设置为过滤“<ItemLink id="witchery:ingredient:130" />”。其[优先级](../ae2-mechanics/import-export-storage.md#优先级)*低于*第一个存储总线。
 
 ## 工作原理
 
