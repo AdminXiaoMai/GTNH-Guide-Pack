@@ -66,7 +66,7 @@ categories:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-* [子网](../ae2-mechanics/subnetworks.md)中的样板供应器与接口存在特殊交互：未配置的接口将允许供应器直接推送物品至子网存储，跳过接口槽位填充，且仅在存储有空位时才会推送新批次。
+* [子网](../ae2-mechanics/subnetworks.md)中的ME接口与接口存在特殊交互：未配置的接口将允许ME接口直接推送物品至子网存储，跳过接口槽位填充，且仅在存储有空位时才会推送新批次。
 
 <GameScene width="320" height="200" zoom="4" showBackground={false}>
 <ImportStructure src="../assets/structures/provider_interface_storage.snbt" />

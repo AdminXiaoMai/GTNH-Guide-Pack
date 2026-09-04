@@ -64,7 +64,7 @@ categories:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-样板供应器和接口有一特殊交互效果⸺[子网络](../ae2-mechanics/subnetworks.md)：如果接口未经修改（请求槽内无内容），则供应器会跳过接口，直接输出到该子网络的[存储模块](../ae2-mechanics/import-export-storage.md)，而非输出到接口的存储槽；更重要的是，只要对应的存储模块没有足够的空间，下一批物品就不会输出。
+ME接口和ME接口有一特殊交互效果⸺[子网络](../ae2-mechanics/subnetworks.md)：如果接口未经修改（请求槽内无内容），则ME接口会跳过这个接口，直接输出到该子网络的[存储模块](../ae2-mechanics/import-export-storage.md)，而非输出到接口的存储槽；更重要的是，只要对应的存储模块没有足够的空间，下一批物品就不会输出。
 
 <GameScene width="320" height="200" zoom="4" showBackground={false}>
 <ImportStructure src="../assets/structures/provider_interface_storages.snbt" />

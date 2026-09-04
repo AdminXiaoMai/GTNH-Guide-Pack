@@ -17,7 +17,7 @@ navigation:
     <ImportStructure src="../assets/structures/throw_in_water.snbt" />
 	<IsometricCamera yaw="180" pitch="0" />
     <BlockAnnotation pos="1 0 0">
-                （1）样板供应器：默认配置，装有相应处理样板。
+                （1）ME接口：默认配置，装有相应处理样板。
 				<Row>
                 ![福鲁伊克斯样板](../assets/images/fluix_pattern_small.png) 
 				</Row>
@@ -61,7 +61,7 @@ navigation:
 1.  <ItemLink id="appliedenergistics2:tile.BlockInterface" />将材料送入相邻的<ItemLink id="appliedenergistics2:tile.BlockInterface" />（位于绿色子网络）。
 2.  接口（默认设置为不存储任何物品）尝试将其中事物送入[网络存储](../ae2-mechanics/import-export-storage.md)。
 3.  绿色子网络上的存储位置仅有<ItemLink id="appliedenergistics2:item.ItemMultiPart:320" />，其会将接收到的物品投入水中。
-4.  橙色子网络上的<ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />会尝试捡起刚投入的物品，但由于样板供应器上的<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（也即橙色子网络唯一的存储位置）设置为过滤合成产物，该面板不会捡起配方材料。
+4.  橙色子网络上的<ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />会尝试捡起刚投入的物品，但由于ME接口上的<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（也即橙色子网络唯一的存储位置）设置为过滤合成产物，该面板不会捡起配方材料。
 5.  物品在世界中发生变化。
 6.  由于存储总线可以存储产物，破坏面板此时能捡起其前方的物品。
-7.  存储总线将产物存入样板供应器，并返回至主网络。
+7.  存储总线将产物存入ME接口，并返回至主网络。

@@ -9,12 +9,12 @@ navigation:
 
 需注意，此设施使用了<ItemLink id="appliedenergistics2:tile.BlockInterface" />，也即需与你的[自动合成](../ae2-mechanics/autocrafting.md)设施配合使用。如需独立自动化<ItemLink id="appliedenergistics2:tile.BlockCharger" />，则应使用漏斗，箱子等。
 
-自动化<ItemLink id="appliedenergistics2:tile.BlockCharger" />相对简单。<ItemLink id="appliedenergistics2:tile.BlockInterface" />将材料送入充能器，再由[管道子网络](pipe-subnet.md)或其他物品管道将产物送回供应器即可。
+自动化<ItemLink id="appliedenergistics2:tile.BlockCharger" />相对简单。<ItemLink id="appliedenergistics2:tile.BlockInterface" />将材料送入充能器，再由[管道子网络](pipe-subnet.md)或其他物品管道将产物送回ME接口即可。
 
 <GameScene>
     <ImportStructure src="../assets/structures/charger_automation.snbt" />
     <BlockAnnotation pos="1 0 0">
-                （1）样板供应器：默认配置，装有相应样板。同时提供能量。
+                （1）ME接口：默认配置，装有相应样板。同时提供能量。
         
                 ![充能器样板](../assets/images/charger_pattern_small.png)
     </BlockAnnotation>
@@ -40,5 +40,5 @@ navigation:
 1. <ItemLink id="appliedenergistics2:tile.BlockInterface" />将材料送入<ItemLink id="appliedenergistics2:tile.BlockCharger" />。
 2. 充能器完成充能。
 3. 绿色子网络上的<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />将充能产物抽出并尝试存入[网络存储](../ae2-mechanics/import-export-storage.md)。
-4. 绿色子网络上的存储位置仅有<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，其会将产物送入样板供应器并返回至主网络。
+4. 绿色子网络上的存储位置仅有<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，其会将产物送入ME接口并返回至主网络。
 

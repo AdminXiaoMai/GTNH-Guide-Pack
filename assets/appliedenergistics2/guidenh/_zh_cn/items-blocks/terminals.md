@@ -124,11 +124,9 @@ item_ids:
 *   可放入<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:52" />的槽位
 *   用于编码样板的大箭头
 *   可放入经过编码的样板的槽位；在此处放入经过编码的样板以修改，按下“编码”箭头即可保存
-*   右侧用于更改样板至如下类型的4个选项栏：
+*   右侧用于切换样板类型的两个选项栏：
     *   合成
     *   处理
-    *   ~~锻造台~~
-    *   ~~切石机~~
 
 中间的UI会根据所选编码类型而变：
 
@@ -146,29 +144,27 @@ item_ids:
     * 输入和输出槽都可滚动，共有81个材料槽和26个副产物槽
     * 也可直接从NEI配方界面中编码样板
 
-*   ~~锻造台和切石机模式的UI和实际的锻造台与切石机类似。~~
-
 ## 合成配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:340" />
 
 <a name="pattern-access-terminal-ui"></a>
 
-# 样板管理终端
+# ME接口终端
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:480" scale="4" />
 
-样板管理终端可以解决此类问题：在一整个紧凑的<ItemLink id="pattern_provider" />和<ItemLink id="molecular_assembler" />阵列中无法直接向供应器放入样板。此外，也可解决不想跑到基地其他位置放[样板](patterns.md)的懒惰问题。样板管理终端允许访问网络中的所有样板供应器。
+ME接口终端可以解决此类问题：在一整个紧凑的<ItemLink id="appliedenergistics2:tile.BlockInterface" />和<ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />阵列中无法直接向ME接口放入样板。此外，也可解决不想跑到基地其他位置放[样板](patterns.md)的懒惰问题。ME接口终端允许访问网络中的所有ME接口。
 
 ## 界面
 
-样板管理终端的UI和其他终端不同。
+ME接口终端的UI和其他终端不同。
 
-此UI有UI高度和显示何种样板供应器的设置。
+此UI有UI高度和显示何种ME接口的设置。
 
-终端中每一行都对应一个样板供应器。
+终端中每一行都对应一个ME接口。
 
-各样板供应器会根据其连接的方块以及名称（铁砧或<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:21" />（赋予）分类。
+各ME接口会根据其连接的方块以及名称（铁砧或<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:21" />（赋予）分类。
 
 ## 合成配方
 
