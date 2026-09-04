@@ -15,6 +15,6 @@ item_ids:
 
 空间塔用于[空间 IO](../ae2_mechanics/spatial_io.md)，可生成空间场并确定影响区域。每一段连续的空间塔占用 1 个[频道](../ae2_mechanics/channels.md)，且至少需要 2 个方块才能工作。
 
-## 合成
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockSpatialPylon" />

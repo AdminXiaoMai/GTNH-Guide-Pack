@@ -11,7 +11,7 @@ item_ids:
 
 # ME I/O Port
 
-<BlockImage id="appliedenergistics2:tile.BlockIOPort" p:powered="true" scale="4" />
+<BlockImage id="appliedenergistics2:tile.BlockIOPort"/>
 
 The I/O Port rapidly fills or empties [storage cells](storage_cells.md) from [network storage](../ae2_mechanics/import_export_storage.md). It can be rotated with a <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />.
 
