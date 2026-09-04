@@ -7,7 +7,7 @@ categories:
 - misc ingredients blocks
 item_ids:
 - appliedenergistics2:tile.BlockSkyStone
-- appliedenergistics2:tile.BlockSkyStone/1
+- appliedenergistics2:tile.BlockSkyStone:1
 ---
 
 # 陨石

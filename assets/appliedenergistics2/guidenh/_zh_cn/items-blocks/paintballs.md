@@ -60,7 +60,7 @@ item_id: appliedenergistics2:item.ItemPaintBall:*
   <ItemImage id="appliedenergistics2:item.ItemPaintBall:34" scale="4" />
 </Row>
 
-它们和普通染色球表现相同，不过在<ItemLink id="matter_cannon" />中发射时，它们留下的染料滩会发光。也许适合拿来当信号枪。
+它们和普通染色球表现相同，不过在<ItemLink id="appliedenergistics2:item.ToolMassCannon" />中发射时，它们留下的染料滩会发光。也许适合拿来当信号枪。
 
 ## 配方
 

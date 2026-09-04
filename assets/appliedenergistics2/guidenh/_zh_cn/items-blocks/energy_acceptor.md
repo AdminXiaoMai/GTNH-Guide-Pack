@@ -17,8 +17,6 @@ item_ids:
 
 该设备可将其他科技模组的通用能源形式转化为AE2内部使用的[AE能源](../ae2-mechanics/energy.md)。虽然<ItemLink id="appliedenergistics2:tile.BlockController" />控制器也具备此功能，但由于控制器接口较为珍贵，通常建议使用专用能源接收器。
 
-能源接收器会将其他科技模组的常见能量系统转换为AE2内部使用的[能量](../ae2-mechanics/energy.md)⸺AE。虽然<ItemLink id="appliedenergistics2:tile.BlockController" />也能做到这一点，但控制器的面非常珍贵，一般还是推荐使用能源接收器。
-
 转换速度完全由网络能量容量决定，具体原因参见[此页](../ae2-mechanics/energy.md)。
 
 ## 变种

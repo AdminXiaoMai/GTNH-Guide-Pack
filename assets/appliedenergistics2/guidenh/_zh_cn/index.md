@@ -29,7 +29,7 @@ AE旨在与模组包中的其他模组协同工作，让这些模组实现自动
   - 将鼠标放置在场景的各种高亮注解（菱形注解、线注解、方块注解等）上可以查看注解的内容。
 
 <GameScene width="400" height="200" zoom="3" interactive={true}>
-  <ImportStructure src="./assets/structures/autocraft_setup_greebles.snbt" />
+  <ImportStructure src="../assets/structures/autocraft_setup_greebles.snbt" />
   <IsometricCamera yaw="195" pitch="15" />
   <Block id="minecraft:furnace" x="9" y="1" z="0" facing="north" />
   <BlockAnnotation pos="2 0 2" color="#ff0000" alwaysOnTop={true}>

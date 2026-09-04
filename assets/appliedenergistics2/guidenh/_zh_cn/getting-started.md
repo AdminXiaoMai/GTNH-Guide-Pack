@@ -24,7 +24,7 @@ navigation:
 一切准备就绪之后，来建造下面这个简单的存储网络吧。你需要搭建下面这个场景。
 
 <GameScene zoom="5" interactive={true} width="400" height="300">
-  <ImportStructure src="assets/structures/getting-started.snbt" />
+  <ImportStructure src="../assets/structures/getting-started.snbt" />
   <IsometricCamera yaw="200" pitch="30" />
   <BlockAnnotation pos="5 0 0" color="#e5e90c" alwaysOnTop={true}>
   <Color color="#e5e90c">这是为了演示放置的Debug发电机，无法在生存模式获得，正常使用请接入你的电网。</Color>

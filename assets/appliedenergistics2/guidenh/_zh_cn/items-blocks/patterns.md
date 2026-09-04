@@ -27,6 +27,8 @@ item_ids:
 
 多个拥有相同样板的<ItemLink id="appliedenergistics2:tile.BlockInterface" />会并行工作，并且，还可以设置诸如“8x 圆石 = 8x 石头”的配方，而非“1x 圆石 = 1x 石头”：ME接口每次运行都会向烧炼设施输入8个圆石而非每次1个。
 
+本分支还新增了<ItemLink id="appliedenergistics2:item.ItemMultiPart:473" />。将两个样板重复器安装在不同 ME 网络上并让它们彼此相对，然后用石英扳手右击其中一个，在**供应者**与**访问者**模式之间切换。供应者会从正对面的网络同步合成样板和可合成物品，使另一侧网络也能用于自动合成。两个重复器都必须连接到已供电的 ME 网络。
+
 ## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:52" />

@@ -11,16 +11,16 @@ item_ids:
 
 # The Entropy Manipulator
 
-<ItemImage id="entropy_manipulator" scale="4" />
+<ItemImage id="appliedenergistics2:item.ToolEntropyManipulator" scale="4" />
 
 The Entropy Manipulator allows you to heat and cool things by right-clicking and shift-right-clicking respectively. It can't do much,
 just things like evaporating or freezing water, solidifying lava to obsidian, smelting logs to charcoal, and smelting cobble to stone in-world.
 
 If there is not a specific thing it can do to a block, it will act as a flint-and-steel.
 
-Its energy can be recharged in a <ItemLink id="charger" />.
+Its energy can be recharged in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
 
 ## Recipe
 
-<RecipeFor id="entropy_manipulator" />
+<RecipeFor id="appliedenergistics2:item.ToolEntropyManipulator" />
 

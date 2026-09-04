@@ -13,7 +13,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockMolecularAssembler" scale="8" />
 
-分子装配室会接收输入其中的物品并执行相邻<ItemLink id="appliedenergistics2:tile.BlockInterface" />设定的操作，或执行其中<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:52" />/<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:52" />/<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:52" />设定的操作，并将产物输出到相邻容器。
+分子装配室会接收输入其中的物品并执行相邻<ItemLink id="appliedenergistics2:tile.BlockInterface" />设定的操作，或执行其中<ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />、<ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />或<ItemLink id="appliedenergistics2:item.ItemTunnelPattern" />设定的操作，并将产物输出到相邻容器。
 
 下述装配室装有一个“1x 橡木原木 = 4x 橡木木板”的样板。向上方漏斗放入橡木原木，分子装配室便会开始合成并将橡木木板弹出到下方漏斗。
 

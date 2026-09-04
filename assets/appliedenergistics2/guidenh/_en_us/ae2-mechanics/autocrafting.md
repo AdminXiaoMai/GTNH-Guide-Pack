@@ -48,8 +48,7 @@ Here is what happens:
 ## Recursive Recipes
 
 One thing the autocrafting algorithm *cannot* handle is recursive recipes. For example, duplication recipes like
-"1 redstone dust = 2 redstone dust", from throwing redstone in a Botania manapool. Another example would be smithing templates
-in vanilla Minecraft. However, there is [a way to handle these recipes.](../tricks-example/recursive-crafting-setup.md)
+"1 redstone dust = 2 redstone dust", from throwing redstone in a Botania manapool. However, there is [a way to handle these recipes.](../tricks-example/recursive-crafting-setup.md)
 
 # Patterns
 
@@ -80,6 +79,8 @@ The source also registers <ItemLink id="appliedenergistics2:item.ItemTunnelPatte
 Multiple <ItemLink id="appliedenergistics2:tile.BlockInterface" />s with identical patterns are supported and work in parallel. Additionally, you can have a pattern say,
 for example, 8 cobblestone = 8 stone instead of 1 cobblestone = 1 stone, and the interface will insert 8 cobblestone into
 your smelting setup every operation instead of one at a time.
+
+With a [Pattern Optimization Matrix](../items-blocks/pattern_optimization_matrix.md) connected to the network, the crafting confirmation screen can optimize pattern batch sizes. The interface must also have **Allow pattern optimization** enabled.
 
 ## The Most General Form of "Pattern"
 
@@ -123,7 +124,7 @@ They can be set to handle requests from players, automation (export busses and i
 <BlockImage id="appliedenergistics2:tile.BlockInterface" meta="0" nbt='{LOCK_CRAFTING_MODE:"NONE",orientation_up:"DOWN",BLOCK:"NO",PATTERN_OPTIMIZATION:"YES",waitingToSend:[],priority:0,orientation_forward:"SOUTH",INSERTION_MODE:"DEFAULT",inv:{item0:{},item2:{},item1:{},item8:{},item7:{},item4:{},item3:{},item6:{},item5:{}},proxy:{p:0,g:457L,k:-1L},ADVANCED_BLOCKING_MODE:"DEFAULT",id:"BlockInterface",pointAt:1,SMART_BLOCK:"NO",FUZZY_MODE:"IGNORE_ALL",INTERFACE_TERMINAL:"YES"}' />
 
 <GameScene zoom="4" showBackground={false}>
-  <ImportStructure src="../assets/structures/cable_pattern_provider.snbt" />
+  <ImportStructure src="../assets/structures/cable_interface.snbt" />
 </GameScene>
 </Row>
 

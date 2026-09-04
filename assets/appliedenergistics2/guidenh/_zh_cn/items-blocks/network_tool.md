@@ -18,7 +18,7 @@ item_ids:
 
 网络工具有9个[升级卡](upgrade_cards.md)存储槽位，当其在物品栏内时，这些升级卡可直接在任意AE2设备UI中访问。
 
-与右击<ItemLink id="controller" />类似，手持网络工具右击网络任意一处会显示诊断信息窗口。此窗口会显示：
+与右击<ItemLink id="appliedenergistics2:tile.BlockController" />类似，手持网络工具右击网络任意一处会显示诊断信息窗口。此窗口会显示：
 
 *   网络中频道占用数
 *   全局切换网络能量单位（AE、E/FE）

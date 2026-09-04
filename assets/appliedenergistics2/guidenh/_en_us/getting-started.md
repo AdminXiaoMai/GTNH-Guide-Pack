@@ -25,7 +25,7 @@ Once you have reached the technological level required to build an AE system, yo
 Once everything is ready, let's build the simple storage network below. You need to set up the following scene.
 
 <GameScene zoom="5" interactive={true} width="400" height="300">
-  <ImportStructure src="assets/structures/getting-started.snbt" />
+  <ImportStructure src="../assets/structures/getting-started.snbt" />
   <IsometricCamera yaw="200" pitch="30" />
   <BlockAnnotation pos="5 0 0" color="#e5e90c" alwaysOnTop={true}>
   <Color color="#e5e90c">This is a Debug Generator placed for demonstration purposes and cannot be obtained in Survival mode. For normal use, please connect to your power grid.</Color>

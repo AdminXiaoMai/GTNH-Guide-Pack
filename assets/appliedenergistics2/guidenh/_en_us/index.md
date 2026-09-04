@@ -7,7 +7,7 @@ navigation:
 item_id: appliedenergistics2:tile.BlockController
 ---
 
-![Logo](assets/logo.png)
+![Logo](../assets/logo.png)
 
 # What is Applied Energistics 2?
 
@@ -24,11 +24,11 @@ quantities of items in stock, crafting more as needed, or simply transfer items 
 
 # How To Use This Guide
 
-* Many pages have interactive scenes. If a scene has ![Plus](assets/images/plus.png) and ![Minus](assets/images/minus.png) zoom buttons beside it, you can move the camera around.
+* Many pages have interactive scenes. If a scene has ![Plus](../assets/images/plus.png) and ![Minus](../assets/images/minus.png) zoom buttons beside it, you can move the camera around.
 * Left-click and drag to rotate the scene. Right-click and drag to pan it.
 * Hover over blocks or annotations to see their tooltips.
 
 <GameScene zoom="4" interactive={true}>
-  <ImportStructure src="assets/structures/autocraft_setup_greebles.snbt" />
+  <ImportStructure src="../assets/structures/autocraft_setup_greebles.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

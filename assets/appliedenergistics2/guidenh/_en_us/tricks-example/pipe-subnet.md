@@ -158,7 +158,7 @@ From all this, we can derive a method to send ingredients from one <ItemLink id=
 locations, like an array of machines, or several different faces of one machine.
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
-  <ImportStructure src="../assets/structures/provider_interface_storage.snbt" />
+  <ImportStructure src="../assets/structures/fluid_interface_storage.snbt" />
   <BoxAnnotation min="2.7 0 1" max="3 1 2" color="#dddddd" thickness="1">
     Interface (must be flat, not fullblock)
   </BoxAnnotation>

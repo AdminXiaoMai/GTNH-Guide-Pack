@@ -69,7 +69,7 @@ categories:
 * [子网](../ae2-mechanics/subnetworks.md)中的ME接口与接口存在特殊交互：未配置的接口将允许ME接口直接推送物品至子网存储，跳过接口槽位填充，且仅在存储有空位时才会推送新批次。
 
 <GameScene width="320" height="200" zoom="4" showBackground={false}>
-<ImportStructure src="../assets/structures/provider_interface_storage.snbt" />
+<ImportStructure src="../assets/structures/fluid_interface_storage.snbt" />
 
 <BoxAnnotation color="#dddddd" min="2.7 0 1" max="3 1 2">
     接口（必须为扁平版）

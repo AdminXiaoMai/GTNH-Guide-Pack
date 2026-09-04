@@ -136,7 +136,7 @@ navigation:
 综合上述设计，即可得出从单个<ItemLink id="appliedenergistics2:tile.BlockInterface" />面向多处运输材料的方式，适用于机器阵列，或是单台机器的多个面。
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
-  <ImportStructure src="../assets/structures/provider_interface_storage.snbt" />
+  <ImportStructure src="../assets/structures/fluid_interface_storage.snbt" />
   <BoxAnnotation min="2.7 0 1" max="3 1 2" color="#dddddd" thickness="1">
     接口（必须为面板型，不能为方块型）
   </BoxAnnotation>

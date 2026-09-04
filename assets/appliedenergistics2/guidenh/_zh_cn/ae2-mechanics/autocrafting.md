@@ -42,7 +42,7 @@ navigation:
 
 ## 递归配方
 
-自动合成算法*无法*处理的事情之一是递归配方。例如，将红石投入植物魔法（Botania）魔力池所致的、类似“1x 红石粉 = 2x 红石粉”的复制配方。又例如原版的锻造模板。不过，确实[有方法处理这些配方](../tricks-example/recursive-crafting-setup.md)。
+自动合成算法*无法*处理的事情之一是递归配方。例如，将红石投入植物魔法（Botania）魔力池所致的、类似“1x 红石粉 = 2x 红石粉”的复制配方。不过，确实[有方法处理这些配方](../tricks-example/recursive-crafting-setup.md)。
 
 # 样板
 
@@ -61,6 +61,8 @@ navigation:
 源码还注册了<ItemLink id="appliedenergistics2:item.ItemTunnelPattern" />，它是处理样板的隧道变体，仅在隧道样板设施中使用。
 
 多个拥有相同样板的<ItemLink id="appliedenergistics2:tile.BlockInterface" />会并行工作；并且，还可以设置诸如“8x 圆石 = 8x 石头”的配方，而非“1x 圆石 = 1x 石头”：ME接口每次运行都会向烧炼设施输入8个圆石而非每次1个。
+
+连接[样板优化矩阵](../items-blocks/pattern_optimization_matrix.md)后，合成确认界面可优化样板中的批次数量；使用此功能前还需在接口中启用“允许样板优化”。
 
 ## 最为通用的“样板”
 
@@ -94,7 +96,7 @@ navigation:
 <BlockImage id="appliedenergistics2:tile.BlockInterface" meta="0" nbt='{LOCK_CRAFTING_MODE:"NONE",orientation_up:"DOWN",BLOCK:"NO",PATTERN_OPTIMIZATION:"YES",waitingToSend:[],priority:0,orientation_forward:"SOUTH",INSERTION_MODE:"DEFAULT",inv:{item0:{},item2:{},item1:{},item8:{},item7:{},item4:{},item3:{},item6:{},item5:{}},proxy:{p:0,g:457L,k:-1L},ADVANCED_BLOCKING_MODE:"DEFAULT",id:"BlockInterface",pointAt:1,SMART_BLOCK:"NO",FUZZY_MODE:"IGNORE_ALL",INTERFACE_TERMINAL:"YES"}' />
 
 <GameScene zoom="4" showBackground={false}>
-  <ImportStructure src="../assets/structures/cable_pattern_provider.snbt" />
+  <ImportStructure src="../assets/structures/cable_interface.snbt" />
 </GameScene>
 </Row>
 
