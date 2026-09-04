@@ -25,7 +25,7 @@ item_ids:
 
 触发总线属于[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:80" input="appliedenergistics2:item.ItemMultiPart:16" />
 

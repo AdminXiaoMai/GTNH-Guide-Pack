@@ -15,6 +15,6 @@ item_ids:
 
 用于存储<ItemLink id="gregtech:gt.metaitem.01:8516" />的方块，可用于制作[装饰性赛特斯石英块](decorative_certus.md)。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockQuartz" handlerId="gt.recipe.compressor" />

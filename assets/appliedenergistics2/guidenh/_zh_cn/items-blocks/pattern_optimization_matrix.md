@@ -17,6 +17,6 @@ item_ids:
 
 它需要一个频道，并可与其他网络设备一样放置在 ME 网络中。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockPatternOptimizationMatrix" />

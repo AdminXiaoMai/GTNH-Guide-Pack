@@ -19,6 +19,6 @@ item_ids:
 
 空间塔段至少需2格长才可正常工作。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockSpatialPylon" />

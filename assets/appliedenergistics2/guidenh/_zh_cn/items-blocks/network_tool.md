@@ -34,6 +34,6 @@ item_ids:
 
 此时可以直接与隐藏的伪装板后方的方块交互，无需取下伪装板。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ToolNetworkTool" />

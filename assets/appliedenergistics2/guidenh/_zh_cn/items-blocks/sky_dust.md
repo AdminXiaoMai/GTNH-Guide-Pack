@@ -19,6 +19,6 @@ item_ids:
 
 用途查询NEI。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:45" />

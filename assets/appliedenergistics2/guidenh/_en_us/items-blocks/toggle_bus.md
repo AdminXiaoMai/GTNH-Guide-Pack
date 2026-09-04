@@ -12,7 +12,7 @@ item_ids:
 
 # The Toggle Bus
 
-<GameScene zoom="8" background="transparent">
+<GameScene zoom="8" showBackground={false}>
   <ImportStructure src="../assets/structures/toggle_bus.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>

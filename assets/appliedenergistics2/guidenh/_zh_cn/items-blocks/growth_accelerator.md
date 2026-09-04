@@ -34,6 +34,6 @@ item_ids:
   <IsometricCamera yaw="210" pitch="30" />
 </GameScene>
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockQuartzGrowthAccelerator" />

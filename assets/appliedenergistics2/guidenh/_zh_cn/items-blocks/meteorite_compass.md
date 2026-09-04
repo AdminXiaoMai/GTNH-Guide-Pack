@@ -24,6 +24,6 @@ item_ids:
 
 ----
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockSkyCompass" />

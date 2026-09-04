@@ -47,7 +47,7 @@ item_ids:
 
 8个量子环围绕<ItemLink id="appliedenergistics2:tile.BlockQuantumRing" />可构建量子网络桥。仅4个与链接仓直接相邻的量子环可连接网络，角落的4个量子环无法连接线缆。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockQuantumRing" />
 
@@ -59,6 +59,6 @@ item_ids:
 
 链接仓库存仅可存放1个<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:48" />，支持自动化访问。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockQuantumLinkChamber" />

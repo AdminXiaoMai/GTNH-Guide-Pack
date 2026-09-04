@@ -15,6 +15,6 @@ item_ids:
 
 覆有一层<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />的末影珍珠，用于制造若干种AE2组件。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:9" />

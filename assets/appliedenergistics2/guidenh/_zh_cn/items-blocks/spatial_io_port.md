@@ -17,6 +17,6 @@ item_ids:
 
 其中元件槽可被任意物品物流装置（如漏斗和AE2总线）抽出或存入，便于自动化。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockSpatialIOPort" />

@@ -15,6 +15,6 @@ item_ids:
 
 用于存储<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />的方块。也用在部分机器的配方中。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockFluix" />

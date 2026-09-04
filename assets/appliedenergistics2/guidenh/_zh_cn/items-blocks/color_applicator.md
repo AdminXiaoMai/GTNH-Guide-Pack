@@ -28,6 +28,6 @@ item_ids:
 * ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />：存储满载时自动销毁多余材料（需注意分区设置）~~
 * ~~<ItemLink id="ae2fc:energy_card" />：提升电池容量~~
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ToolColorApplicator" />

@@ -111,7 +111,7 @@ categories:
 
 点击GUI右上角扳手设置优先级，高优先级接口优先获取物品。
 
-## 合成配方
+## 配方
 
 <Recipe id="ae2fc:fluid_interface" />
 

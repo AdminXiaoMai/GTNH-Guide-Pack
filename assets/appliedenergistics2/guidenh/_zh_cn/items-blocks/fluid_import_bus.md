@@ -47,6 +47,6 @@ item_ids:
 | 3          | 64            |
 | 4          | 96            |
 
-## 合成配方
+## 配方
 
 <RecipeFor id="ae2fc:part_fluid_import" />

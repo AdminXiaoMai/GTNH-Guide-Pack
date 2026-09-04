@@ -43,6 +43,6 @@ item_ids:
 
 破坏面板过滤的是*掉落物*。因此假如要设置仅破坏<ItemLink id="etfuturum:amethyst_cluster_2:6" />，则面板必须附有精准采集。未长成的紫晶芽什么都不会掉落，而网络永远能存下“空气”，因此普通的破坏面板会一直破坏它们。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:300" />

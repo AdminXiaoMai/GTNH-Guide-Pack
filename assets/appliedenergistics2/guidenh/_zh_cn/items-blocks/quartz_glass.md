@@ -18,7 +18,7 @@ item_ids:
 
 其变种聚能石英玻璃会发光。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockQuartzGlass" />
 

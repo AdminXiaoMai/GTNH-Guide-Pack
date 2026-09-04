@@ -16,6 +16,6 @@ item_ids:
 
 被<ItemLink id="gregtech:gt.metatool.01:12" />粉碎的<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />。用于制造部分AE2机器和组件。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:8" />

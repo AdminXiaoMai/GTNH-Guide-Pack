@@ -24,6 +24,6 @@ item_ids:
 
 石英纤维是[线缆子部件](../ae2-mechanics/cables-subparts.md)。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:140" />

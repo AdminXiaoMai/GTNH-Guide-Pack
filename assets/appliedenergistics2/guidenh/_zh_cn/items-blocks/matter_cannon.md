@@ -30,6 +30,6 @@ item_ids:
 * ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> 元件满载时销毁多余物品（需谨慎设置分区）~~
 * ~~<ItemLink id="ae2fc:energy_card" /> 增加电池容量~~
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ToolMassCannon" />

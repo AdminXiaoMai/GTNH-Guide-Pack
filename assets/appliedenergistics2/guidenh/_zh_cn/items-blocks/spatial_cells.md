@@ -23,7 +23,7 @@ item_ids:
 
 **空间元件使用后便无法重置，无法重新格式化，无法重设尺寸。**&zwnj;如果需要更改所定义区域尺寸，应新制作元件。
 
-## 合成配方
+## 配方
 
 <Row>
     <Recipe id="appliedenergistics2:item.ItemSpatialStorageCell.2Cubed" handlerId="Shapeless" />

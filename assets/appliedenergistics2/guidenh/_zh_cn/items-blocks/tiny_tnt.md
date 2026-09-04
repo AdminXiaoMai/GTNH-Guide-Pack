@@ -23,6 +23,6 @@ item_ids:
 
 注：与TNT不同的是，迷你TNT遇水无法点燃，使用红石激活后遇水会变为掉落物。并且迷你TNT不会炸飞迷你TNT实体（但迷你TNT实体会被TNT炸飞），所以当大量迷你TNT实体在一格里爆炸时，不会到处飞，~~是植物魔法的热爆花的安全养料~~。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockTinyTNT" handlerId="gt.recipe.centrifuge"/>

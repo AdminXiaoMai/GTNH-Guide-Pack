@@ -29,6 +29,6 @@ item_ids:
 *   minEnergyPerGameTick设置产能水平下限（即便网络不需要能量，谐振仓也会缓慢消耗燃料）。
 *   maxEnergyPerGameTick设置谐振仓未经升级的输出上限（和速度）。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockVibrationChamber" />

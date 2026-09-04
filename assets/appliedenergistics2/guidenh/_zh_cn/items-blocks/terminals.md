@@ -82,7 +82,7 @@ item_ids:
 
 中间部分的右上角（锤子图标）会显示[自动合成](../ae2-mechanics/autocrafting.md)状态UI，允许查看自动合成的进度和各个[合成CPU](crafting_cpu.md)的当前任务。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:380" />
 
@@ -101,7 +101,7 @@ item_ids:
 合成终端的UI与普通终端的相同，并在中间加入了合成方格。
 
 新增了2个按钮，可将合成方格内物品清空至网络存储或物品栏。
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:360" />
 
@@ -144,7 +144,7 @@ item_ids:
     * 输入和输出槽都可滚动，共有81个材料槽和26个副产物槽
     * 也可直接从NEI配方界面中编码样板
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:340" />
 
@@ -166,6 +166,6 @@ ME接口终端的UI和其他终端不同。
 
 各ME接口会根据其连接的方块以及名称（铁砧或<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:21" />（赋予）分类。
 
-## 合成配方
+## 配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:480" />
