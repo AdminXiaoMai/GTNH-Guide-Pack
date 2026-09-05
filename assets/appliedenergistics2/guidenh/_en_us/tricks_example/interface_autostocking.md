@@ -38,7 +38,7 @@ to use all 8 [channels](../ae2_mechanics/channels.md) in a regular [cable](../it
 ## Configurations
 
 * The <ItemLink id="appliedenergistics2:tile.BlockInterface" />s (1) are set to keep the desired items in themselves, by clicking the desired item into their
-   top slots or dragging into the top slots from JEI, then clicking on the wrench icon above the slots to set the amount. They have <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />s.
+   top slots or dragging into the top slots from NEI, then clicking on the wrench icon above the slots to set the amount. They have <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />s.
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />s (2) are set such that "Input/Output Mode" is set to "Extract Only".
 
 ## How It Works

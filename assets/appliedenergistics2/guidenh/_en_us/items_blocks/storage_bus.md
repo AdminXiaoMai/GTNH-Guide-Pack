@@ -27,7 +27,7 @@ Storage buses are [cable subparts](../ae2_mechanics/cables_subparts.md).
 
 ## Filtering
 
-By default, the bus stores everything. Items placed in filter slots form a whitelist. Items and fluids can be dragged into filters from JEI/REI, and right-clicking with a fluid container sets the fluid rather than the container item.
+By default, the bus stores everything. Items placed in filter slots form a whitelist. Items and fluids can be dragged into filters from NEI, and right-clicking with a fluid container sets the fluid rather than the container item.
 
 ## Priority
 

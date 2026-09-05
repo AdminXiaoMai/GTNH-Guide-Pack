@@ -42,7 +42,7 @@ navigation:
 ## 配置与样板
 
 * <ItemLink id="appliedenergistics2:tile.BlockInterface" />（1）处于默认配置，装有相关<ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />。
-  * 对于<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />，JEI/REI的默认配方就可以了：
+  * 对于<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />，NEI的默认配方就可以了：
 
     <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:7" handlerId="NEIWorldCrafting"  />
 

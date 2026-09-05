@@ -13,7 +13,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:45" scale="4" />
 
-Sky dust is produced by crushing <ItemLink id="appliedenergistics2:tile.BlockSkyStone" />. It has no use in the default recipes, but GTNH custom recipes may assign uses. Check JEI/NEI for available applications.
+Sky dust is produced by crushing <ItemLink id="appliedenergistics2:tile.BlockSkyStone" />. It has no use in the default recipes, but GTNH custom recipes may assign uses. Check NEI for available applications.
 
 ## Recipe
 

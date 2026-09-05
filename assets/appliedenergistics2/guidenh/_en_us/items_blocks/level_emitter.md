@@ -13,7 +13,7 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:280" scale="4" />
 
-The level emitter emits a redstone signal based on the amount of an item in [network storage](../ae2_mechanics/import_export_storage.md). A variant emits according to the network's [energy](../ae2_mechanics/energy.md) level. Items and fluids can be dragged into the filter slot from JEI/REI, or a fluid can be selected by right-clicking with a fluid container.
+The level emitter emits a redstone signal based on the amount of an item in [network storage](../ae2_mechanics/import_export_storage.md). A variant emits according to the network's [energy](../ae2_mechanics/energy.md) level. Items and fluids can be dragged into the filter slot from NEI, or a fluid can be selected by right-clicking with a fluid container.
 
 Level emitters are [cable subparts](../ae2_mechanics/cables_subparts.md) and, unlike most [devices](../ae2_mechanics/devices.md), do not require a [channel](../ae2_mechanics/channels.md).
 

@@ -42,7 +42,7 @@ This setup can be combined with [charger automation](charger_automation.md) to p
 ## Configuration And Patterns
 
 * The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) is in its default configuration and contains the relevant <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />.
-  * For <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />, the default JEI/REI recipe is sufficient.
+  * For <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />, the default NEI recipe is sufficient.
 * The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (2) is in its default configuration.
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" /> (3) is set to drop items.
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> (4) has no GUI and cannot be configured.

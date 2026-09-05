@@ -21,115 +21,115 @@ navigation:
 
 ## 样板编码的教训
 
-通常情况下，所需的[样板](../items_blocks/patterns.md)和**JEI中所见的**，或是按下+按钮时输出的配方**对不上**。在本节的情况中，JEI会输出2个样板，其一是制造电路板，其二是最终的组装步骤，且第一个样板会包含一个[压印模板](../items_blocks/presses.md)。很明显不是我们需要的，它不符合设施的功能。我们需要的是1个样板，输入原材料然后输出压印好的处理器。而压印模板已经在压印器中，样板不应当包含它。
+通常情况下，所需的[样板](../items_blocks/patterns.md)和**JEI中所见的**，或是按下+按钮时输出的配方**对不上**。在本节的情况中，NEI会输出2个样板，其一是制造电路板，其二是最终的组装步骤，且第一个样板会包含一个[压印模板](../items_blocks/presses.md)。很明显不是我们需要的，它不符合设施的功能。我们需要的是1个样板，输入原材料然后输出压印好的处理器。而压印模板已经在压印器中，样板不应当包含它。
 
 ---
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/processor_automation.snbt" />
 
-  <BoxAnnotation color="#dddddd" min="5 1 0" max="6 2 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="5 1 0" max="6 2 1">
         （1）ME接口：默认配置，装有相关处理样板。
 
         <Row>
-            <FloatingImage src="../assets/images/logic_pattern.png" displayWidth="480" title="逻辑样板" />
-            <FloatingImage src="../assets/images/calculation_pattern.png" displayWidth="480" title="计算样板" />
-            <FloatingImage src="../assets/images/engineering_pattern.png" displayWidth="480" title="工程样板" />
+            <FloatingImage src="../assets/images/logic_pattern.png" displayWidth="150" title="逻辑样板" />
+            <FloatingImage src="../assets/images/calculation_pattern.png" displayWidth="150" title="计算样板" />
+            <FloatingImage src="../assets/images/engineering_pattern.png" displayWidth="150" title="工程样板" />
         </Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="4.7 2 0" max="5 3 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="4.7 2 0" max="5 3 1">
         （2）存储总线#1：默认配置。
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="4 1 0" max="4.3 2 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="4 1 0" max="4.3 2 1">
         （3）输出总线#1：过滤硅，装有2张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:5" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="4 4 0" max="4.3 3 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="4 4 0" max="4.3 3 1">
         （4）输出总线#2：过滤金锭，装有2张加速卡。
   <Row><ItemImage id="minecraft:gold_ingot" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="4 5 0" max="4.3 4 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="4 5 0" max="4.3 4 1">
         （5）输出总线#3：过滤赛特斯石英水晶，装有2张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:0" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="4 6 0" max="4.3 5 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="4 6 0" max="4.3 5 1">
         （6）输出总线#4：过滤钻石，装有2张加速卡。
   <Row><ItemImage id="minecraft:diamond" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="2.3 3 0" max="2 2 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="2.3 3 0" max="2 2 1">
         （7）输出总线#5：过滤红石粉，装有2张加速卡。
   <Row><ItemImage id="minecraft:redstone" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="4 1 0" max="3 2 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="4 1 0" max="3 2 1">
         （8）压印器#1：默认配置。装有硅压印模板和4张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="4 3 0" max="3 4 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="4 3 0" max="3 4 1">
         （9）压印器#2：默认配置。装有逻辑压印模板和4张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:15" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="4 4 0" max="3 5 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="4 4 0" max="3 5 1">
         （10）压印器#3：默认配置。装有计算压印模板和4张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="4 5 0" max="3 6 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="4 5 0" max="3 6 1">
         （11）压印器#4：默认配置。装有工程压印模板和4张加速卡。
   <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:14" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="2 2 0" max="1 3 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="2 2 0" max="1 3 1">
         （12）压印器#5：默认配置。装有4张加速卡。
         <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="2.7 2 0" max="3 1 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="2.7 2 0" max="3 1 1">
         （13）输入总线#1：默认配置，装有2张加速卡。
         <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="2.7 4 0" max="3 3 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="2.7 4 0" max="3 3 1">
         （14）输入总线#2：默认配置，装有2张加速卡。
         <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="2.7 5 0" max="3 4 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="2.7 5 0" max="3 4 1">
         （15）输入总线#3：默认配置，装有2张加速卡。
         <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="2.7 6 0" max="3 5 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="2.7 6 0" max="3 5 1">
         （16）输入总线#4：默认配置，装有2张加速卡。
         <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="2 3 0" max="1 3.3 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="2 3 0" max="1 3.3 1">
         （17）存储总线#2：默认配置。
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="2 1.7 0" max="1 2 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="2 1.7 0" max="1 2 1">
         （18）存储总线#3：默认配置。
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="1 2 0" max="0.7 3 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="1 2 0" max="0.7 3 1">
         （19）输入总线#5：默认配置，装有2张加速卡。
         <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="5 0.7 0" max="6 1 1" thickness="0.05">
+  <BoxAnnotation color="#dddddd" min="5 0.7 0" max="6 1 1">
         （20）存储总线#4：默认配置。
   </BoxAnnotation>
 
-<BoxAnnotation color="#dddddd" min="3.3 2.7 0.3" max="3.7 3 0.7" thickness="0.05">
+<BoxAnnotation color="#dddddd" min="3.3 2.7 0.3" max="3.7 3 0.7">
         石英纤维能为全部3台压印器供能，压印器与线缆功能类似，能够传输能量。
   </BoxAnnotation>
 

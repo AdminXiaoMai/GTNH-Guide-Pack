@@ -31,7 +31,7 @@ They are [cable subparts](../ae2_mechanics/cables_subparts.md).
 
 ## Filtering
 
-By default, the plane places or drops anything. Items in filter slots form a whitelist. Items and fluids can be dragged from JEI/REI; right-clicking with a fluid container selects the fluid.
+By default, the plane places or drops anything. Items in filter slots form a whitelist. Items and fluids can be dragged from NEI; right-clicking with a fluid container selects the fluid.
 
 ## Priority
 

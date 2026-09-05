@@ -48,7 +48,7 @@ Interfaces have normal and flat/[subpart](../ae2_mechanics/cables_subparts.md) v
 
 ## Settings
 
-The top row configures items to keep in stock. Items can be placed directly or dragged from JEI/REI; click the wrench above a populated slot to set its amount. Right-click with a fluid container to set the fluid as a filter instead of the container item. A slot configured for stocking will not accept other items.
+The top row configures items to keep in stock. Items can be placed directly or dragged from NEI; click the wrench above a populated slot to set its amount. Right-click with a fluid container to set the fluid as a filter instead of the container item. A slot configured for stocking will not accept other items.
 
 ## Upgrades
 

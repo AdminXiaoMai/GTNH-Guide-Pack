@@ -34,7 +34,7 @@ navigation:
 
 ## 配置
 
-* <ItemLink id="appliedenergistics2:tile.BlockInterface" />（1）设置为在自身处存储所需物品，将物品直接放入或从JEI中拖拽入上排槽位，然后点击槽位上方扳手图标以设置数量。装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />。
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" />（1）设置为在自身处存储所需物品，将物品直接放入或从NEI中拖拽入上排槽位，然后点击槽位上方扳手图标以设置数量。装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />。
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（2）的“输入/输出模式”设置为“仅取出”。
 
 ## 工作原理
