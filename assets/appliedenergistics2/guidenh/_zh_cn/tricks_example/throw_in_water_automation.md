@@ -19,10 +19,7 @@ navigation:
     <BlockAnnotation pos="1 0 0">
                 （1）ME接口：默认配置，装有相应处理样板。
 				<Row>
-                ![福鲁伊克斯样板](../assets/images/fluix_pattern_small.png) 
-				</Row>
-				<Row>
-				![有瑕母岩样板](../assets/images/flawed_budding_pattern_small.png)
+                <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="480" title="福鲁伊克斯样板" />
 				</Row>
     </BlockAnnotation>
     <BoxAnnotation min="0.7 0 0" max="1 1 1">

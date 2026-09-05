@@ -17,6 +17,7 @@ AE旨在与模组包中的其他模组协同工作，让这些模组实现自动
 - [物品与方块](items_blocks_index.md)
 - [AE2 机制](ae2_mechanics_index.md)
 - [技巧与实用实例](tricks_example_index.md)
+- [提示与技巧](tips_and_tricks.md)
 
 # 怎么使用本指南
 

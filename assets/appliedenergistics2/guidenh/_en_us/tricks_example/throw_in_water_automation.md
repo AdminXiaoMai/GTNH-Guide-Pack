@@ -19,10 +19,7 @@ This setup can be combined with [charger automation](charger_automation.md) to p
     <BlockAnnotation pos="1 0 0">
         (1) ME Interface: default configuration, with the relevant processing patterns.
         <Row>
-        ![Fluix Pattern](../assets/images/fluix_pattern_small.png)
-        </Row>
-        <Row>
-        ![Flawed Budding Pattern](../assets/images/flawed_budding_pattern_small.png)
+        <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="480" title="Fluix Pattern" />
         </Row>
     </BlockAnnotation>
     <BoxAnnotation min="0.7 0 0" max="1 1 1">
@@ -46,7 +43,6 @@ This setup can be combined with [charger automation](charger_automation.md) to p
 
 * The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) is in its default configuration and contains the relevant <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />.
   * For <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />, the default JEI/REI recipe is sufficient.
-  * For <ItemLink id="etfuturum:budding_amethyst" />, making it directly from <ItemLink id="etfuturum:amethyst_block" /> avoids overlapping input and output filters.
 * The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (2) is in its default configuration.
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" /> (3) is set to drop items.
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> (4) has no GUI and cannot be configured.

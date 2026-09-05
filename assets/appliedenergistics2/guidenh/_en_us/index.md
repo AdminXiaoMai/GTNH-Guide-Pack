@@ -20,6 +20,7 @@ quantities of items in stock, crafting more as needed, or simply transfer items 
 * [Getting Started](getting_started.md)
 * [AE2 Mechanics](ae2_mechanics_index.md)
 * [Tips and Practical Examples](tricks_example_index.md)
+* [Tips and Tricks](tips_and_tricks.md)
 * [Items & Blocks](items_blocks_index.md)
 
 # How To Use This Guide
