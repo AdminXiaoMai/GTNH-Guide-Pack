@@ -7,7 +7,7 @@ navigation:
 
 # 子网络
 
-<GameScene width="450" height="220" zoom={3} rotateX={10} rotateY={-75} align="center">
+<GameScene width="600" height="400" zoom={4} rotateX={25} rotateY={-45}>
     <ImportStructure src="../assets/structures/subnet_demonstration.snbt" />
 
     <DiamondAnnotation pos="1.5 2.5 9.5" color="#00ff00">
