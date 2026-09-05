@@ -71,14 +71,14 @@ The standard level emitter can then be used to start a small setup that crafts c
 * <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) Configure it to store the extra materials required: magma cream, blaze powder, and a Small Pile of Nether Star Dust.
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> (2) Configure it for “<ItemLink id="witchery:ingredient:130" />” and set it to “emit a redstone signal to craft the item”.
 * The first <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (3) is set to filter the items stored in the interface. Install a redstone card and set the redstone mode to “active with a redstone signal”.
-* The priority of the first <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (4) must be *higher* than that of the second storage bus. See [Priority](../ae2_mechanics/import_export_storage.md#priority).
+* The priority of the first <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (4) must be *higher* than that of the second storage bus. See [Priority](../ae2_mechanics/import_export_storage.md#storage-priority).
 * The <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> (5) contains the pattern for duplicating <ItemLink id="witchery:ingredient:130" /> and one manually inserted <ItemLink id="witchery:ingredient:130" />.
 
   *Pattern*
   <RecipeFor id="witchery:ingredient:130" />
 
 * The second <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (6) uses the default configuration.
-* The second <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (7) is filtered to “<ItemLink id="witchery:ingredient:130" />”. Its [priority](../ae2_mechanics/import_export_storage.md#priority) is *lower* than that of the first storage bus.
+* The second <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (7) is filtered to “<ItemLink id="witchery:ingredient:130" />”. Its [priority](../ae2_mechanics/import_export_storage.md#storage-priority) is *lower* than that of the first storage bus.
 
 ## How It Works
 

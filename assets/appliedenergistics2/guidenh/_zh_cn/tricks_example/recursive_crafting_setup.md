@@ -71,14 +71,14 @@ navigation:
 * <ItemLink id="appliedenergistics2:tile.BlockInterface" />（1）设置为存储所需的额外材料：岩浆膏、烈焰粉和小撮下界之星粉。
 * <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />（2）配置为“<ItemLink id="witchery:ingredient:130" />”，设置为“发出红石信号以合成物品”。
 * 第一个<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />（3）设置为过滤接口所存储的物品。装有红石卡。红石模式设置为“有红石信号时激活”。
-* 第一个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（4）的[优先级](../ae2_mechanics/import_export_storage.md#优先级)需*高于*第二个存储总线。
+* 第一个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（4）的[优先级](../ae2_mechanics/import_export_storage.md#存储优先级)需*高于*第二个存储总线。
 * <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />（5）装有复制<ItemLink id="witchery:ingredient:130" />的样板，以及一个手动放入的<ItemLink id="witchery:ingredient:130" />。
 
   *样板*
   <RecipeFor id="witchery:ingredient:130" />
 
 * 第二个<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />（6）处于默认配置。
-* 第二个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（7）设置为过滤“<ItemLink id="witchery:ingredient:130" />”。其[优先级](../ae2_mechanics/import_export_storage.md#优先级)*低于*第一个存储总线。
+* 第二个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（7）设置为过滤“<ItemLink id="witchery:ingredient:130" />”。其[优先级](../ae2_mechanics/import_export_storage.md#存储优先级)*低于*第一个存储总线。
 
 ## 工作原理
 

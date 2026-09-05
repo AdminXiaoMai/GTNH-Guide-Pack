@@ -53,7 +53,7 @@ AE提供了[线缆](../items_blocks/cables.md)子部件来承担ME网络与外�
 ## 其他总线
 GTNH给AE添加了源质总线以支持对神秘时代4的支持。你可以利用AE系统进行神秘时代源质的存储与自动化。
 详见<ItemLink id="thaumicenergistics:part.base" showIcon="left" /> 、<ItemLink id="thaumicenergistics:part.base:3" showIcon="left" /> 和<ItemLink id="thaumicenergistics:part.base:2" showIcon="left" /> 。
-# 优先级
+# 存储优先级
 所有存储总线都可以在UI右上角调整其优先级。在ME网络中，优先级值是整数，值越大则物流系统更倾向于将物品或流体存入该处，值越小则物流系统更倾向于优先输出或使用该处的物品或流体。
 
 下面的例子可以让你更厘清概念，假设网络中有两个分别贴有不同优先级存储总线的箱子，它们都各装有一个石头：

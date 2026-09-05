@@ -58,7 +58,7 @@ The uses of Storage Buses go far beyond simply exposing external storage. In GTN
 GTNH adds Essentia Buses to AE2 to support Thaumcraft 4. You can use the AE system to store and automate essentia.
 See <ItemLink id="thaumicenergistics:part.base" showIcon="left" />, <ItemLink id="thaumicenergistics:part.base:3" showIcon="left" />, and <ItemLink id="thaumicenergistics:part.base:2" showIcon="left" /> for details.
 
-# Priority
+# Storage Priority
 All Storage Buses can have their priority adjusted in the top-right corner of their UI. In an ME network, priority is an integer. Higher values make the logistics system prefer storing items or fluids there, while lower values make it prefer taking items or fluids from there first.
 
 The following example can help clarify the concept. Suppose there are two chests in the network, each with a Storage Bus of a different priority attached, and they each contain one <ItemLink id="minecraft:stone" showIcon="left" />:
